@@ -1,0 +1,94 @@
+version: '3.4'
+
+x-doogle-common:
+  &doogle-common
+  image: doogle:local
+  volumes:  
+    - ./src:/app
+    - media:/app/media
+  env_file:
+    - bin/env/.env.local
+
+services:
+  doogle:
+    << : *doogle-common
+    container_name: doogle
+    build:
+      context: ./
+      dockerfile: ./bin/docker/dockerfile.local
+    depends_on:
+      - postgres
+      - redis
+      - rabbitmq
+    command: 'runserver.sh'
+    ports:
+        - 9400:9400
+
+  celery:
+    <<: *doogle-common
+    container_name: doogle.celery
+    depends_on:
+      - doogle
+    command: 'celery.sh'
+
+  beat:
+    <<: *doogle-common
+    container_name: doogle.beat
+    depends_on:
+      - doogle
+    command: 'beat.sh'
+
+  postgres:
+    image: circleci/postgres:13.4-postgis
+    container_name: doogle.postgres
+    env_file:
+      - bin/env/.env.local
+    volumes:
+      - doogle.postgres:/var/lib/postgresql/data
+    ports:
+      - 5432:5432
+
+  redis:
+    image: redis:6.2-alpine
+    container_name: doogle.redis
+    env_file:
+      - bin/env/.env.local
+    volumes:
+      - doogle.redis:/var/lib/redis
+    ports:
+      - "127.0.0.1:6379:6379"
+
+  rabbitmq:
+    image: rabbitmq:3.9.8-management-alpine
+    container_name: doogle.rabbitmq
+    env_file:
+      - bin/env/.env.local
+    ports:
+      - "127.0.0.1:5672:5672"
+      - "127.0.0.1:15672:15672"
+
+  elasticsearch:
+    image: docker.elastic.co/elasticsearch/elasticsearch:7.6.2
+    container_name: doogle.elasticsearch
+    environment:
+      - discovery.type=single-node
+      - bootstrap.memory_lock=true
+      - "ES_JAVA_OPTS=-Xms512m -Xmx512m"
+    ulimits:
+      memlock:
+        soft: -1
+        hard: -1
+    volumes:
+      - data01:/usr/share/elasticsearch/data
+    ports:
+      - 9200:9200
+      - 9300:9300
+
+volumes:
+  doogle.postgres:
+  doogle.redis:
+  data01:
+    driver: local
+  data02:
+    driver: local
+  media:
