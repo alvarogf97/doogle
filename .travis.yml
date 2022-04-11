@@ -18,7 +18,7 @@ jobs:
   include:
     - stage: Test
       before_script:
-        - cp ./bin/env/.env.sample ./bin/env/.env
+        - cp ./bin/env/.env.sample ./bin/env/.env.local
         - pip install coveralls
       script:
         - make tests.ci

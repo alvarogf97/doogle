@@ -8,7 +8,6 @@ x-doogle-common:
     - media:/app/media
   env_file:
     - bin/env/.env.local
-    - bin/env/.env.sample
 
 services:
   doogle:
