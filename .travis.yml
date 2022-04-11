@@ -5,6 +5,7 @@ python:
 branches:
   only:
     - production
+    - staging
 
 services:
   - docker
