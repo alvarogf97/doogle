@@ -1,10 +1,10 @@
 language: python
 python:
-  - 3.9
+  - 3.10
 
 branches:
   only:
-    - master
+    - production
 
 services:
   - docker
@@ -23,7 +23,7 @@ jobs:
         - make ci_check_tests
         - coveralls
 
-    # - stage: Github Packages Deploy
-    #   if: (NOT type IN (pull_request)) AND (branch = master)
-    #   env: TAG=$(date +%d%m%Y%H%M%S)
-    #   script: make push.prod
+    - stage: Github Packages Deploy
+      if: (NOT type IN (pull_request)) AND (branch = production)
+      env: TAG=$(date +%d%m%Y%H%M%S)
+      script: make push.prod

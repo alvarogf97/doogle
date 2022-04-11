@@ -1,0 +1,1842 @@
+[
+  {
+    "model": "places.currency",
+    "pk": 1,
+    "fields": {
+      "code": "AED",
+      "numeric": "784",
+      "name": "UAE Dirham",
+      "symbol": "\u062f.\u0625"
+    }
+  },
+  {
+    "model": "places.currency",
+    "pk": 2,
+    "fields": {
+      "code": "AFN",
+      "numeric": "971",
+      "name": "Afghani",
+      "symbol": "\u060b"
+    }
+  },
+  {
+    "model": "places.currency",
+    "pk": 3,
+    "fields": {
+      "code": "ALL",
+      "numeric": "008",
+      "name": "Lek",
+      "symbol": "L"
+    }
+  },
+  {
+    "model": "places.currency",
+    "pk": 4,
+    "fields": {
+      "code": "AMD",
+      "numeric": "051",
+      "name": "Armenian Dram",
+      "symbol": "\u058f"
+    }
+  },
+  {
+    "model": "places.currency",
+    "pk": 5,
+    "fields": {
+      "code": "ANG",
+      "numeric": "532",
+      "name": "Netherlands Antillean Guilder",
+      "symbol": "\u0192"
+    }
+  },
+  {
+    "model": "places.currency",
+    "pk": 6,
+    "fields": {
+      "code": "AOA",
+      "numeric": "973",
+      "name": "Kwanza",
+      "symbol": "Kz"
+    }
+  },
+  {
+    "model": "places.currency",
+    "pk": 7,
+    "fields": {
+      "code": "ARS",
+      "numeric": "032",
+      "name": "Argentine Peso",
+      "symbol": "$"
+    }
+  },
+  {
+    "model": "places.currency",
+    "pk": 8,
+    "fields": {
+      "code": "AUD",
+      "numeric": "036",
+      "name": "Australian Dollar",
+      "symbol": "$"
+    }
+  },
+  {
+    "model": "places.currency",
+    "pk": 9,
+    "fields": {
+      "code": "AWG",
+      "numeric": "533",
+      "name": "Aruban Florin",
+      "symbol": "\u0192"
+    }
+  },
+  {
+    "model": "places.currency",
+    "pk": 10,
+    "fields": {
+      "code": "AZN",
+      "numeric": "944",
+      "name": "Azerbaijanian Manat",
+      "symbol": "\u043c\u0430\u043d"
+    }
+  },
+  {
+    "model": "places.currency",
+    "pk": 11,
+    "fields": {
+      "code": "BAM",
+      "numeric": "977",
+      "name": "Convertible Mark",
+      "symbol": "KM"
+    }
+  },
+  {
+    "model": "places.currency",
+    "pk": 12,
+    "fields": {
+      "code": "BBD",
+      "numeric": "052",
+      "name": "Barbados Dollar",
+      "symbol": "$"
+    }
+  },
+  {
+    "model": "places.currency",
+    "pk": 13,
+    "fields": {
+      "code": "BDT",
+      "numeric": "050",
+      "name": "Taka",
+      "symbol": "\u09f3"
+    }
+  },
+  {
+    "model": "places.currency",
+    "pk": 14,
+    "fields": {
+      "code": "BGN",
+      "numeric": "975",
+      "name": "Bulgarian Lev",
+      "symbol": "\u043b\u0432"
+    }
+  },
+  {
+    "model": "places.currency",
+    "pk": 15,
+    "fields": {
+      "code": "BHD",
+      "numeric": "048",
+      "name": "Bahraini Dinar",
+      "symbol": ".\u062f.\u0628"
+    }
+  },
+  {
+    "model": "places.currency",
+    "pk": 16,
+    "fields": {
+      "code": "BIF",
+      "numeric": "108",
+      "name": "Burundi Franc",
+      "symbol": "FBu"
+    }
+  },
+  {
+    "model": "places.currency",
+    "pk": 17,
+    "fields": {
+      "code": "BMD",
+      "numeric": "060",
+      "name": "Bermudian Dollar",
+      "symbol": "$"
+    }
+  },
+  {
+    "model": "places.currency",
+    "pk": 18,
+    "fields": {
+      "code": "BND",
+      "numeric": "096",
+      "name": "Brunei Dollar",
+      "symbol": "$"
+    }
+  },
+  {
+    "model": "places.currency",
+    "pk": 19,
+    "fields": {
+      "code": "BOB",
+      "numeric": "068",
+      "name": "Boliviano",
+      "symbol": "$b"
+    }
+  },
+  {
+    "model": "places.currency",
+    "pk": 20,
+    "fields": {
+      "code": "BOV",
+      "numeric": "984",
+      "name": "Mvdol",
+      "symbol": ""
+    }
+  },
+  {
+    "model": "places.currency",
+    "pk": 21,
+    "fields": {
+      "code": "BRL",
+      "numeric": "986",
+      "name": "Brazilian Real",
+      "symbol": "R$"
+    }
+  },
+  {
+    "model": "places.currency",
+    "pk": 22,
+    "fields": {
+      "code": "BSD",
+      "numeric": "044",
+      "name": "Bahamian Dollar",
+      "symbol": "$"
+    }
+  },
+  {
+    "model": "places.currency",
+    "pk": 23,
+    "fields": {
+      "code": "BTN",
+      "numeric": "064",
+      "name": "Ngultrum",
+      "symbol": "Nu."
+    }
+  },
+  {
+    "model": "places.currency",
+    "pk": 24,
+    "fields": {
+      "code": "BWP",
+      "numeric": "072",
+      "name": "Pula",
+      "symbol": "P"
+    }
+  },
+  {
+    "model": "places.currency",
+    "pk": 25,
+    "fields": {
+      "code": "BYR",
+      "numeric": "974",
+      "name": "Belarussian Ruble",
+      "symbol": "Br."
+    }
+  },
+  {
+    "model": "places.currency",
+    "pk": 26,
+    "fields": {
+      "code": "BZD",
+      "numeric": "084",
+      "name": "Belize Dollar",
+      "symbol": "BZ$"
+    }
+  },
+  {
+    "model": "places.currency",
+    "pk": 27,
+    "fields": {
+      "code": "CAD",
+      "numeric": "124",
+      "name": "Canadian Dollar",
+      "symbol": "$"
+    }
+  },
+  {
+    "model": "places.currency",
+    "pk": 28,
+    "fields": {
+      "code": "CDF",
+      "numeric": "976",
+      "name": "Congolese Franc",
+      "symbol": "Fr."
+    }
+  },
+  {
+    "model": "places.currency",
+    "pk": 29,
+    "fields": {
+      "code": "CHE",
+      "numeric": "947",
+      "name": "WIR Euro",
+      "symbol": ""
+    }
+  },
+  {
+    "model": "places.currency",
+    "pk": 30,
+    "fields": {
+      "code": "CHF",
+      "numeric": "756",
+      "name": "Swiss Franc",
+      "symbol": "CHF"
+    }
+  },
+  {
+    "model": "places.currency",
+    "pk": 31,
+    "fields": {
+      "code": "CHW",
+      "numeric": "948",
+      "name": "WIR Franc",
+      "symbol": ""
+    }
+  },
+  {
+    "model": "places.currency",
+    "pk": 32,
+    "fields": {
+      "code": "CLF",
+      "numeric": "990",
+      "name": "Unidades de fomento",
+      "symbol": ""
+    }
+  },
+  {
+    "model": "places.currency",
+    "pk": 33,
+    "fields": {
+      "code": "CLP",
+      "numeric": "152",
+      "name": "Chilean Peso",
+      "symbol": "$"
+    }
+  },
+  {
+    "model": "places.currency",
+    "pk": 34,
+    "fields": {
+      "code": "CNY",
+      "numeric": "156",
+      "name": "Yuan Renminbi",
+      "symbol": "\u00a5"
+    }
+  },
+  {
+    "model": "places.currency",
+    "pk": 35,
+    "fields": {
+      "code": "COP",
+      "numeric": "170",
+      "name": "Colombian Peso",
+      "symbol": "$"
+    }
+  },
+  {
+    "model": "places.currency",
+    "pk": 36,
+    "fields": {
+      "code": "COU",
+      "numeric": "970",
+      "name": "Unidad de Valor Real",
+      "symbol": ""
+    }
+  },
+  {
+    "model": "places.currency",
+    "pk": 37,
+    "fields": {
+      "code": "CRC",
+      "numeric": "188",
+      "name": "Costa Rican Colon",
+      "symbol": "\u20a1"
+    }
+  },
+  {
+    "model": "places.currency",
+    "pk": 38,
+    "fields": {
+      "code": "CUP",
+      "numeric": "192",
+      "name": "Cuban Peso",
+      "symbol": "\u20b1"
+    }
+  },
+  {
+    "model": "places.currency",
+    "pk": 39,
+    "fields": {
+      "code": "CVE",
+      "numeric": "132",
+      "name": "Cabo Verde Escudo",
+      "symbol": "Esc"
+    }
+  },
+  {
+    "model": "places.currency",
+    "pk": 40,
+    "fields": {
+      "code": "CYP",
+      "numeric": "196",
+      "name": "Cyprus Pound",
+      "symbol": ""
+    }
+  },
+  {
+    "model": "places.currency",
+    "pk": 41,
+    "fields": {
+      "code": "CZK",
+      "numeric": "203",
+      "name": "Czech Koruna",
+      "symbol": "K\u010d"
+    }
+  },
+  {
+    "model": "places.currency",
+    "pk": 42,
+    "fields": {
+      "code": "DJF",
+      "numeric": "262",
+      "name": "Djibouti Franc",
+      "symbol": "Fdj"
+    }
+  },
+  {
+    "model": "places.currency",
+    "pk": 43,
+    "fields": {
+      "code": "DKK",
+      "numeric": "208",
+      "name": "Danish Krone",
+      "symbol": "kr"
+    }
+  },
+  {
+    "model": "places.currency",
+    "pk": 44,
+    "fields": {
+      "code": "DOP",
+      "numeric": "214",
+      "name": "Dominican Peso",
+      "symbol": "RD$"
+    }
+  },
+  {
+    "model": "places.currency",
+    "pk": 45,
+    "fields": {
+      "code": "DZD",
+      "numeric": "012",
+      "name": "Algerian Dinar",
+      "symbol": "\u062f.\u062c"
+    }
+  },
+  {
+    "model": "places.currency",
+    "pk": 46,
+    "fields": {
+      "code": "EEK",
+      "numeric": "233",
+      "name": "Kroon",
+      "symbol": "kr"
+    }
+  },
+  {
+    "model": "places.currency",
+    "pk": 47,
+    "fields": {
+      "code": "EGP",
+      "numeric": "818",
+      "name": "Egyptian Pound",
+      "symbol": "\u00a3"
+    }
+  },
+  {
+    "model": "places.currency",
+    "pk": 48,
+    "fields": {
+      "code": "ERN",
+      "numeric": "232",
+      "name": "Nakfa",
+      "symbol": "Nfk"
+    }
+  },
+  {
+    "model": "places.currency",
+    "pk": 49,
+    "fields": {
+      "code": "ETB",
+      "numeric": "230",
+      "name": "Ethiopian Birr",
+      "symbol": "Br."
+    }
+  },
+  {
+    "model": "places.currency",
+    "pk": 50,
+    "fields": {
+      "code": "EUR",
+      "numeric": "978",
+      "name": "Euro",
+      "symbol": "\u20ac"
+    }
+  },
+  {
+    "model": "places.currency",
+    "pk": 51,
+    "fields": {
+      "code": "FJD",
+      "numeric": "242",
+      "name": "Fiji Dollar",
+      "symbol": "$"
+    }
+  },
+  {
+    "model": "places.currency",
+    "pk": 52,
+    "fields": {
+      "code": "FKP",
+      "numeric": "238",
+      "name": "Falkland Islands Pound",
+      "symbol": "\u00a3"
+    }
+  },
+  {
+    "model": "places.currency",
+    "pk": 53,
+    "fields": {
+      "code": "GBP",
+      "numeric": "826",
+      "name": "Pound Sterling",
+      "symbol": "\u00a3"
+    }
+  },
+  {
+    "model": "places.currency",
+    "pk": 54,
+    "fields": {
+      "code": "GEL",
+      "numeric": "981",
+      "name": "Lari",
+      "symbol": "\u10da"
+    }
+  },
+  {
+    "model": "places.currency",
+    "pk": 55,
+    "fields": {
+      "code": "GHS",
+      "numeric": "936",
+      "name": "Ghana Cedi",
+      "symbol": "\u20b5"
+    }
+  },
+  {
+    "model": "places.currency",
+    "pk": 56,
+    "fields": {
+      "code": "GIP",
+      "numeric": "292",
+      "name": "Gibraltar Pound",
+      "symbol": "\u00a3"
+    }
+  },
+  {
+    "model": "places.currency",
+    "pk": 57,
+    "fields": {
+      "code": "GMD",
+      "numeric": "270",
+      "name": "Dalasi",
+      "symbol": "D"
+    }
+  },
+  {
+    "model": "places.currency",
+    "pk": 58,
+    "fields": {
+      "code": "GNF",
+      "numeric": "324",
+      "name": "Guinea Franc",
+      "symbol": "GFr"
+    }
+  },
+  {
+    "model": "places.currency",
+    "pk": 59,
+    "fields": {
+      "code": "GTQ",
+      "numeric": "320",
+      "name": "Quetzal",
+      "symbol": "Q"
+    }
+  },
+  {
+    "model": "places.currency",
+    "pk": 60,
+    "fields": {
+      "code": "GYD",
+      "numeric": "328",
+      "name": "Guyana Dollar",
+      "symbol": "$"
+    }
+  },
+  {
+    "model": "places.currency",
+    "pk": 61,
+    "fields": {
+      "code": "HKD",
+      "numeric": "344",
+      "name": "Hong Kong Dollar",
+      "symbol": "$"
+    }
+  },
+  {
+    "model": "places.currency",
+    "pk": 62,
+    "fields": {
+      "code": "HNL",
+      "numeric": "340",
+      "name": "Lempira",
+      "symbol": "L"
+    }
+  },
+  {
+    "model": "places.currency",
+    "pk": 63,
+    "fields": {
+      "code": "HRK",
+      "numeric": "191",
+      "name": "Croatian Kuna",
+      "symbol": "kn"
+    }
+  },
+  {
+    "model": "places.currency",
+    "pk": 64,
+    "fields": {
+      "code": "HTG",
+      "numeric": "332",
+      "name": "Gourde",
+      "symbol": "G"
+    }
+  },
+  {
+    "model": "places.currency",
+    "pk": 65,
+    "fields": {
+      "code": "HUF",
+      "numeric": "348",
+      "name": "Forint",
+      "symbol": "Ft"
+    }
+  },
+  {
+    "model": "places.currency",
+    "pk": 66,
+    "fields": {
+      "code": "IDR",
+      "numeric": "360",
+      "name": "Rupiah",
+      "symbol": "Rp"
+    }
+  },
+  {
+    "model": "places.currency",
+    "pk": 67,
+    "fields": {
+      "code": "ILS",
+      "numeric": "376",
+      "name": "New Israeli Sheqel",
+      "symbol": "\u20aa"
+    }
+  },
+  {
+    "model": "places.currency",
+    "pk": 68,
+    "fields": {
+      "code": "INR",
+      "numeric": "356",
+      "name": "Indian Rupee",
+      "symbol": "\u20b9"
+    }
+  },
+  {
+    "model": "places.currency",
+    "pk": 69,
+    "fields": {
+      "code": "IQD",
+      "numeric": "368",
+      "name": "Iraqi Dinar",
+      "symbol": "\u0639.\u062f"
+    }
+  },
+  {
+    "model": "places.currency",
+    "pk": 70,
+    "fields": {
+      "code": "IRR",
+      "numeric": "364",
+      "name": "Iranian Rial",
+      "symbol": "\ufdfc"
+    }
+  },
+  {
+    "model": "places.currency",
+    "pk": 71,
+    "fields": {
+      "code": "ISK",
+      "numeric": "352",
+      "name": "Iceland Krona",
+      "symbol": "kr"
+    }
+  },
+  {
+    "model": "places.currency",
+    "pk": 72,
+    "fields": {
+      "code": "JMD",
+      "numeric": "388",
+      "name": "Jamaican Dollar",
+      "symbol": "J$"
+    }
+  },
+  {
+    "model": "places.currency",
+    "pk": 73,
+    "fields": {
+      "code": "JOD",
+      "numeric": "400",
+      "name": "Jordanian Dinar",
+      "symbol": "\u062f.\u0627"
+    }
+  },
+  {
+    "model": "places.currency",
+    "pk": 74,
+    "fields": {
+      "code": "JPY",
+      "numeric": "392",
+      "name": "Yen",
+      "symbol": "\u00a5"
+    }
+  },
+  {
+    "model": "places.currency",
+    "pk": 75,
+    "fields": {
+      "code": "KES",
+      "numeric": "404",
+      "name": "Kenyan Shilling",
+      "symbol": "Sh"
+    }
+  },
+  {
+    "model": "places.currency",
+    "pk": 76,
+    "fields": {
+      "code": "KGS",
+      "numeric": "417",
+      "name": "Som",
+      "symbol": "\u043b\u0432"
+    }
+  },
+  {
+    "model": "places.currency",
+    "pk": 77,
+    "fields": {
+      "code": "KHR",
+      "numeric": "116",
+      "name": "Riel",
+      "symbol": "\u17db"
+    }
+  },
+  {
+    "model": "places.currency",
+    "pk": 78,
+    "fields": {
+      "code": "KMF",
+      "numeric": "174",
+      "name": "Comoro Franc",
+      "symbol": "CF"
+    }
+  },
+  {
+    "model": "places.currency",
+    "pk": 79,
+    "fields": {
+      "code": "KPW",
+      "numeric": "408",
+      "name": "North Korean Won",
+      "symbol": "\u20a9"
+    }
+  },
+  {
+    "model": "places.currency",
+    "pk": 80,
+    "fields": {
+      "code": "KRW",
+      "numeric": "410",
+      "name": "Won",
+      "symbol": "\u20a9"
+    }
+  },
+  {
+    "model": "places.currency",
+    "pk": 81,
+    "fields": {
+      "code": "KWD",
+      "numeric": "414",
+      "name": "Kuwaiti Dinar",
+      "symbol": "\u062f.\u0643"
+    }
+  },
+  {
+    "model": "places.currency",
+    "pk": 82,
+    "fields": {
+      "code": "KYD",
+      "numeric": "136",
+      "name": "Cayman Islands Dollar",
+      "symbol": "$"
+    }
+  },
+  {
+    "model": "places.currency",
+    "pk": 83,
+    "fields": {
+      "code": "KZT",
+      "numeric": "398",
+      "name": "Tenge",
+      "symbol": "\u20b8"
+    }
+  },
+  {
+    "model": "places.currency",
+    "pk": 84,
+    "fields": {
+      "code": "LAK",
+      "numeric": "418",
+      "name": "Kip",
+      "symbol": "\u20ad"
+    }
+  },
+  {
+    "model": "places.currency",
+    "pk": 85,
+    "fields": {
+      "code": "LBP",
+      "numeric": "422",
+      "name": "Lebanese Pound",
+      "symbol": "\u0644.\u0644"
+    }
+  },
+  {
+    "model": "places.currency",
+    "pk": 86,
+    "fields": {
+      "code": "LKR",
+      "numeric": "144",
+      "name": "Sri Lanka Rupee",
+      "symbol": "\u0dbb\u0dd4"
+    }
+  },
+  {
+    "model": "places.currency",
+    "pk": 87,
+    "fields": {
+      "code": "LRD",
+      "numeric": "430",
+      "name": "Liberian Dollar",
+      "symbol": "$"
+    }
+  },
+  {
+    "model": "places.currency",
+    "pk": 88,
+    "fields": {
+      "code": "LSL",
+      "numeric": "426",
+      "name": "Loti",
+      "symbol": "L"
+    }
+  },
+  {
+    "model": "places.currency",
+    "pk": 89,
+    "fields": {
+      "code": "LTL",
+      "numeric": "440",
+      "name": "Lithuanian Litas",
+      "symbol": "Lt"
+    }
+  },
+  {
+    "model": "places.currency",
+    "pk": 90,
+    "fields": {
+      "code": "LVL",
+      "numeric": "428",
+      "name": "Latvian Lats",
+      "symbol": "Ls"
+    }
+  },
+  {
+    "model": "places.currency",
+    "pk": 91,
+    "fields": {
+      "code": "LYD",
+      "numeric": "434",
+      "name": "Libyan Dinar",
+      "symbol": "\u0644.\u062f"
+    }
+  },
+  {
+    "model": "places.currency",
+    "pk": 92,
+    "fields": {
+      "code": "MAD",
+      "numeric": "504",
+      "name": "Moroccan Dirham",
+      "symbol": "\u062f.\u0645."
+    }
+  },
+  {
+    "model": "places.currency",
+    "pk": 93,
+    "fields": {
+      "code": "MDL",
+      "numeric": "498",
+      "name": "Moldovan Leu",
+      "symbol": "L"
+    }
+  },
+  {
+    "model": "places.currency",
+    "pk": 94,
+    "fields": {
+      "code": "MGA",
+      "numeric": "969",
+      "name": "Malagasy Ariary",
+      "symbol": "Ar"
+    }
+  },
+  {
+    "model": "places.currency",
+    "pk": 95,
+    "fields": {
+      "code": "MKD",
+      "numeric": "807",
+      "name": "Denar",
+      "symbol": "\u0434\u0435\u043d"
+    }
+  },
+  {
+    "model": "places.currency",
+    "pk": 96,
+    "fields": {
+      "code": "MMK",
+      "numeric": "104",
+      "name": "Kyat",
+      "symbol": "Ks"
+    }
+  },
+  {
+    "model": "places.currency",
+    "pk": 97,
+    "fields": {
+      "code": "MNT",
+      "numeric": "496",
+      "name": "Tugrik",
+      "symbol": "\u20ae"
+    }
+  },
+  {
+    "model": "places.currency",
+    "pk": 98,
+    "fields": {
+      "code": "MOP",
+      "numeric": "446",
+      "name": "Pataca",
+      "symbol": "P"
+    }
+  },
+  {
+    "model": "places.currency",
+    "pk": 99,
+    "fields": {
+      "code": "MRO",
+      "numeric": "478",
+      "name": "Ouguiya",
+      "symbol": "UM"
+    }
+  },
+  {
+    "model": "places.currency",
+    "pk": 100,
+    "fields": {
+      "code": "MTL",
+      "numeric": "470",
+      "name": "Maltese Lira",
+      "symbol": ""
+    }
+  },
+  {
+    "model": "places.currency",
+    "pk": 101,
+    "fields": {
+      "code": "MUR",
+      "numeric": "480",
+      "name": "Mauritius Rupee",
+      "symbol": "\u20a8"
+    }
+  },
+  {
+    "model": "places.currency",
+    "pk": 102,
+    "fields": {
+      "code": "MVR",
+      "numeric": "462",
+      "name": "Rufiyaa",
+      "symbol": ".\u0783"
+    }
+  },
+  {
+    "model": "places.currency",
+    "pk": 103,
+    "fields": {
+      "code": "MWK",
+      "numeric": "454",
+      "name": "Kwacha",
+      "symbol": "MK"
+    }
+  },
+  {
+    "model": "places.currency",
+    "pk": 104,
+    "fields": {
+      "code": "MXN",
+      "numeric": "484",
+      "name": "Mexican Peso",
+      "symbol": "$"
+    }
+  },
+  {
+    "model": "places.currency",
+    "pk": 105,
+    "fields": {
+      "code": "MXV",
+      "numeric": "979",
+      "name": "Mexican Unidad de Inversion (UDI)",
+      "symbol": ""
+    }
+  },
+  {
+    "model": "places.currency",
+    "pk": 106,
+    "fields": {
+      "code": "MYR",
+      "numeric": "458",
+      "name": "Malaysian Ringgit",
+      "symbol": "RM"
+    }
+  },
+  {
+    "model": "places.currency",
+    "pk": 107,
+    "fields": {
+      "code": "MZN",
+      "numeric": "943",
+      "name": "Mozambique Metical",
+      "symbol": "MT"
+    }
+  },
+  {
+    "model": "places.currency",
+    "pk": 108,
+    "fields": {
+      "code": "NAD",
+      "numeric": "516",
+      "name": "Namibia Dollar",
+      "symbol": "$"
+    }
+  },
+  {
+    "model": "places.currency",
+    "pk": 109,
+    "fields": {
+      "code": "NGN",
+      "numeric": "566",
+      "name": "Naira",
+      "symbol": "\u20a6"
+    }
+  },
+  {
+    "model": "places.currency",
+    "pk": 110,
+    "fields": {
+      "code": "NIO",
+      "numeric": "558",
+      "name": "Cordoba Oro",
+      "symbol": "C$"
+    }
+  },
+  {
+    "model": "places.currency",
+    "pk": 111,
+    "fields": {
+      "code": "NOK",
+      "numeric": "578",
+      "name": "Norwegian Krone",
+      "symbol": "kr"
+    }
+  },
+  {
+    "model": "places.currency",
+    "pk": 112,
+    "fields": {
+      "code": "NPR",
+      "numeric": "524",
+      "name": "Nepalese Rupee",
+      "symbol": "\u20a8"
+    }
+  },
+  {
+    "model": "places.currency",
+    "pk": 113,
+    "fields": {
+      "code": "NZD",
+      "numeric": "554",
+      "name": "New Zealand Dollar",
+      "symbol": "$"
+    }
+  },
+  {
+    "model": "places.currency",
+    "pk": 114,
+    "fields": {
+      "code": "OMR",
+      "numeric": "512",
+      "name": "Rial Omani",
+      "symbol": "\u0631.\u0639."
+    }
+  },
+  {
+    "model": "places.currency",
+    "pk": 115,
+    "fields": {
+      "code": "PAB",
+      "numeric": "590",
+      "name": "Balboa",
+      "symbol": "B/."
+    }
+  },
+  {
+    "model": "places.currency",
+    "pk": 116,
+    "fields": {
+      "code": "PEN",
+      "numeric": "604",
+      "name": "Nuevo Sol",
+      "symbol": "S/."
+    }
+  },
+  {
+    "model": "places.currency",
+    "pk": 117,
+    "fields": {
+      "code": "PGK",
+      "numeric": "598",
+      "name": "Kina",
+      "symbol": "K"
+    }
+  },
+  {
+    "model": "places.currency",
+    "pk": 118,
+    "fields": {
+      "code": "PHP",
+      "numeric": "608",
+      "name": "Philippine Peso",
+      "symbol": "\u20b1"
+    }
+  },
+  {
+    "model": "places.currency",
+    "pk": 119,
+    "fields": {
+      "code": "PKR",
+      "numeric": "586",
+      "name": "Pakistan Rupee",
+      "symbol": "\u20a8"
+    }
+  },
+  {
+    "model": "places.currency",
+    "pk": 120,
+    "fields": {
+      "code": "PLN",
+      "numeric": "985",
+      "name": "Zloty",
+      "symbol": "z\u0142"
+    }
+  },
+  {
+    "model": "places.currency",
+    "pk": 121,
+    "fields": {
+      "code": "PYG",
+      "numeric": "600",
+      "name": "Guarani",
+      "symbol": "\u20b2"
+    }
+  },
+  {
+    "model": "places.currency",
+    "pk": 122,
+    "fields": {
+      "code": "QAR",
+      "numeric": "634",
+      "name": "Qatari Rial",
+      "symbol": "\u0631.\u0642"
+    }
+  },
+  {
+    "model": "places.currency",
+    "pk": 123,
+    "fields": {
+      "code": "RON",
+      "numeric": "946",
+      "name": "New Romanian Leu",
+      "symbol": "lei"
+    }
+  },
+  {
+    "model": "places.currency",
+    "pk": 124,
+    "fields": {
+      "code": "RSD",
+      "numeric": "941",
+      "name": "Serbian Dinar",
+      "symbol": "\u0414\u0438\u043d."
+    }
+  },
+  {
+    "model": "places.currency",
+    "pk": 125,
+    "fields": {
+      "code": "RUB",
+      "numeric": "643",
+      "name": "Russian Ruble",
+      "symbol": "\u0440\u0443\u0431"
+    }
+  },
+  {
+    "model": "places.currency",
+    "pk": 126,
+    "fields": {
+      "code": "RWF",
+      "numeric": "646",
+      "name": "Rwanda Franc",
+      "symbol": "R\u20a3"
+    }
+  },
+  {
+    "model": "places.currency",
+    "pk": 127,
+    "fields": {
+      "code": "SAR",
+      "numeric": "682",
+      "name": "Saudi Riyal",
+      "symbol": "\u0631.\u0633"
+    }
+  },
+  {
+    "model": "places.currency",
+    "pk": 128,
+    "fields": {
+      "code": "SBD",
+      "numeric": "090",
+      "name": "Solomon Islands Dollar",
+      "symbol": "$"
+    }
+  },
+  {
+    "model": "places.currency",
+    "pk": 129,
+    "fields": {
+      "code": "SCR",
+      "numeric": "690",
+      "name": "Seychelles Rupee",
+      "symbol": "\u20a8"
+    }
+  },
+  {
+    "model": "places.currency",
+    "pk": 130,
+    "fields": {
+      "code": "SDG",
+      "numeric": "938",
+      "name": "Sudanese Pound",
+      "symbol": "\u00a3"
+    }
+  },
+  {
+    "model": "places.currency",
+    "pk": 131,
+    "fields": {
+      "code": "SEK",
+      "numeric": "752",
+      "name": "Swedish Krona",
+      "symbol": "kr"
+    }
+  },
+  {
+    "model": "places.currency",
+    "pk": 132,
+    "fields": {
+      "code": "SGD",
+      "numeric": "702",
+      "name": "Singapore Dollar",
+      "symbol": "$"
+    }
+  },
+  {
+    "model": "places.currency",
+    "pk": 133,
+    "fields": {
+      "code": "SHP",
+      "numeric": "654",
+      "name": "Saint Helena Pound",
+      "symbol": "\u00a3"
+    }
+  },
+  {
+    "model": "places.currency",
+    "pk": 134,
+    "fields": {
+      "code": "SLL",
+      "numeric": "694",
+      "name": "Leone",
+      "symbol": "Le"
+    }
+  },
+  {
+    "model": "places.currency",
+    "pk": 135,
+    "fields": {
+      "code": "SOS",
+      "numeric": "706",
+      "name": "Somali Shilling",
+      "symbol": "Sh"
+    }
+  },
+  {
+    "model": "places.currency",
+    "pk": 136,
+    "fields": {
+      "code": "SRD",
+      "numeric": "968",
+      "name": "Surinam Dollar",
+      "symbol": "$"
+    }
+  },
+  {
+    "model": "places.currency",
+    "pk": 137,
+    "fields": {
+      "code": "STD",
+      "numeric": "678",
+      "name": "Dobra",
+      "symbol": "Db"
+    }
+  },
+  {
+    "model": "places.currency",
+    "pk": 138,
+    "fields": {
+      "code": "SVC",
+      "numeric": "222",
+      "name": "El Salvador Colon",
+      "symbol": "$"
+    }
+  },
+  {
+    "model": "places.currency",
+    "pk": 139,
+    "fields": {
+      "code": "SYP",
+      "numeric": "760",
+      "name": "Syrian Pound",
+      "symbol": "\u0644.\u0633"
+    }
+  },
+  {
+    "model": "places.currency",
+    "pk": 140,
+    "fields": {
+      "code": "SZL",
+      "numeric": "748",
+      "name": "Lilangeni",
+      "symbol": "L"
+    }
+  },
+  {
+    "model": "places.currency",
+    "pk": 141,
+    "fields": {
+      "code": "THB",
+      "numeric": "764",
+      "name": "Baht",
+      "symbol": "\u0e3f"
+    }
+  },
+  {
+    "model": "places.currency",
+    "pk": 142,
+    "fields": {
+      "code": "TJS",
+      "numeric": "972",
+      "name": "Somoni",
+      "symbol": "SM"
+    }
+  },
+  {
+    "model": "places.currency",
+    "pk": 143,
+    "fields": {
+      "code": "TMM",
+      "numeric": "795",
+      "name": "Manat",
+      "symbol": ""
+    }
+  },
+  {
+    "model": "places.currency",
+    "pk": 144,
+    "fields": {
+      "code": "TND",
+      "numeric": "788",
+      "name": "Tunisian Dinar",
+      "symbol": "\u062f.\u062a"
+    }
+  },
+  {
+    "model": "places.currency",
+    "pk": 145,
+    "fields": {
+      "code": "TOP",
+      "numeric": "776",
+      "name": "Pa\u2019anga",
+      "symbol": "T$"
+    }
+  },
+  {
+    "model": "places.currency",
+    "pk": 146,
+    "fields": {
+      "code": "TRY",
+      "numeric": "949",
+      "name": "Turkish Lira",
+      "symbol": "\u20ba"
+    }
+  },
+  {
+    "model": "places.currency",
+    "pk": 147,
+    "fields": {
+      "code": "TTD",
+      "numeric": "780",
+      "name": "Trinidad and Tobago Dollar",
+      "symbol": "TT$"
+    }
+  },
+  {
+    "model": "places.currency",
+    "pk": 148,
+    "fields": {
+      "code": "TWD",
+      "numeric": "901",
+      "name": "New Taiwan Dollar",
+      "symbol": "NT$"
+    }
+  },
+  {
+    "model": "places.currency",
+    "pk": 149,
+    "fields": {
+      "code": "TZS",
+      "numeric": "834",
+      "name": "Tanzanian Shilling",
+      "symbol": "Sh"
+    }
+  },
+  {
+    "model": "places.currency",
+    "pk": 150,
+    "fields": {
+      "code": "UAH",
+      "numeric": "980",
+      "name": "Hryvnia",
+      "symbol": "\u20b4"
+    }
+  },
+  {
+    "model": "places.currency",
+    "pk": 151,
+    "fields": {
+      "code": "UGX",
+      "numeric": "800",
+      "name": "Uganda Shilling",
+      "symbol": "Sh"
+    }
+  },
+  {
+    "model": "places.currency",
+    "pk": 152,
+    "fields": {
+      "code": "USD",
+      "numeric": "840",
+      "name": "US Dollar",
+      "symbol": "$"
+    }
+  },
+  {
+    "model": "places.currency",
+    "pk": 153,
+    "fields": {
+      "code": "USN",
+      "numeric": "997",
+      "name": "US Dollar (Next day)",
+      "symbol": ""
+    }
+  },
+  {
+    "model": "places.currency",
+    "pk": 154,
+    "fields": {
+      "code": "USS",
+      "numeric": "998",
+      "name": "US Dollar (Same day)",
+      "symbol": ""
+    }
+  },
+  {
+    "model": "places.currency",
+    "pk": 155,
+    "fields": {
+      "code": "UYI",
+      "numeric": "940",
+      "name": "Uruguay Peso en Unidades Indexadas",
+      "symbol": ""
+    }
+  },
+  {
+    "model": "places.currency",
+    "pk": 156,
+    "fields": {
+      "code": "UYU",
+      "numeric": "858",
+      "name": "Peso Uruguayo",
+      "symbol": "$U"
+    }
+  },
+  {
+    "model": "places.currency",
+    "pk": 157,
+    "fields": {
+      "code": "UZS",
+      "numeric": "860",
+      "name": "Uzbekistan Sum",
+      "symbol": "\u043b\u0432"
+    }
+  },
+  {
+    "model": "places.currency",
+    "pk": 158,
+    "fields": {
+      "code": "VEF",
+      "numeric": "937",
+      "name": "Bolivar",
+      "symbol": "Bs"
+    }
+  },
+  {
+    "model": "places.currency",
+    "pk": 159,
+    "fields": {
+      "code": "VND",
+      "numeric": "704",
+      "name": "Dong",
+      "symbol": "\u20ab"
+    }
+  },
+  {
+    "model": "places.currency",
+    "pk": 160,
+    "fields": {
+      "code": "VUV",
+      "numeric": "548",
+      "name": "Vatu",
+      "symbol": "Vt"
+    }
+  },
+  {
+    "model": "places.currency",
+    "pk": 161,
+    "fields": {
+      "code": "WST",
+      "numeric": "882",
+      "name": "Tala",
+      "symbol": "T"
+    }
+  },
+  {
+    "model": "places.currency",
+    "pk": 162,
+    "fields": {
+      "code": "XAF",
+      "numeric": "950",
+      "name": "CFA Franc BEAC",
+      "symbol": ""
+    }
+  },
+  {
+    "model": "places.currency",
+    "pk": 163,
+    "fields": {
+      "code": "XAG",
+      "numeric": "961",
+      "name": "Silver",
+      "symbol": ""
+    }
+  },
+  {
+    "model": "places.currency",
+    "pk": 164,
+    "fields": {
+      "code": "XAU",
+      "numeric": "959",
+      "name": "Gold",
+      "symbol": ""
+    }
+  },
+  {
+    "model": "places.currency",
+    "pk": 165,
+    "fields": {
+      "code": "XBA",
+      "numeric": "955",
+      "name": "European Composite Unit (EURCO)",
+      "symbol": ""
+    }
+  },
+  {
+    "model": "places.currency",
+    "pk": 166,
+    "fields": {
+      "code": "XBB",
+      "numeric": "956",
+      "name": "European Monetary Unit (E.M.U.-6)",
+      "symbol": ""
+    }
+  },
+  {
+    "model": "places.currency",
+    "pk": 167,
+    "fields": {
+      "code": "XBC",
+      "numeric": "957",
+      "name": "European Unit of Account 9 (E.U.A.-9)",
+      "symbol": ""
+    }
+  },
+  {
+    "model": "places.currency",
+    "pk": 168,
+    "fields": {
+      "code": "XBD",
+      "numeric": "958",
+      "name": "European Unit of Account 17 (E.U.A.-17)",
+      "symbol": ""
+    }
+  },
+  {
+    "model": "places.currency",
+    "pk": 169,
+    "fields": {
+      "code": "XCD",
+      "numeric": "951",
+      "name": "East Caribbean Dollar",
+      "symbol": "$"
+    }
+  },
+  {
+    "model": "places.currency",
+    "pk": 170,
+    "fields": {
+      "code": "XDR",
+      "numeric": "960",
+      "name": "Special Drawing Rights",
+      "symbol": ""
+    }
+  },
+  {
+    "model": "places.currency",
+    "pk": 171,
+    "fields": {
+      "code": "XOF",
+      "numeric": "952",
+      "name": "CFA Franc BCEAO",
+      "symbol": ""
+    }
+  },
+  {
+    "model": "places.currency",
+    "pk": 172,
+    "fields": {
+      "code": "XPD",
+      "numeric": "964",
+      "name": "Palladium",
+      "symbol": ""
+    }
+  },
+  {
+    "model": "places.currency",
+    "pk": 173,
+    "fields": {
+      "code": "XPF",
+      "numeric": "953",
+      "name": "CFP Franc",
+      "symbol": ""
+    }
+  },
+  {
+    "model": "places.currency",
+    "pk": 174,
+    "fields": {
+      "code": "XPT",
+      "numeric": "962",
+      "name": "Platinum",
+      "symbol": ""
+    }
+  },
+  {
+    "model": "places.currency",
+    "pk": 175,
+    "fields": {
+      "code": "XTS",
+      "numeric": "963",
+      "name": "Code for testing purposes",
+      "symbol": ""
+    }
+  },
+  {
+    "model": "places.currency",
+    "pk": 176,
+    "fields": {
+      "code": "XXX",
+      "numeric": "999",
+      "name": "No currency",
+      "symbol": ""
+    }
+  },
+  {
+    "model": "places.currency",
+    "pk": 177,
+    "fields": {
+      "code": "YER",
+      "numeric": "886",
+      "name": "Yemeni Rial",
+      "symbol": "\ufdfc"
+    }
+  },
+  {
+    "model": "places.currency",
+    "pk": 178,
+    "fields": {
+      "code": "ZAR",
+      "numeric": "710",
+      "name": "Rand",
+      "symbol": "R"
+    }
+  },
+  {
+    "model": "places.currency",
+    "pk": 179,
+    "fields": {
+      "code": "ZMK",
+      "numeric": "894",
+      "name": "Zambian Kwacha",
+      "symbol": ""
+    }
+  },
+  {
+    "model": "places.currency",
+    "pk": 180,
+    "fields": {
+      "code": "ZWD",
+      "numeric": "716",
+      "name": "Zimbabwe Dollar",
+      "symbol": ""
+    }
+  },
+  {
+    "model": "places.currency",
+    "pk": 181,
+    "fields": {
+      "code": "SSP",
+      "numeric": "728",
+      "name": "South Sudanese Pound",
+      "symbol": "\u00a3"
+    }
+  },
+  {
+    "model": "places.currency",
+    "pk": 182,
+    "fields": {
+      "code": "TMT",
+      "numeric": "934",
+      "name": "Turkmenistan New Manat",
+      "symbol": "m"
+    }
+  },
+  {
+    "model": "places.currency",
+    "pk": 183,
+    "fields": {
+      "code": "ZMW",
+      "numeric": "967",
+      "name": "Zambian Kwacha",
+      "symbol": "ZK"
+    }
+  },
+  {
+    "model": "places.currency",
+    "pk": 184,
+    "fields": {
+      "code": "ZWL",
+      "numeric": "932",
+      "name": "Zimbabwe Dollar",
+      "symbol": ""
+    }
+  }
+]

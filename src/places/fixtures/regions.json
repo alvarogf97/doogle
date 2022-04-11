@@ -1,0 +1,173 @@
+[
+  {
+    "model": "places.region",
+    "pk": 1,
+    "fields": {
+      "country": 90,
+      "code": 13,
+      "name": "Comunidad de Madrid"
+    }
+  },
+  {
+    "model": "places.region",
+    "pk": 2,
+    "fields": {
+      "country": 90,
+      "code": 7,
+      "name": "Castilla y Le\u00f3n"
+    }
+  },
+  {
+    "model": "places.region",
+    "pk": 3,
+    "fields": {
+      "country": 90,
+      "code": 1,
+      "name": "Andaluc\u00eda"
+    }
+  },
+  {
+    "model": "places.region",
+    "pk": 4,
+    "fields": {
+      "country": 90,
+      "code": 11,
+      "name": "Extremadura"
+    }
+  },
+  {
+    "model": "places.region",
+    "pk": 5,
+    "fields": {
+      "country": 90,
+      "code": 9,
+      "name": "Catalu\u00f1a"
+    }
+  },
+  {
+    "model": "places.region",
+    "pk": 6,
+    "fields": {
+      "country": 90,
+      "code": 2,
+      "name": "Arag\u00f3n"
+    }
+  },
+  {
+    "model": "places.region",
+    "pk": 7,
+    "fields": {
+      "country": 90,
+      "code": 10,
+      "name": "Comunitat Valenciana"
+    }
+  },
+  {
+    "model": "places.region",
+    "pk": 8,
+    "fields": {
+      "country": 90,
+      "code": 8,
+      "name": "Castilla - La Mancha"
+    }
+  },
+  {
+    "model": "places.region",
+    "pk": 9,
+    "fields": {
+      "country": 90,
+      "code": 5,
+      "name": "Canarias"
+    }
+  },
+  {
+    "model": "places.region",
+    "pk": 10,
+    "fields": {
+      "country": 90,
+      "code": 4,
+      "name": "Illes Balears"
+    }
+  },
+  {
+    "model": "places.region",
+    "pk": 11,
+    "fields": {
+      "country": 90,
+      "code": 12,
+      "name": "Galicia"
+    }
+  },
+  {
+    "model": "places.region",
+    "pk": 12,
+    "fields": {
+      "country": 90,
+      "code": 15,
+      "name": "Comunidad Foral de Navarra"
+    }
+  },
+  {
+    "model": "places.region",
+    "pk": 13,
+    "fields": {
+      "country": 90,
+      "code": 17,
+      "name": "La Rioja"
+    }
+  },
+  {
+    "model": "places.region",
+    "pk": 14,
+    "fields": {
+      "country": 90,
+      "code": 16,
+      "name": "Pa\u00eds Vasco"
+    }
+  },
+  {
+    "model": "places.region",
+    "pk": 15,
+    "fields": {
+      "country": 90,
+      "code": 14,
+      "name": "Regi\u00f3n de Murcia"
+    }
+  },
+  {
+    "model": "places.region",
+    "pk": 16,
+    "fields": {
+      "country": 90,
+      "code": 3,
+      "name": "Principado de Asturias"
+    }
+  },
+  {
+    "model": "places.region",
+    "pk": 17,
+    "fields": {
+      "country": 90,
+      "code": 6,
+      "name": "Cantabria"
+    }
+  },
+  {
+    "model": "places.region",
+    "pk": 18,
+    "fields": {
+      "country": 90,
+      "code": 18,
+      "name": "Ceuta"
+    }
+  },
+  {
+    "model": "places.region",
+    "pk": 19,
+    "fields": {
+      "country": 90,
+      "code": 19,
+      "name": "Melilla"
+    }
+  }
+]

@@ -4,5 +4,10 @@ set -o errexit
 set -o pipefail
 set -o nounset
 
-# python manage.py loaddata \
-    # apps/alerts/fixtures/rules.json
+python manage.py loaddata \
+    places/fixtures/currencies.json \
+    places/fixtures/countries.json \
+    places/fixtures/regions.json \
+    places/fixtures/provinces.json \
+    places/fixtures/cities.json
+

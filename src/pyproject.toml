@@ -19,6 +19,7 @@ tzdata = "^2022.1"
 ipython = "^8.2.0"
 django-localflavor = "^3.1"
 pytest-cov = "^3.0.0"
+pytest-django = "^4.5.2"
 
 [tool.poetry.dev-dependencies]
 factory-boy = "^3.2.1"
@@ -38,4 +39,4 @@ django_settings_module = "doogle.settings"
 source = ["./", "/app/"]
 
 [tool.coverage.run]
-omit = ["./doogle/*.py", "*tests/*"]
+omit = ["./doogle/*.py", "*tests/*", "**/admin/*.py", "*/admin.py", "**/migrations/*.py"]

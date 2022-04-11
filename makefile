@@ -42,14 +42,14 @@ tests.ci:
 	@coverage report
 
 tests.local:
-	@docker-compose run doogle pytest --cov=.
+	@docker-compose run doogle pytest --cov
 
 # Push
 push.prod: docker.ci.login
 	@export TAG=$(date +%d%m%Y-%H%M%S)
-	@docker build -f bin/docker/dockerfile.prod -t $(PRO_REGISTRY):latest -t $(PRO_REGISTRY):$(TAG) .
-	@docker push $(PRO_REGISTRY):$(TAG)
-	@docker push $(PRO_REGISTRY):latest
+	@docker build -f bin/docker/dockerfile.prod -t $(REGISTRY):latest -t $(REGISTRY):$(TAG) .
+	@docker push $(REGISTRY):$(TAG)
+	@docker push $(REGISTRY):latest
 
 
 .PHONY: start.local enter.local logs.local logs.local.celery logs.local.beat docker.ci.login tests.ci tests.local push.prod

@@ -5,5 +5,5 @@ set -o pipefail
 set -o nounset
 
 python manage.py migrate
-fixtures.sh
+# fixtures.sh
 python manage.py runserver 0.0.0.0:9400
