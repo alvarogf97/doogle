@@ -36,7 +36,7 @@ plugins = ["mypy_django_plugin.main"]
 django_settings_module = "doogle.settings"
 
 [tool.coverage.paths]
-source = ["/src/", "/app/"]
+source = ["./", "/app/"]
 
 [tool.coverage.run]
 omit = ["./doogle/*.py", "*tests/*", "**/admin/*.py", "*/admin.py", "**/migrations/*.py"]
