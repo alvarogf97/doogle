@@ -36,6 +36,7 @@ docker.ci.login:
 
 # Tests
 tests.ci:
+	@ls -l
 	@docker-compose exec doogle pytest --cov=.
 	@mv ./src/.coverage .coverage
 
