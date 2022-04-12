@@ -22,7 +22,7 @@ jobs:
         - pip install coveralls
       script:
         - make tests.ci
-        - coveralls
+        # - coveralls
 
     - stage: Github Packages Deploy
       if: (NOT type IN (pull_request)) AND (branch = production)
