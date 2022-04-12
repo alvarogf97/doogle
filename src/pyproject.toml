@@ -39,4 +39,4 @@ django_settings_module = "doogle.settings"
 source = ["./", "/app/"]
 
 [tool.coverage.run]
-omit = ["./doogle/*.py", "*tests/*", "**/admin/*.py", "*/admin.py", "**/migrations/*.py"]
+omit = ["./doogle/*.py", "*tests/*", "**/admin/*.py", "*/admin.py", "**/migrations/*.py", "**/manage.py"]
