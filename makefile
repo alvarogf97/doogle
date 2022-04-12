@@ -35,8 +35,7 @@ docker.ci.login:
 	@echo $(GITHUB_TOKEN) | docker login ghcr.io -u $(GITHUB_USER) --password-stdin
 
 # Tests
-tests.ci:
-	@ls -l
+tests.ci: start.local
 	@docker-compose exec doogle pytest --cov=.
 	@mv ./src/.coverage .coverage
 
