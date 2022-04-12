@@ -36,9 +36,11 @@ docker.ci.login:
 
 # Tests
 tests.ci: start.local
-	@sleep 5
-	@docker exec doogle pytest --cov
-	@mv ./src/.coverage .coverage
+	@docker-compose exec doogle pytest --cov=.
+	@cd ./src
+	@mv .coverage .coverage-docker
+	@coverage combine -a .coverage-docker
+	@coverage report
 
 tests.local:
 	@docker-compose run doogle pytest --cov
