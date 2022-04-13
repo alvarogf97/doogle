@@ -1,0 +1,17 @@
+[
+  {
+    "model": "animals.DogBreed",
+    "pk": 1,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": {
+        "en": "Border Collie",
+        "es": "Border Collie"
+      },
+      "description": {
+        "en": "Active",
+        "es": "Active"
+      }
+    }
+  }
+]

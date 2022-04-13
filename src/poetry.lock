@@ -233,6 +233,17 @@ wrapt = ">=1.10,<2"
 dev = ["tox", "bump2version (<1)", "sphinx (<2)", "importlib-metadata (<3)", "importlib-resources (<4)", "configparser (<5)", "sphinxcontrib-websupport (<2)", "zipp (<2)", "PyTest (<5)", "PyTest-Cov (<2.6)", "pytest", "pytest-cov"]
 
 [[package]]
+name = "deprecation"
+version = "2.0.7"
+description = "A library to handle automated deprecations"
+category = "main"
+optional = false
+python-versions = "*"
+
+[package.dependencies]
+packaging = "*"
+
+[[package]]
 name = "django"
 version = "4.0.3"
 description = "A high-level Python web framework that encourages rapid development and clean, pragmatic design."
@@ -305,6 +316,68 @@ python-versions = "*"
 [package.dependencies]
 django = ">=2.2"
 python-stdnum = ">=1.6"
+
+[[package]]
+name = "django-localized-fields"
+version = "6.6"
+description = "Implementation of localized model fields using PostgreSQL HStore fields."
+category = "main"
+optional = false
+python-versions = ">=3.6"
+
+[package.dependencies]
+deprecation = "2.0.7"
+Django = ">=2.0"
+django-postgres-extra = ">=2.0,<3.0"
+
+[package.extras]
+analysis = ["black (==19.3b0)", "flake8 (==3.7.7)", "autoflake (==1.3)", "autopep8 (==1.4.4)", "isort (==4.3.20)", "sl-docformatter (==1.4)"]
+docs = ["Sphinx (==2.2.0)", "sphinx-rtd-theme (==0.4.3)"]
+test = ["tox (==3.14.3)", "pytest (==5.3.2)", "pytest-django (==3.7.0)", "pytest-cov (==2.8.1)", "dj-database-url (==0.5.0)", "django-autoslug (==1.9.6)", "django-bleach (==0.6.1)", "psycopg2 (==2.8.4)"]
+
+[[package]]
+name = "django-phonenumber-field"
+version = "6.1.0"
+description = "An international phone number field for django models."
+category = "main"
+optional = false
+python-versions = ">=3.7"
+
+[package.dependencies]
+Django = ">=2.2"
+
+[package.extras]
+phonenumbers = ["phonenumbers (>=7.0.2)"]
+phonenumberslite = ["phonenumberslite (>=7.0.2)"]
+
+[[package]]
+name = "django-polymorphic"
+version = "3.1.0"
+description = "Seamless polymorphic inheritance for Django models"
+category = "main"
+optional = false
+python-versions = "*"
+
+[package.dependencies]
+Django = ">=2.1"
+
+[[package]]
+name = "django-postgres-extra"
+version = "2.0.5"
+description = "Bringing all of PostgreSQL's awesomeness to Django."
+category = "main"
+optional = false
+python-versions = ">=3.6"
+
+[package.dependencies]
+Django = ">=2.0,<5.0"
+python-dateutil = ">=2.8.0,<=3.0.0"
+
+[package.extras]
+analysis = ["black (==21.10b0)", "flake8 (==4.0.1)", "autoflake (==1.4)", "autopep8 (==1.6.0)", "isort (==5.10.0)", "docformatter (==1.4)"]
+docs = ["Sphinx (==2.2.0)", "sphinx-rtd-theme (==0.4.3)", "docutils (<0.18)"]
+publish = ["build (==0.7.0)", "twine (==3.7.1)"]
+test = ["psycopg2 (>=2.8.4,<3.0.0)", "dj-database-url (==0.5.0)", "pytest (==6.2.5)", "pytest-benchmark (==3.4.1)", "pytest-django (==4.4.0)", "pytest-cov (==3.0.0)", "tox (==3.24.4)", "freezegun (==1.1.0)", "coveralls (==3.3.0)", "snapshottest (==0.6.0)"]
 
 [[package]]
 name = "django-redis"
@@ -496,6 +569,14 @@ python-versions = "*"
 
 [package.dependencies]
 ptyprocess = ">=0.5"
+
+[[package]]
+name = "phonenumberslite"
+version = "8.12.46"
+description = "Python version of Google's common library for parsing, formatting, storing and validating international phone numbers."
+category = "main"
+optional = false
+python-versions = "*"
 
 [[package]]
 name = "pickleshare"
@@ -783,7 +864,7 @@ python-versions = "!=3.0.*,!=3.1.*,!=3.2.*,!=3.3.*,!=3.4.*,>=2.7"
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.10"
-content-hash = "2418bd8337cf67b0a1c1f8bc1f07e85cc3d2e1cdc243617d1f410699cfe5de9a"
+content-hash = "eb288b22b459c0b258855ee470bea533e421a45c252b36c079f524f003203afb"
 
 [metadata.files]
 amqp = [
@@ -897,6 +978,10 @@ deprecated = [
     {file = "Deprecated-1.2.13-py2.py3-none-any.whl", hash = "sha256:64756e3e14c8c5eea9795d93c524551432a0be75629f8f29e67ab8caf076c76d"},
     {file = "Deprecated-1.2.13.tar.gz", hash = "sha256:43ac5335da90c31c24ba028af536a91d41d53f9e6901ddb021bcc572ce44e38d"},
 ]
+deprecation = [
+    {file = "deprecation-2.0.7-py2.py3-none-any.whl", hash = "sha256:dc9b4f252b7aca8165ce2764a71da92a653b5ffbf7a389461d7a640f6536ecb2"},
+    {file = "deprecation-2.0.7.tar.gz", hash = "sha256:c0392f676a6146f0238db5744d73e786a43510d54033f80994ef2f4c9df192ed"},
+]
 django = [
     {file = "Django-4.0.3-py3-none-any.whl", hash = "sha256:1239218849e922033a35d2a2f777cb8bee18bd725416744074f455f34ff50d0c"},
     {file = "Django-4.0.3.tar.gz", hash = "sha256:77ff2e7050e3324c9b67e29b6707754566f58514112a9ac73310f60cd5261930"},
@@ -913,6 +998,22 @@ django-extensions = [
 django-localflavor = [
     {file = "django-localflavor-3.1.tar.gz", hash = "sha256:ac2fa377bbcba4cae95e97077d9e77c7f22b3d93e4845e2e133ba7e664043a44"},
     {file = "django_localflavor-3.1-py3-none-any.whl", hash = "sha256:6593865dc671333b3edc88e729e6d384d00b6db7891ef5d3a65db831a40050d2"},
+]
+django-localized-fields = [
+    {file = "django-localized-fields-6.6.tar.gz", hash = "sha256:fdf1bc4e06e694f2e912bc31a092f0ad078acadf91a998a9f406d11f15da0550"},
+    {file = "django_localized_fields-6.6-py3-none-any.whl", hash = "sha256:f17a39725bf29ef098ade66edfaa4eaab9dfd648747d5c8873c8587f140eb016"},
+]
+django-phonenumber-field = [
+    {file = "django-phonenumber-field-6.1.0.tar.gz", hash = "sha256:b1ff950f90a8911ff323ccf77c8f6fe4299a9f671fa61c8734a6994359f07446"},
+    {file = "django_phonenumber_field-6.1.0-py3-none-any.whl", hash = "sha256:897b902a1654b0eb21f6268498a3359e2c4eb90af9585cb8693af186ede8c5bb"},
+]
+django-polymorphic = [
+    {file = "django-polymorphic-3.1.0.tar.gz", hash = "sha256:d6955b5308bf6e41dcb22ba7c96f00b51dfa497a8a5ab1e9c06c7951bf417bf8"},
+    {file = "django_polymorphic-3.1.0-py3-none-any.whl", hash = "sha256:08bc4f4f4a773a19b2deced5a56deddd1ef56ebd15207bf4052e2901c25ef57e"},
+]
+django-postgres-extra = [
+    {file = "django-postgres-extra-2.0.5.tar.gz", hash = "sha256:e73d2672aa8268be4cb9d37f84ac16671a2524e72577865b8e4e8168c3906722"},
+    {file = "django_postgres_extra-2.0.5-py3-none-any.whl", hash = "sha256:275e3c741ca73024215244aa3f57c03aed8def45a0c906fc746f7d7381793345"},
 ]
 django-redis = [
     {file = "django-redis-5.2.0.tar.gz", hash = "sha256:8a99e5582c79f894168f5865c52bd921213253b7fd64d16733ae4591564465de"},
@@ -965,6 +1066,10 @@ parso = [
 pexpect = [
     {file = "pexpect-4.8.0-py2.py3-none-any.whl", hash = "sha256:0b48a55dcb3c05f3329815901ea4fc1537514d6ba867a152b581d69ae3710937"},
     {file = "pexpect-4.8.0.tar.gz", hash = "sha256:fc65a43959d153d0114afe13997d439c22823a27cefceb5ff35c2178c6784c0c"},
+]
+phonenumberslite = [
+    {file = "phonenumberslite-8.12.46-py2.py3-none-any.whl", hash = "sha256:752555fb0cb9e442054c93fd23ab2ac1b741aea30e6e990be560ef75cac55c21"},
+    {file = "phonenumberslite-8.12.46.tar.gz", hash = "sha256:93aa86c9e9e4b15dda89c4b0e7b9a3b6b854e009441a941a29d3b0202fa575bd"},
 ]
 pickleshare = [
     {file = "pickleshare-0.7.5-py2.py3-none-any.whl", hash = "sha256:9649af414d74d4df115d5d718f82acb59c9d418196b7b4290ed47a12ce62df56"},
