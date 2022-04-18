@@ -1,7 +1,15 @@
 from django.db import models
 from polymorphic.models import PolymorphicModel
+from django.contrib.postgres import fields as postgres_fields
 from localized_fields.fields import LocalizedTextField, LocalizedCharField
 from localized_fields.util import get_language_codes
+
+
+class Tag(models.Model):
+    """Tag model object"""
+    name = LocalizedCharField(
+        null=True, blank=True, required=False,
+        db_index=True, uniqueness=[*get_language_codes()])
 
 
 class Breed(PolymorphicModel):
@@ -9,18 +17,25 @@ class Breed(PolymorphicModel):
     name = LocalizedCharField(
         null=True, blank=True, required=False,
         db_index=True, uniqueness=[*get_language_codes()])
-    description = LocalizedTextField(blank=True, null=True, required=False)
+
+    weight = postgres_fields.IntegerRangeField(null=True, blank=True)
+    life_span = postgres_fields.IntegerRangeField(null=True, blank=True)
+    origins = models.ManyToManyField('places.Country')
+    tags = models.ManyToManyField(Tag, related_name='breeds')
 
     def __str__(self):
         return str(self.name)
 
 
 class DogBreed(Breed):
-    pass
+    """Dog breed model object"""
+    height = postgres_fields.IntegerRangeField(null=True, blank=True)
 
 
 class CatBreed(Breed):
-    pass
+    """Cat breed model object"""
+    dog_friendly = models.PositiveSmallIntegerField(null=True, blank=True)
+    child_friendly = models.PositiveSmallIntegerField(null=True, blank=True)
     
 
 class Animal(PolymorphicModel):

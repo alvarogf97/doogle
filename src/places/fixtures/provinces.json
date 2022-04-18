@@ -3,468 +3,471 @@
     "model": "places.province",
     "pk": 1,
     "fields": {
+      "name": { "en": "Madrid", "es": "Madrid" },
       "region": 1,
-      "code": "28",
-      "name": "Madrid"
+      "code": "28"
     }
   },
   {
     "model": "places.province",
     "pk": 2,
     "fields": {
+      "name": { "en": "Segovia", "es": "Segovia" },
       "region": 2,
-      "code": "40",
-      "name": "Segovia"
+      "code": "40"
     }
   },
   {
     "model": "places.province",
     "pk": 3,
     "fields": {
+      "name": { "en": "Granada", "es": "Granada" },
       "region": 3,
-      "code": "18",
-      "name": "Granada"
+      "code": "18"
     }
   },
   {
     "model": "places.province",
     "pk": 4,
     "fields": {
+      "name": { "en": "M\\u00e1laga", "es": "M\\u00e1laga" },
       "region": 3,
-      "code": "29",
-      "name": "M\u00e1laga"
+      "code": "29"
     }
   },
   {
     "model": "places.province",
     "pk": 5,
     "fields": {
+      "name": { "en": "Huelva", "es": "Huelva" },
       "region": 3,
-      "code": "21",
-      "name": "Huelva"
+      "code": "21"
     }
   },
   {
     "model": "places.province",
     "pk": 6,
     "fields": {
+      "name": { "en": "C\\u00e1ceres", "es": "C\\u00e1ceres" },
       "region": 4,
-      "code": "10",
-      "name": "C\u00e1ceres"
+      "code": "10"
     }
   },
   {
     "model": "places.province",
     "pk": 7,
     "fields": {
+      "name": { "en": "Salamanca", "es": "Salamanca" },
       "region": 2,
-      "code": "37",
-      "name": "Salamanca"
+      "code": "37"
     }
   },
   {
     "model": "places.province",
     "pk": 8,
     "fields": {
+      "name": { "en": "Le\\u00f3n", "es": "Le\\u00f3n" },
       "region": 2,
-      "code": "24",
-      "name": "Le\u00f3n"
+      "code": "24"
     }
   },
   {
     "model": "places.province",
     "pk": 9,
     "fields": {
+      "name": { "en": "Girona", "es": "Girona" },
       "region": 5,
-      "code": "17",
-      "name": "Girona"
+      "code": "17"
     }
   },
   {
     "model": "places.province",
     "pk": 10,
     "fields": {
+      "name": { "en": "Barcelona", "es": "Barcelona" },
       "region": 5,
-      "code": "08",
-      "name": "Barcelona"
+      "code": "08"
     }
   },
   {
     "model": "places.province",
     "pk": 11,
     "fields": {
+      "name": { "en": "Teruel", "es": "Teruel" },
       "region": 6,
-      "code": "44",
-      "name": "Teruel"
+      "code": "44"
     }
   },
   {
     "model": "places.province",
     "pk": 12,
     "fields": {
+      "name": { "en": "Valencia", "es": "Valencia" },
       "region": 7,
-      "code": "46",
-      "name": "Valencia"
+      "code": "46"
     }
   },
   {
     "model": "places.province",
     "pk": 13,
     "fields": {
+      "name": { "en": "Guadalajara", "es": "Guadalajara" },
       "region": 8,
-      "code": "19",
-      "name": "Guadalajara"
+      "code": "19"
     }
   },
   {
     "model": "places.province",
     "pk": 14,
     "fields": {
+      "name": { "en": "Toledo", "es": "Toledo" },
       "region": 8,
-      "code": "45",
-      "name": "Toledo"
+      "code": "45"
     }
   },
   {
     "model": "places.province",
     "pk": 15,
     "fields": {
+      "name": { "en": "\\u00c1vila", "es": "\\u00c1vila" },
       "region": 2,
-      "code": "05",
-      "name": "\u00c1vila"
+      "code": "05"
     }
   },
   {
     "model": "places.province",
     "pk": 16,
     "fields": {
+      "name": { "en": "Badajoz", "es": "Badajoz" },
       "region": 4,
-      "code": "06",
-      "name": "Badajoz"
+      "code": "06"
     }
   },
   {
     "model": "places.province",
     "pk": 17,
     "fields": {
+      "name": { "en": "Cuenca", "es": "Cuenca" },
       "region": 8,
-      "code": "16",
-      "name": "Cuenca"
+      "code": "16"
     }
   },
   {
     "model": "places.province",
     "pk": 18,
     "fields": {
+      "name": { "en": "Palencia", "es": "Palencia" },
       "region": 2,
-      "code": "34",
-      "name": "Palencia"
+      "code": "34"
     }
   },
   {
     "model": "places.province",
     "pk": 19,
     "fields": {
+      "name": { "en": "Las Palmas", "es": "Las Palmas" },
       "region": 9,
-      "code": "35",
-      "name": "Las Palmas"
+      "code": "35"
     }
   },
   {
     "model": "places.province",
     "pk": 20,
     "fields": {
+      "name": { "en": "Alicante", "es": "Alicante" },
       "region": 7,
-      "code": "03",
-      "name": "Alicante"
+      "code": "03"
     }
   },
   {
     "model": "places.province",
     "pk": 21,
     "fields": {
+      "name": { "en": "Illes Balears", "es": "Illes Balears" },
       "region": 10,
-      "code": "07",
-      "name": "Illes Balears"
+      "code": "07"
     }
   },
   {
     "model": "places.province",
     "pk": 22,
     "fields": {
+      "name": { "en": "Zaragoza", "es": "Zaragoza" },
       "region": 6,
-      "code": "50",
-      "name": "Zaragoza"
+      "code": "50"
     }
   },
   {
     "model": "places.province",
     "pk": 23,
     "fields": {
+      "name": { "en": "Lugo", "es": "Lugo" },
       "region": 11,
-      "code": "27",
-      "name": "Lugo"
+      "code": "27"
     }
   },
   {
     "model": "places.province",
     "pk": 24,
     "fields": {
+      "name": { "en": "A Coru\\u00f1a", "es": "A Coru\\u00f1a" },
       "region": 11,
-      "code": "15",
-      "name": "A Coru\u00f1a"
+      "code": "15"
     }
   },
   {
     "model": "places.province",
     "pk": 25,
     "fields": {
+      "name": { "en": "Pontevedra", "es": "Pontevedra" },
       "region": 11,
-      "code": "36",
-      "name": "Pontevedra"
+      "code": "36"
     }
   },
   {
     "model": "places.province",
     "pk": 26,
     "fields": {
+      "name": { "en": "Navarra", "es": "Navarra" },
       "region": 12,
-      "code": "31",
-      "name": "Navarra"
+      "code": "31"
     }
   },
   {
     "model": "places.province",
     "pk": 27,
     "fields": {
+      "name": { "en": "Burgos", "es": "Burgos" },
       "region": 2,
-      "code": "09",
-      "name": "Burgos"
+      "code": "09"
     }
   },
   {
     "model": "places.province",
     "pk": 28,
     "fields": {
+      "name": { "en": "Huesca", "es": "Huesca" },
       "region": 6,
-      "code": "22",
-      "name": "Huesca"
+      "code": "22"
     }
   },
   {
     "model": "places.province",
     "pk": 29,
     "fields": {
+      "name": { "en": "La Rioja", "es": "La Rioja" },
       "region": 13,
-      "code": "26",
-      "name": "La Rioja"
+      "code": "26"
     }
   },
   {
     "model": "places.province",
     "pk": 30,
     "fields": {
+      "name": { "en": "\\u00c1lava", "es": "\\u00c1lava" },
       "region": 14,
-      "code": "01",
-      "name": "\u00c1lava"
+      "code": "01"
     }
   },
   {
     "model": "places.province",
     "pk": 31,
     "fields": {
+      "name": { "en": "Albacete", "es": "Albacete" },
       "region": 8,
-      "code": "02",
-      "name": "Albacete"
+      "code": "02"
     }
   },
   {
     "model": "places.province",
     "pk": 32,
     "fields": {
+      "name": { "en": "Almer\\u00eda", "es": "Almer\\u00eda" },
       "region": 3,
-      "code": "04",
-      "name": "Almer\u00eda"
+      "code": "04"
     }
   },
   {
     "model": "places.province",
     "pk": 33,
     "fields": {
+      "name": { "en": "C\\u00e1diz", "es": "C\\u00e1diz" },
       "region": 3,
-      "code": "11",
-      "name": "C\u00e1diz"
+      "code": "11"
     }
   },
   {
     "model": "places.province",
     "pk": 34,
     "fields": {
+      "name": { "en": "Castell\\u00f3n", "es": "Castell\\u00f3n" },
       "region": 7,
-      "code": "12",
-      "name": "Castell\u00f3n"
+      "code": "12"
     }
   },
   {
     "model": "places.province",
     "pk": 35,
     "fields": {
+      "name": { "en": "Ciudad Real", "es": "Ciudad Real" },
       "region": 8,
-      "code": "13",
-      "name": "Ciudad Real"
+      "code": "13"
     }
   },
   {
     "model": "places.province",
     "pk": 36,
     "fields": {
+      "name": { "en": "C\\u00f3rdoba", "es": "C\\u00f3rdoba" },
       "region": 3,
-      "code": "14",
-      "name": "C\u00f3rdoba"
+      "code": "14"
     }
   },
   {
     "model": "places.province",
     "pk": 37,
     "fields": {
+      "name": { "en": "Guip\\u00fazcoa", "es": "Guip\\u00fazcoa" },
       "region": 14,
-      "code": "20",
-      "name": "Guip\u00fazcoa"
+      "code": "20"
     }
   },
   {
     "model": "places.province",
     "pk": 38,
     "fields": {
+      "name": { "en": "Ja\\u00e9n", "es": "Ja\\u00e9n" },
       "region": 3,
-      "code": "23",
-      "name": "Ja\u00e9n"
+      "code": "23"
     }
   },
   {
     "model": "places.province",
     "pk": 39,
     "fields": {
+      "name": { "en": "Lleida", "es": "Lleida" },
       "region": 5,
-      "code": "25",
-      "name": "Lleida"
+      "code": "25"
     }
   },
   {
     "model": "places.province",
     "pk": 40,
     "fields": {
+      "name": { "en": "Murcia", "es": "Murcia" },
       "region": 15,
-      "code": "30",
-      "name": "Murcia"
+      "code": "30"
     }
   },
   {
     "model": "places.province",
     "pk": 41,
     "fields": {
+      "name": { "en": "Ourense", "es": "Ourense" },
       "region": 11,
-      "code": "32",
-      "name": "Ourense"
+      "code": "32"
     }
   },
   {
     "model": "places.province",
     "pk": 42,
     "fields": {
+      "name": { "en": "Asturias", "es": "Asturias" },
       "region": 16,
-      "code": "33",
-      "name": "Asturias"
+      "code": "33"
     }
   },
   {
     "model": "places.province",
     "pk": 43,
     "fields": {
+      "name": {
+        "en": "Santa Cruz de Tenerife",
+        "es": "Santa Cruz de Tenerife"
+      },
       "region": 9,
-      "code": "38",
-      "name": "Santa Cruz de Tenerife"
+      "code": "38"
     }
   },
   {
     "model": "places.province",
     "pk": 44,
     "fields": {
+      "name": { "en": "Cantabria", "es": "Cantabria" },
       "region": 17,
-      "code": "39",
-      "name": "Cantabria"
+      "code": "39"
     }
   },
   {
     "model": "places.province",
     "pk": 45,
     "fields": {
+      "name": { "en": "Sevilla", "es": "Sevilla" },
       "region": 3,
-      "code": "41",
-      "name": "Sevilla"
+      "code": "41"
     }
   },
   {
     "model": "places.province",
     "pk": 46,
     "fields": {
+      "name": { "en": "Soria", "es": "Soria" },
       "region": 2,
-      "code": "42",
-      "name": "Soria"
+      "code": "42"
     }
   },
   {
     "model": "places.province",
     "pk": 47,
     "fields": {
+      "name": { "en": "Tarragona", "es": "Tarragona" },
       "region": 5,
-      "code": "43",
-      "name": "Tarragona"
+      "code": "43"
     }
   },
   {
     "model": "places.province",
     "pk": 48,
     "fields": {
+      "name": { "en": "Valladolid", "es": "Valladolid" },
       "region": 2,
-      "code": "47",
-      "name": "Valladolid"
+      "code": "47"
     }
   },
   {
     "model": "places.province",
     "pk": 49,
     "fields": {
+      "name": { "en": "Vizcaya", "es": "Vizcaya" },
       "region": 14,
-      "code": "48",
-      "name": "Vizcaya"
+      "code": "48"
     }
   },
   {
     "model": "places.province",
     "pk": 50,
     "fields": {
+      "name": { "en": "Zamora", "es": "Zamora" },
       "region": 2,
-      "code": "49",
-      "name": "Zamora"
+      "code": "49"
     }
   },
   {
     "model": "places.province",
     "pk": 51,
     "fields": {
+      "name": { "en": "Ceuta", "es": "Ceuta" },
       "region": 18,
-      "code": "51",
-      "name": "Ceuta"
+      "code": "51"
     }
   },
   {
     "model": "places.province",
     "pk": 52,
     "fields": {
+      "name": { "en": "Melilla", "es": "Melilla" },
       "region": 19,
-      "code": "52",
-      "name": "Melilla"
+      "code": "52"
     }
   }
 ]

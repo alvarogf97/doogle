@@ -1,0 +1,357 @@
+[
+  {
+    "model": "animals.Tag",
+    "pk": 1,
+    "fields": { "name": { "en": "Stubborn", "es": "Testarudo" } }
+  },
+  {
+    "model": "animals.Tag",
+    "pk": 2,
+    "fields": { "name": { "en": "Curious", "es": "Curioso" } }
+  },
+  {
+    "model": "animals.Tag",
+    "pk": 3,
+    "fields": { "name": { "en": "Playful", "es": "Juguetón" } }
+  },
+  {
+    "model": "animals.Tag",
+    "pk": 4,
+    "fields": { "name": { "en": "Adventurous", "es": "Aventurero" } }
+  },
+  {
+    "model": "animals.Tag",
+    "pk": 5,
+    "fields": { "name": { "en": "Active", "es": "Activo" } }
+  },
+  {
+    "model": "animals.Tag",
+    "pk": 6,
+    "fields": { "name": { "en": "Fun-loving", "es": "Amante de la diversión" } }
+  },
+  {
+    "model": "animals.Tag",
+    "pk": 7,
+    "fields": { "name": { "en": "Aloof", "es": "Arisco" } }
+  },
+  {
+    "model": "animals.Tag",
+    "pk": 8,
+    "fields": { "name": { "en": "Clownish", "es": "Alocado" } }
+  },
+  {
+    "model": "animals.Tag",
+    "pk": 9,
+    "fields": { "name": { "en": "Dignified", "es": "Digno" } }
+  },
+  {
+    "model": "animals.Tag",
+    "pk": 10,
+    "fields": { "name": { "en": "Independent", "es": "Independiente" } }
+  },
+  {
+    "model": "animals.Tag",
+    "pk": 11,
+    "fields": { "name": { "en": "Happy", "es": "Feliz" } }
+  },
+  {
+    "model": "animals.Tag",
+    "pk": 12,
+    "fields": { "name": { "en": "Wild", "es": "Salvaje" } }
+  },
+  {
+    "model": "animals.Tag",
+    "pk": 13,
+    "fields": { "name": { "en": "Hardworking", "es": "Trabajador" } }
+  },
+  {
+    "model": "animals.Tag",
+    "pk": 14,
+    "fields": { "name": { "en": "Dutiful", "es": "Obediente" } }
+  },
+  {
+    "model": "animals.Tag",
+    "pk": 15,
+    "fields": { "name": { "en": "Outgoing", "es": "Extrovertido" } }
+  },
+  {
+    "model": "animals.Tag",
+    "pk": 16,
+    "fields": { "name": { "en": "Friendly", "es": "Amigable" } }
+  },
+  {
+    "model": "animals.Tag",
+    "pk": 17,
+    "fields": { "name": { "en": "Alert", "es": "Despierto" } }
+  },
+  {
+    "model": "animals.Tag",
+    "pk": 18,
+    "fields": { "name": { "en": "Confident", "es": "Seguro" } }
+  },
+  {
+    "model": "animals.Tag",
+    "pk": 19,
+    "fields": { "name": { "en": "Intelligent", "es": "Inteligente" } }
+  },
+  {
+    "model": "animals.Tag",
+    "pk": 20,
+    "fields": { "name": { "en": "Courageous", "es": "Valiente" } }
+  },
+  {
+    "model": "animals.Tag",
+    "pk": 21,
+    "fields": { "name": { "en": "Loyal", "es": "Leal" } }
+  },
+  {
+    "model": "animals.Tag",
+    "pk": 22,
+    "fields": { "name": { "en": "Brave", "es": "Envalentonado" } }
+  },
+  {
+    "model": "animals.Tag",
+    "pk": 23,
+    "fields": { "name": { "en": "Docile", "es": "Dócil" } }
+  },
+  {
+    "model": "animals.Tag",
+    "pk": 24,
+    "fields": { "name": { "en": "Responsive", "es": "Sensible" } }
+  },
+  {
+    "model": "animals.Tag",
+    "pk": 25,
+    "fields": { "name": { "en": "Composed", "es": "Sereno" } }
+  },
+  {
+    "model": "animals.Tag",
+    "pk": 26,
+    "fields": { "name": { "en": "Receptive", "es": "Receptivo" } }
+  },
+  {
+    "model": "animals.Tag",
+    "pk": 27,
+    "fields": { "name": { "en": "Faithful", "es": "Fiel" } }
+  },
+  {
+    "model": "animals.Tag",
+    "pk": 28,
+    "fields": { "name": { "en": "Loving", "es": "Cariñoso" } }
+  },
+  {
+    "model": "animals.Tag",
+    "pk": 29,
+    "fields": { "name": { "en": "Protective", "es": "Protector" } }
+  },
+  {
+    "model": "animals.Tag",
+    "pk": 30,
+    "fields": { "name": { "en": "Trainable", "es": "Entrenable" } }
+  },
+  {
+    "model": "animals.Tag",
+    "pk": 31,
+    "fields": { "name": { "en": "Responsible", "es": "Responsable" } }
+  },
+  {
+    "model": "animals.Tag",
+    "pk": 32,
+    "fields": { "name": { "en": "Energetic", "es": "Energico" } }
+  },
+  {
+    "model": "animals.Tag",
+    "pk": 33,
+    "fields": { "name": { "en": "Gentle", "es": "Amable" } }
+  },
+  {
+    "model": "animals.Tag",
+    "pk": 34,
+    "fields": { "name": { "en": "Affectionate", "es": "Afectuoso" } }
+  },
+  {
+    "model": "animals.Tag",
+    "pk": 35,
+    "fields": { "name": { "en": "Devoted", "es": "Devoto" } }
+  },
+  {
+    "model": "animals.Tag",
+    "pk": 36,
+    "fields": { "name": { "en": "Assertive", "es": "Asertivo" } }
+  },
+  {
+    "model": "animals.Tag",
+    "pk": 37,
+    "fields": { "name": { "en": "Dominant", "es": "Dominante" } }
+  },
+  {
+    "model": "animals.Tag",
+    "pk": 38,
+    "fields": { "name": { "en": "Strong Willed", "es": "Tozudo" } }
+  },
+  {
+    "model": "animals.Tag",
+    "pk": 39,
+    "fields": { "name": { "en": "Reserved", "es": "Reservado" } }
+  },
+  {
+    "model": "animals.Tag",
+    "pk": 40,
+    "fields": { "name": { "en": "Sweet-Tempered", "es": "Afable" } }
+  },
+  {
+    "model": "animals.Tag",
+    "pk": 42,
+    "fields": { "name": { "en": "Tenacious", "es": "Tenaz" } }
+  },
+  {
+    "model": "animals.Tag",
+    "pk": 42,
+    "fields": { "name": { "en": "Attentive", "es": "Atento" } }
+  },
+  {
+    "model": "animals.Tag",
+    "pk": 43,
+    "fields": { "name": { "en": "Steady", "es": "Constante" } }
+  },
+  {
+    "model": "animals.Tag",
+    "pk": 44,
+    "fields": { "name": { "en": "Bold", "es": "Audaz" } }
+  },
+  {
+    "model": "animals.Tag",
+    "pk": 45,
+    "fields": { "name": { "en": "Proud", "es": "Orgulloso" } }
+  },
+  {
+    "model": "animals.Tag",
+    "pk": 46,
+    "fields": { "name": { "en": "Reliable", "es": "Confiable" } }
+  },
+  {
+    "model": "animals.Tag",
+    "pk": 47,
+    "fields": { "name": { "en": "Fearless", "es": "Sin miedo" } }
+  },
+  {
+    "model": "animals.Tag",
+    "pk": 48,
+    "fields": { "name": { "en": "Lively", "es": "Vividor" } }
+  },
+  {
+    "model": "animals.Tag",
+    "pk": 49,
+    "fields": { "name": { "en": "Self-assured", "es": "Seguro de si mismo" } }
+  },
+  {
+    "model": "animals.Tag",
+    "pk": 50,
+    "fields": { "name": { "en": "Social", "es": "Sociable" } }
+  },
+  {
+    "model": "animals.Tag",
+    "pk": 51,
+    "fields": { "name": { "en": "Interactive", "es": "Interactivo" } }
+  },
+  {
+    "model": "animals.Tag",
+    "pk": 52,
+    "fields": { "name": { "en": "Sensitive", "es": "Sensitivo" } }
+  },
+  {
+    "model": "animals.Tag",
+    "pk": 53,
+    "fields": { "name": { "en": "Easy Going", "es": "Fácil de tratar" } }
+  },
+  {
+    "model": "animals.Tag",
+    "pk": 54,
+    "fields": { "name": { "en": "Calm", "es": "Calmado" } }
+  },
+  {
+    "model": "animals.Tag",
+    "pk": 55,
+    "fields": { "name": { "en": "Agile", "es": "Ágil" } }
+  },
+  {
+    "model": "animals.Tag",
+    "pk": 56,
+    "fields": { "name": { "en": "Relaxed", "es": "Relajado" } }
+  },
+  {
+    "model": "animals.Tag",
+    "pk": 57,
+    "fields": { "name": { "en": "Demanding", "es": "Exigente" } }
+  },
+  {
+    "model": "animals.Tag",
+    "pk": 58,
+    "fields": { "name": { "en": "Dependent", "es": "Dependiente" } }
+  },
+  {
+    "model": "animals.Tag",
+    "pk": 59,
+    "fields": { "name": { "en": "Patient", "es": "Paciente" } }
+  },
+  {
+    "model": "animals.Tag",
+    "pk": 60,
+    "fields": { "name": { "en": "Highly interactive", "es": "Altamente interactivo" } }
+  },
+  {
+    "model": "animals.Tag",
+    "pk": 61,
+    "fields": { "name": { "en": "Mischievous", "es": "Travieso" } }
+  },
+  {
+    "model": "animals.Tag",
+    "pk": 62,
+    "fields": { "name": { "en": "Sweet", "es": "Dulce" } }
+  },
+  {
+    "model": "animals.Tag",
+    "pk": 63,
+    "fields": { "name": { "en": "Quiet", "es": "Callado" } }
+  },
+  {
+    "model": "animals.Tag",
+    "pk": 64,
+    "fields": { "name": { "en": "Peaceful", "es": "Tranquilo" } }
+  },
+  {
+    "model": "animals.Tag",
+    "pk": 65,
+    "fields": { "name": { "en": "Clever", "es": "Listo" } }
+  },
+  {
+    "model": "animals.Tag",
+    "pk": 66,
+    "fields": { "name": { "en": "Talkative", "es": "Ladrador" } }
+  },
+  {
+    "model": "animals.Tag",
+    "pk": 67,
+    "fields": { "name": { "en": "Warm", "es": "Acogedor" } }
+  },
+  {
+    "model": "animals.Tag",
+    "pk": 68,
+    "fields": { "name": { "en": "highly intelligent", "es": "Muy inteligente" } }
+  },
+  {
+    "model": "animals.Tag",
+    "pk": 69,
+    "fields": { "name": { "en": "Expressive", "es": "Expresivo" } }
+  },
+  {
+    "model": "animals.Tag",
+    "pk": 70,
+    "fields": { "name": { "en": "Adaptable", "es": "Adaptable" } }
+  },
+  {
+    "model": "animals.Tag",
+    "pk": 71,
+    "fields": { "name": { "en": "Shy", "es": "Vergonzoso" } }
+  }
+]

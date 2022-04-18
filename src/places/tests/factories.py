@@ -18,7 +18,7 @@ class CountryFactory(factory.django.DjangoModelFactory):
     alpha3 = 'ESP'
     numeric = 724
     phone_prefix = '34'
-    name = 'Spain'
+    name = dict(en='Spain')
     locale = 'es_es'
     currency = factory.SubFactory(CurrencyFactory)
 
@@ -30,7 +30,7 @@ class CountryFactory(factory.django.DjangoModelFactory):
 class RegionFactory(factory.django.DjangoModelFactory):
 
     code = 1
-    name = 'Andalucia'
+    name = dict(en='Andalucia')
     country = factory.SubFactory(CountryFactory)
 
     class Meta:
@@ -41,7 +41,7 @@ class RegionFactory(factory.django.DjangoModelFactory):
 class ProvinceFactory(factory.django.DjangoModelFactory):
 
     code = "11"
-    name = 'Cadiz'
+    name = dict(en='Cadiz')
     region = factory.SubFactory(RegionFactory)
 
     class Meta:
@@ -52,7 +52,7 @@ class ProvinceFactory(factory.django.DjangoModelFactory):
 class CityFactory(factory.django.DjangoModelFactory):
 
     code = 21
-    name = 'Jimena de la frontera'
+    name = dict(en='Jimena de la frontera')
     province = factory.SubFactory(ProvinceFactory)
 
     class Meta:

@@ -3,171 +3,180 @@
     "model": "places.region",
     "pk": 1,
     "fields": {
+      "name": { "en": "Comunidad de Madrid", "es": "Comunidad de Madrid" },
       "country": 90,
-      "code": 13,
-      "name": "Comunidad de Madrid"
+      "code": 13
     }
   },
   {
     "model": "places.region",
     "pk": 2,
     "fields": {
+      "name": { "en": "Castilla y Le\\u00f3n", "es": "Castilla y Le\\u00f3n" },
       "country": 90,
-      "code": 7,
-      "name": "Castilla y Le\u00f3n"
+      "code": 7
     }
   },
   {
     "model": "places.region",
     "pk": 3,
     "fields": {
+      "name": { "en": "Andaluc\\u00eda", "es": "Andaluc\\u00eda" },
       "country": 90,
-      "code": 1,
-      "name": "Andaluc\u00eda"
+      "code": 1
     }
   },
   {
     "model": "places.region",
     "pk": 4,
     "fields": {
+      "name": { "en": "Extremadura", "es": "Extremadura" },
       "country": 90,
-      "code": 11,
-      "name": "Extremadura"
+      "code": 11
     }
   },
   {
     "model": "places.region",
     "pk": 5,
     "fields": {
+      "name": { "en": "Catalu\\u00f1a", "es": "Catalu\\u00f1a" },
       "country": 90,
-      "code": 9,
-      "name": "Catalu\u00f1a"
+      "code": 9
     }
   },
   {
     "model": "places.region",
     "pk": 6,
     "fields": {
+      "name": { "en": "Arag\\u00f3n", "es": "Arag\\u00f3n" },
       "country": 90,
-      "code": 2,
-      "name": "Arag\u00f3n"
+      "code": 2
     }
   },
   {
     "model": "places.region",
     "pk": 7,
     "fields": {
+      "name": { "en": "Comunitat Valenciana", "es": "Comunitat Valenciana" },
       "country": 90,
-      "code": 10,
-      "name": "Comunitat Valenciana"
+      "code": 10
     }
   },
   {
     "model": "places.region",
     "pk": 8,
     "fields": {
+      "name": { "en": "Castilla - La Mancha", "es": "Castilla - La Mancha" },
       "country": 90,
-      "code": 8,
-      "name": "Castilla - La Mancha"
+      "code": 8
     }
   },
   {
     "model": "places.region",
     "pk": 9,
     "fields": {
+      "name": { "en": "Canarias", "es": "Canarias" },
       "country": 90,
-      "code": 5,
-      "name": "Canarias"
+      "code": 5
     }
   },
   {
     "model": "places.region",
     "pk": 10,
     "fields": {
+      "name": { "en": "Illes Balears", "es": "Illes Balears" },
       "country": 90,
-      "code": 4,
-      "name": "Illes Balears"
+      "code": 4
     }
   },
   {
     "model": "places.region",
     "pk": 11,
     "fields": {
+      "name": { "en": "Galicia", "es": "Galicia" },
       "country": 90,
-      "code": 12,
-      "name": "Galicia"
+      "code": 12
     }
   },
   {
     "model": "places.region",
     "pk": 12,
     "fields": {
+      "name": {
+        "en": "Comunidad Foral de Navarra",
+        "es": "Comunidad Foral de Navarra"
+      },
       "country": 90,
-      "code": 15,
-      "name": "Comunidad Foral de Navarra"
+      "code": 15
     }
   },
   {
     "model": "places.region",
     "pk": 13,
     "fields": {
+      "name": { "en": "La Rioja", "es": "La Rioja" },
       "country": 90,
-      "code": 17,
-      "name": "La Rioja"
+      "code": 17
     }
   },
   {
     "model": "places.region",
     "pk": 14,
     "fields": {
+      "name": { "en": "Pa\\u00eds Vasco", "es": "Pa\\u00eds Vasco" },
       "country": 90,
-      "code": 16,
-      "name": "Pa\u00eds Vasco"
+      "code": 16
     }
   },
   {
     "model": "places.region",
     "pk": 15,
     "fields": {
+      "name": {
+        "en": "Regi\\u00f3n de Murcia",
+        "es": "Regi\\u00f3n de Murcia"
+      },
       "country": 90,
-      "code": 14,
-      "name": "Regi\u00f3n de Murcia"
+      "code": 14
     }
   },
   {
     "model": "places.region",
     "pk": 16,
     "fields": {
+      "name": {
+        "en": "Principado de Asturias",
+        "es": "Principado de Asturias"
+      },
       "country": 90,
-      "code": 3,
-      "name": "Principado de Asturias"
+      "code": 3
     }
   },
   {
     "model": "places.region",
     "pk": 17,
     "fields": {
+      "name": { "en": "Cantabria", "es": "Cantabria" },
       "country": 90,
-      "code": 6,
-      "name": "Cantabria"
+      "code": 6
     }
   },
   {
     "model": "places.region",
     "pk": 18,
     "fields": {
+      "name": { "en": "Ceuta", "es": "Ceuta" },
       "country": 90,
-      "code": 18,
-      "name": "Ceuta"
+      "code": 18
     }
   },
   {
     "model": "places.region",
     "pk": 19,
     "fields": {
+      "name": { "en": "Melilla", "es": "Melilla" },
       "country": 90,
-      "code": 19,
-      "name": "Melilla"
+      "code": 19
     }
   }
 ]
