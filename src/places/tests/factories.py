@@ -35,7 +35,7 @@ class RegionFactory(factory.django.DjangoModelFactory):
 
     class Meta:
         model = models.Region
-        django_get_or_create = ('code',)
+        django_get_or_create = ('code', 'country')
 
 
 class ProvinceFactory(factory.django.DjangoModelFactory):
@@ -46,7 +46,7 @@ class ProvinceFactory(factory.django.DjangoModelFactory):
 
     class Meta:
         model = models.Province
-        django_get_or_create = ('code',)
+        django_get_or_create = ('code', 'region')
 
 
 class CityFactory(factory.django.DjangoModelFactory):
@@ -57,4 +57,4 @@ class CityFactory(factory.django.DjangoModelFactory):
 
     class Meta:
         model = models.City
-        django_get_or_create = ('code',)
+        django_get_or_create = ('code', 'province')
