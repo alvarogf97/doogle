@@ -24,6 +24,7 @@ django-polymorphic = "^3.1.0"
 django-phonenumber-field = "^6.1.0"
 phonenumberslite = "^8.12.46"
 django-localized-fields = "^6.6"
+Pillow = "^9.1.0"
 
 [tool.poetry.dev-dependencies]
 factory-boy = "^3.2.1"

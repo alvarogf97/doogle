@@ -9,5 +9,7 @@ python manage.py loaddata \
     places/fixtures/countries.json \
     places/fixtures/regions.json \
     places/fixtures/provinces.json \
-    places/fixtures/cities.json
+    places/fixtures/cities.json \
+    animals/fixtures/tags.json \
+    animals/fixtures/breeds.json
 

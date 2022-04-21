@@ -11,17 +11,25 @@ class Tag(models.Model):
         null=True, blank=True, required=False,
         db_index=True, uniqueness=[*get_language_codes()])
 
+    def __str__(self):
+        return str(self.name)
+
 
 class Breed(PolymorphicModel):
     """Breed model object"""
+
+    class Magnitudes:
+        height = 'cm'
+        weight = 'kg'
+        life_span = 'years'
+
     name = LocalizedCharField(
         null=True, blank=True, required=False,
         db_index=True, uniqueness=[*get_language_codes()])
-
     weight = postgres_fields.IntegerRangeField(null=True, blank=True)
     life_span = postgres_fields.IntegerRangeField(null=True, blank=True)
-    origins = models.ManyToManyField('places.Country')
-    tags = models.ManyToManyField(Tag, related_name='breeds')
+    origins = models.ManyToManyField('places.Country', blank=True)
+    tags = models.ManyToManyField(Tag, related_name='breeds', blank=True)
 
     def __str__(self):
         return str(self.name)
@@ -51,18 +59,17 @@ class Animal(PolymorphicModel):
     description = LocalizedTextField(blank=True, null=True, required=False)
     shelter = models.ForeignKey(
         'shelters.Shelter', null=True, blank=True, on_delete=models.CASCADE)
-    breeds = models.ManyToManyField(Breed, related_name='animals')
 
     def __str__(self):
         return self.name
 
 
 class Dog(Animal):
-    pass
+    breeds = models.ManyToManyField(DogBreed, related_name='dogs', blank=True)
 
 
 class Cat(Animal):
-    pass
+    breeds = models.ManyToManyField(CatBreed, related_name='cats', blank=True)
 
 
 class Photo(models.Model):

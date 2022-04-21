@@ -3,6 +3,11 @@ from polymorphic.admin import PolymorphicParentModelAdmin, PolymorphicChildModel
 from animals import models
 
 
+@admin.register(models.Tag)
+class TagAdmin(admin.ModelAdmin):
+    pass
+
+
 class BaseAnimalAdmin(PolymorphicChildModelAdmin):
     base_model = models.Animal
 
