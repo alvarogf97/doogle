@@ -1,0 +1,5794 @@
+[
+  {
+    "model": "animals.Breed",
+    "pk": 1,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": { "en": "Affenpinscher", "es": "Affenpinscher" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"3\", \"upper\": \"6\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"10\", \"upper\": \"12\"}",
+      "origins": [187, 118],
+      "tags": [1, 2, 3, 4, 5, 6]
+    }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 2,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": { "en": "Afghan Hound", "es": "Lebrel Afgano" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"23\", \"upper\": \"27\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"10\", \"upper\": \"13\"}",
+      "origins": [67, 222, 73],
+      "tags": [7, 8, 9, 10, 11]
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 2,
+    "fields": { "height": "{\"bounds\": \"[)\", \"lower\": \"64\", \"upper\": \"69\"}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 3,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": { "en": "African Hunting Dog", "es": "lica\u00f3n" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"20\", \"upper\": \"30\"}",
+      "life_span": "{\"bounds\": \"()\", \"lower\": null, \"upper\": \"11\"}",
+      "origins": [],
+      "tags": [12, 13, 14]
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 3,
+    "fields": { "height": "{\"bounds\": \"()\", \"lower\": null, \"upper\": \"76\"}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 4,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": { "en": "Airedale Terrier", "es": "Airedale terrier" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"18\", \"upper\": \"29\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"10\", \"upper\": \"13\"}",
+      "origins": [46],
+      "tags": [15, 16, 17, 18, 19, 20]
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 4,
+    "fields": { "height": "{\"bounds\": \"[)\", \"lower\": \"53\", \"upper\": \"58\"}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 5,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": { "en": "Akbash Dog", "es": "Akbash" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"41\", \"upper\": \"54\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"10\", \"upper\": \"12\"}",
+      "origins": [],
+      "tags": [21, 10, 19, 22]
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 5,
+    "fields": { "height": "{\"bounds\": \"[)\", \"lower\": \"71\", \"upper\": \"86\"}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 6,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": { "en": "Akita", "es": "Akita inu" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"29\", \"upper\": \"52\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"10\", \"upper\": \"14\"}",
+      "origins": [],
+      "tags": [23, 17, 24, 9, 25, 16, 26, 27, 20]
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 6,
+    "fields": { "height": "{\"bounds\": \"[)\", \"lower\": \"61\", \"upper\": \"71\"}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 7,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": {
+        "en": "Alapaha Blue Blood Bulldog",
+        "es": "Bulldog Alapaha de sangre azul"
+      },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"25\", \"upper\": \"41\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"12\", \"upper\": \"13\"}",
+      "origins": [],
+      "tags": [28, 29, 30, 14, 31]
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 7,
+    "fields": { "height": "{\"bounds\": \"[)\", \"lower\": \"46\", \"upper\": \"61\"}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 8,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": { "en": "Alaskan Husky", "es": "Husky de Alaska" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"17\", \"upper\": \"23\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"10\", \"upper\": \"13\"}",
+      "origins": [],
+      "tags": [16, 32, 21, 33, 18]
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 8,
+    "fields": { "height": "{\"bounds\": \"[)\", \"lower\": \"58\", \"upper\": \"66\"}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 9,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": { "en": "Alaskan Malamute", "es": "Malamute de Alaska" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"29\", \"upper\": \"45\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"12\", \"upper\": \"15\"}",
+      "origins": [],
+      "tags": [16, 34, 35, 21, 9, 3]
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 9,
+    "fields": { "height": "{\"bounds\": \"[)\", \"lower\": \"58\", \"upper\": \"64\"}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 10,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": { "en": "American Bulldog", "es": "Bulldog de Am\u00e9rica" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"27\", \"upper\": \"54\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"10\", \"upper\": \"12\"}",
+      "origins": [],
+      "tags": [16, 36, 32, 21, 33, 18, 37]
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 10,
+    "fields": { "height": "{\"bounds\": \"[)\", \"lower\": \"56\", \"upper\": \"69\"}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 11,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": { "en": "American Bully", "es": "Mat\u00f2n Americano" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"14\", \"upper\": \"68\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"8\", \"upper\": \"15\"}",
+      "origins": [],
+      "tags": [38, 1, 16, 8, 34, 21, 19, 20]
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 11,
+    "fields": { "height": "{\"bounds\": \"[)\", \"lower\": \"36\", \"upper\": \"43\"}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 12,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": { "en": "American Eskimo Dog", "es": "Perro esquimal americano" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"9\", \"upper\": \"18\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"12\", \"upper\": \"15\"}",
+      "origins": [],
+      "tags": [16, 17, 39, 19, 29]
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 12,
+    "fields": { "height": "{\"bounds\": \"[)\", \"lower\": \"38\", \"upper\": \"48\"}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 13,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": {
+        "en": "American Eskimo Dog (Miniature)",
+        "es": "Perro esquimal americano (Enano)"
+      },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"3\", \"upper\": \"5\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"13\", \"upper\": \"15\"}",
+      "origins": [],
+      "tags": [16, 17, 39, 19, 29]
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 13,
+    "fields": { "height": "{\"bounds\": \"[)\", \"lower\": \"23\", \"upper\": \"30\"}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 14,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": { "en": "American Foxhound", "es": "Perro de presa americano" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"29\", \"upper\": \"34\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"8\", \"upper\": \"15\"}",
+      "origins": [],
+      "tags": [40, 21, 10, 19, 28]
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 14,
+    "fields": { "height": "{\"bounds\": \"[)\", \"lower\": \"53\", \"upper\": \"71\"}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 15,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": {
+        "en": "American Pit Bull Terrier",
+        "es": "Pit bull terrier americano"
+      },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"14\", \"upper\": \"27\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"10\", \"upper\": \"15\"}",
+      "origins": [],
+      "tags": [38, 1, 16, 8, 34, 21, 19, 20]
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 15,
+    "fields": { "height": "{\"bounds\": \"[)\", \"lower\": \"43\", \"upper\": \"53\"}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 16,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": {
+        "en": "American Staffordshire Terrier",
+        "es": "Staffordshire terrier americano"
+      },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"23\", \"upper\": \"27\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"12\", \"upper\": \"15\"}",
+      "origins": [],
+      "tags": [42, 16, 35, 21, 42, 20]
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 16,
+    "fields": { "height": "{\"bounds\": \"[)\", \"lower\": \"43\", \"upper\": \"48\"}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 17,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": {
+        "en": "American Water Spaniel",
+        "es": "Perro de agua americano"
+      },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"11\", \"upper\": \"20\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"10\", \"upper\": \"12\"}",
+      "origins": [],
+      "tags": [16, 32, 19, 29, 30]
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 17,
+    "fields": { "height": "{\"bounds\": \"[)\", \"lower\": \"38\", \"upper\": \"46\"}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 18,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": { "en": "Anatolian Shepherd Dog", "es": "Pastor de Anatolia" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"36\", \"upper\": \"68\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"11\", \"upper\": \"13\"}",
+      "origins": [],
+      "tags": [43, 44, 10, 18, 19, 45]
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 18,
+    "fields": { "height": "{\"bounds\": \"[)\", \"lower\": \"69\", \"upper\": \"74\"}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 19,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": { "en": "Appenzeller Sennenhund", "es": "Boyero de Appenzell" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"22\", \"upper\": \"25\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"12\", \"upper\": \"14\"}",
+      "origins": [],
+      "tags": [46, 47, 32, 48, 49]
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 19,
+    "fields": { "height": "{\"bounds\": \"[)\", \"lower\": \"51\", \"upper\": \"56\"}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 20,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": { "en": "Aussiedoodle", "es": "Caniche australiano" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"11\", \"upper\": \"32\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"10\", \"upper\": \"12\"}",
+      "origins": [],
+      "tags": []
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 20,
+    "fields": { "height": "{\"bounds\": \"()\", \"lower\": null, \"upper\": null}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 21,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": {
+        "en": "Australian Cattle Dog",
+        "es": "Pastor ganadero australiano"
+      },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"20\", \"upper\": \"28\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"12\", \"upper\": \"14\"}",
+      "origins": [],
+      "tags": [32, 21, 29, 22]
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 21,
+    "fields": { "height": "{\"bounds\": \"[)\", \"lower\": \"43\", \"upper\": \"51\"}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 22,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": { "en": "Australian Kelpie", "es": "Kelpie australiano" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"14\", \"upper\": \"21\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"10\", \"upper\": \"13\"}",
+      "origins": [],
+      "tags": [16, 32, 17, 21, 19]
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 22,
+    "fields": { "height": "{\"bounds\": \"[)\", \"lower\": \"43\", \"upper\": \"51\"}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 23,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": {
+        "en": "Australian Shepherd",
+        "es": "Pastor ovejero australiano"
+      },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"16\", \"upper\": \"29\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"12\", \"upper\": \"16\"}",
+      "origins": [],
+      "tags": [34, 19, 5, 29]
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 23,
+    "fields": { "height": "{\"bounds\": \"[)\", \"lower\": \"46\", \"upper\": \"58\"}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 24,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": { "en": "Australian Terrier", "es": "Terrier australiano" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"6\", \"upper\": \"7\"}",
+      "life_span": "{\"bounds\": \"()\", \"lower\": null, \"upper\": \"15\"}",
+      "origins": [],
+      "tags": [17, 21, 20]
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 24,
+    "fields": { "height": "{\"bounds\": \"[)\", \"lower\": \"25\", \"upper\": \"28\"}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 25,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": { "en": "Azawakh", "es": "Galgo africano" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"15\", \"upper\": \"25\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"10\", \"upper\": \"13\"}",
+      "origins": [],
+      "tags": [7, 34, 42]
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 25,
+    "fields": { "height": "{\"bounds\": \"[)\", \"lower\": \"58\", \"upper\": \"74\"}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 26,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": { "en": "Barbet", "es": "Barbet franc\u00e9s" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"18\", \"upper\": \"29\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"13\", \"upper\": \"15\"}",
+      "origins": [],
+      "tags": [19]
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 26,
+    "fields": { "height": "{\"bounds\": \"[)\", \"lower\": \"51\", \"upper\": \"66\"}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 27,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": { "en": "Bassador", "es": "Bassador" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"23\", \"upper\": \"32\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"10\", \"upper\": \"12\"}",
+      "origins": [],
+      "tags": []
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 27,
+    "fields": { "height": "{\"bounds\": \"()\", \"lower\": null, \"upper\": null}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 28,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": { "en": "Basenji", "es": "Basenji" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"10\", \"upper\": \"11\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"10\", \"upper\": \"12\"}",
+      "origins": [],
+      "tags": [34, 32, 17, 2, 3, 19]
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 28,
+    "fields": { "height": "{\"bounds\": \"[)\", \"lower\": \"41\", \"upper\": \"43\"}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 29,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": {
+        "en": "Basset Bleu de Gascogne",
+        "es": "Basset azul de Gascu\u00f1a"
+      },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"16\", \"upper\": \"18\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"10\", \"upper\": \"14\"}",
+      "origins": [],
+      "tags": [34, 48, 55, 2, 11, 5]
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 29,
+    "fields": { "height": "{\"bounds\": \"[)\", \"lower\": \"33\", \"upper\": \"38\"}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 30,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": { "en": "Basset Hound", "es": "Sabueso franc\u00e9s" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"23\", \"upper\": \"29\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"12\", \"upper\": \"15\"}",
+      "origins": [],
+      "tags": [42, 16, 34, 35, 40, 33]
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 30,
+    "fields": { "height": "{\"bounds\": \"()\", \"lower\": null, \"upper\": \"36\"}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 31,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": { "en": "Beagle", "es": "Beagle" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"9\", \"upper\": \"16\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"13\", \"upper\": \"16\"}",
+      "origins": [],
+      "tags": [33, 19]
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 31,
+    "fields": { "height": "{\"bounds\": \"[)\", \"lower\": \"33\", \"upper\": \"38\"}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 32,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": { "en": "Bearded Collie", "es": "Collie Barbudo" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"20\", \"upper\": \"25\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"12\", \"upper\": \"14\"}",
+      "origins": [],
+      "tags": [48, 17, 19, 5]
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 32,
+    "fields": { "height": "{\"bounds\": \"[)\", \"lower\": \"51\", \"upper\": \"56\"}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 33,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": { "en": "Beauceron", "es": "Beauceron" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"36\", \"upper\": \"50\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"10\", \"upper\": \"12\"}",
+      "origins": [],
+      "tags": [47, 16, 19, 29, 54]
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 33,
+    "fields": { "height": "{\"bounds\": \"[)\", \"lower\": \"61\", \"upper\": \"70\"}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 34,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": { "en": "Bedlington Terrier", "es": "Terrier de bedlington" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"8\", \"upper\": \"10\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"14\", \"upper\": \"16\"}",
+      "origins": [],
+      "tags": [34, 19]
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 34,
+    "fields": { "height": "{\"bounds\": \"[)\", \"lower\": \"38\", \"upper\": \"41\"}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 35,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": { "en": "Belgian Laekenois", "es": "Pastor belga lakenois" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"20\", \"upper\": \"29\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"10\", \"upper\": \"12\"}",
+      "origins": [],
+      "tags": [32, 48, 17, 5, 29]
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 35,
+    "fields": { "height": "{\"bounds\": \"[)\", \"lower\": \"56\", \"upper\": \"66\"}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 36,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": { "en": "Belgian Malinois", "es": "Pastor belga Malinois" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"18\", \"upper\": \"36\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"12\", \"upper\": \"14\"}",
+      "origins": [],
+      "tags": [17, 1, 16, 18, 5, 29]
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 36,
+    "fields": { "height": "{\"bounds\": \"[)\", \"lower\": \"56\", \"upper\": \"66\"}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 37,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": { "en": "Belgian Sheepdog", "es": "Pastor belga" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"18\", \"upper\": \"34\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"12\", \"upper\": \"14\"}",
+      "origins": [],
+      "tags": [34, 21, 19, 37, 5]
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 37,
+    "fields": { "height": "{\"bounds\": \"[)\", \"lower\": \"56\", \"upper\": \"66\"}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 38,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": { "en": "Belgian Tervuren", "es": "Pastor belga Tervuren" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"18\", \"upper\": \"29\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"10\", \"upper\": \"12\"}",
+      "origins": [],
+      "tags": [32, 17, 21, 19, 42, 29]
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 38,
+    "fields": { "height": "{\"bounds\": \"[)\", \"lower\": \"56\", \"upper\": \"66\"}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 39,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": { "en": "Bergamasco", "es": "Bergamasco" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"25\", \"upper\": \"39\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"13\", \"upper\": \"15\"}",
+      "origins": [],
+      "tags": [59, 19]
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 39,
+    "fields": { "height": "{\"bounds\": \"[)\", \"lower\": \"56\", \"upper\": \"60\"}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 40,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": { "en": "Berger Picard", "es": "Pastor de picardia" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"25\", \"upper\": \"32\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"12\", \"upper\": \"15\"}",
+      "origins": [],
+      "tags": [1, 36, 32, 48, 19]
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 40,
+    "fields": { "height": "{\"bounds\": \"[)\", \"lower\": \"55\", \"upper\": \"65\"}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 41,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": { "en": "Bernese Mountain Dog", "es": "Boyero de berna" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"29\", \"upper\": \"54\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"7\", \"upper\": \"10\"}",
+      "origins": [],
+      "tags": [34, 21, 19, 27]
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 41,
+    "fields": { "height": "{\"bounds\": \"[)\", \"lower\": \"58\", \"upper\": \"70\"}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 42,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": { "en": "Bichon Frise", "es": "Bich\u00f3n Frise" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"5\", \"upper\": \"8\"}",
+      "life_span": "{\"bounds\": \"()\", \"lower\": null, \"upper\": \"15\"}",
+      "origins": [],
+      "tags": [34, 3, 33, 52]
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 42,
+    "fields": { "height": "{\"bounds\": \"[)\", \"lower\": \"24\", \"upper\": \"29\"}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 43,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": { "en": "Black and Tan Coonhound", "es": "Coonhound negro" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"29\", \"upper\": \"45\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"10\", \"upper\": \"12\"}",
+      "origins": [],
+      "tags": [33, 70]
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 43,
+    "fields": { "height": "{\"bounds\": \"[)\", \"lower\": \"58\", \"upper\": \"69\"}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 44,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": { "en": "Black Russian Terrier", "es": "Terrier ruso negro" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"36\", \"upper\": \"66\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"10\", \"upper\": \"11\"}",
+      "origins": [],
+      "tags": [32, 48, 18, 22]
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 44,
+    "fields": { "height": "{\"bounds\": \"[)\", \"lower\": \"66\", \"upper\": \"76\"}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 45,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": { "en": "Bloodhound", "es": "Sabueso de honolul\u00fa" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"36\", \"upper\": \"50\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"8\", \"upper\": \"10\"}",
+      "origins": [],
+      "tags": [1, 34, 33]
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 45,
+    "fields": { "height": "{\"bounds\": \"[)\", \"lower\": \"58\", \"upper\": \"69\"}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 46,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": { "en": "Blue Picardy Spaniel", "es": "Spaniel picardo" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"25\", \"upper\": \"32\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"9\", \"upper\": \"13\"}",
+      "origins": [],
+      "tags": [3, 33, 70, 5, 29, 54]
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 46,
+    "fields": { "height": "{\"bounds\": \"[)\", \"lower\": \"56\", \"upper\": \"61\"}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 47,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": {
+        "en": "Bluetick Coonhound",
+        "es": "Coonhound cazador de mapaches"
+      },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"20\", \"upper\": \"36\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"12\", \"upper\": \"14\"}",
+      "origins": [],
+      "tags": [16, 19, 5]
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 47,
+    "fields": { "height": "{\"bounds\": \"[)\", \"lower\": \"53\", \"upper\": \"69\"}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 48,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": { "en": "Boerboel", "es": "Boerboel" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"50\", \"upper\": \"91\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"10\", \"upper\": \"12\"}",
+      "origins": [],
+      "tags": [18, 19, 37]
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 48,
+    "fields": { "height": "{\"bounds\": \"[)\", \"lower\": \"56\", \"upper\": \"69\"}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 49,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": { "en": "Bolognese", "es": "Bich\u00f3n Bolo\u00f1es" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"3\", \"upper\": \"5\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"13\", \"upper\": \"15\"}",
+      "origins": [],
+      "tags": [23, 21, 39]
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 49,
+    "fields": { "height": "{\"bounds\": \"[)\", \"lower\": \"23\", \"upper\": \"30\"}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 50,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": { "en": "Border Collie", "es": "Border Collie" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"14\", \"upper\": \"20\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"12\", \"upper\": \"16\"}",
+      "origins": [],
+      "tags": [42, 32, 24, 17, 19]
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 50,
+    "fields": { "height": "{\"bounds\": \"[)\", \"lower\": \"46\", \"upper\": \"56\"}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 51,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": { "en": "Border Terrier", "es": "Border Terrier" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"5\", \"upper\": \"7\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"12\", \"upper\": \"14\"}",
+      "origins": [],
+      "tags": [47, 34, 17, 19]
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 51,
+    "fields": { "height": "{\"bounds\": \"[)\", \"lower\": \"28\", \"upper\": \"41\"}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 52,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": { "en": "Borzoi", "es": "Borzoi" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"25\", \"upper\": \"54\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"10\", \"upper\": \"13\"}",
+      "origins": [],
+      "tags": [10, 33, 19, 63]
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 52,
+    "fields": { "height": "{\"bounds\": \"[)\", \"lower\": \"66\", \"upper\": \"71\"}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 53,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": { "en": "Boston Terrier", "es": "Terrier de Boston" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"5\", \"upper\": \"11\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"11\", \"upper\": \"13\"}",
+      "origins": [],
+      "tags": [16, 48, 19]
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 53,
+    "fields": { "height": "{\"bounds\": \"[)\", \"lower\": \"41\", \"upper\": \"43\"}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 54,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": { "en": "Bouvier des Flandres", "es": "Boyero de flandes" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"32\", \"upper\": \"50\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"10\", \"upper\": \"15\"}",
+      "origins": [],
+      "tags": [29, 21, 33, 19]
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 54,
+    "fields": { "height": "{\"bounds\": \"[)\", \"lower\": \"60\", \"upper\": \"70\"}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 55,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": { "en": "Boxer", "es": "Boxer" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"23\", \"upper\": \"32\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"8\", \"upper\": \"10\"}",
+      "origins": [],
+      "tags": [35, 47, 16, 32, 21, 3, 18, 19, 22, 54]
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 55,
+    "fields": { "height": "{\"bounds\": \"[)\", \"lower\": \"55\", \"upper\": \"64\"}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 56,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": { "en": "Boykin Spaniel", "es": "Cocker spaniel ingl\u00e8s" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"11\", \"upper\": \"18\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"10\", \"upper\": \"14\"}",
+      "origins": [],
+      "tags": [16, 32, 19, 30]
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 56,
+    "fields": { "height": "{\"bounds\": \"[)\", \"lower\": \"36\", \"upper\": \"46\"}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 57,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": { "en": "Bracco Italiano", "es": "Bracco italiano" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"25\", \"upper\": \"40\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"10\", \"upper\": \"12\"}",
+      "origins": [],
+      "tags": [1, 34, 21, 3, 30]
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 57,
+    "fields": { "height": "{\"bounds\": \"[)\", \"lower\": \"55\", \"upper\": \"67\"}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 58,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": { "en": "Briard", "es": "Pastor de Brie" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"32\", \"upper\": \"41\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"10\", \"upper\": \"12\"}",
+      "origins": [],
+      "tags": [47, 21, 19, 27, 29]
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 58,
+    "fields": { "height": "{\"bounds\": \"[)\", \"lower\": \"56\", \"upper\": \"69\"}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 59,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": { "en": "Brittany", "es": "Spaniel bret\u00f3n" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"14\", \"upper\": \"20\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"12\", \"upper\": \"14\"}",
+      "origins": [],
+      "tags": [55, 70, 19, 42, 11]
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 59,
+    "fields": { "height": "{\"bounds\": \"[)\", \"lower\": \"44\", \"upper\": \"52\"}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 60,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": { "en": "Brussels Griffon", "es": "Grif\u00f3n de bruselas" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"4\", \"upper\": \"5\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"12\", \"upper\": \"15\"}",
+      "origins": [],
+      "tags": [17, 52]
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 60,
+    "fields": { "height": "{\"bounds\": \"()\", \"lower\": null, \"upper\": \"25\"}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 61,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": { "en": "Bull Terrier", "es": "Bull terrier ingl\u00e9s" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"23\", \"upper\": \"32\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"10\", \"upper\": \"12\"}",
+      "origins": [],
+      "tags": [30, 29, 40, 5]
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 61,
+    "fields": { "height": "{\"bounds\": \"[)\", \"lower\": \"53\", \"upper\": \"56\"}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 62,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": {
+        "en": "Bull Terrier (Miniature)",
+        "es": "Bull terrier ingl\u00e9s (Miniatura)"
+      },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"11\", \"upper\": \"15\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"11\", \"upper\": \"14\"}",
+      "origins": [],
+      "tags": [30, 29, 40, 5]
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 62,
+    "fields": { "height": "{\"bounds\": \"[)\", \"lower\": \"25\", \"upper\": \"36\"}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 63,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": { "en": "Bulldog", "es": "Bulldog" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"18\", \"upper\": \"23\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"8\", \"upper\": \"10\"}",
+      "origins": [],
+      "tags": [23, 16]
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 63,
+    "fields": { "height": "{\"bounds\": \"[)\", \"lower\": \"30\", \"upper\": \"41\"}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 64,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": { "en": "Bullmastiff", "es": "Bullmastiff" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"45\", \"upper\": \"59\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"8\", \"upper\": \"12\"}",
+      "origins": [],
+      "tags": [23, 46, 35, 17, 21, 39, 28, 29, 54, 20]
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 64,
+    "fields": { "height": "{\"bounds\": \"[)\", \"lower\": \"61\", \"upper\": \"69\"}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 65,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": { "en": "Cairn Terrier", "es": "Terrier cairn escoc\u00e9s" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"6\", \"upper\": \"6\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"14\", \"upper\": \"15\"}",
+      "origins": [],
+      "tags": [47, 36, 19, 5]
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 65,
+    "fields": { "height": "{\"bounds\": \"[)\", \"lower\": \"23\", \"upper\": \"25\"}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 66,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": { "en": "Canaan Dog", "es": "Perro de Cana\u00e1n" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"16\", \"upper\": \"25\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"12\", \"upper\": \"14\"}",
+      "origins": [],
+      "tags": [35, 17, 19]
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 66,
+    "fields": { "height": "{\"bounds\": \"[)\", \"lower\": \"48\", \"upper\": \"61\"}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 67,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": { "en": "Cane Corso", "es": "Mast\u00ecn italiano" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"40\", \"upper\": \"54\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"10\", \"upper\": \"11\"}",
+      "origins": [],
+      "tags": [30, 39, 63, 54]
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 67,
+    "fields": { "height": "{\"bounds\": \"[)\", \"lower\": \"60\", \"upper\": \"70\"}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 68,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": {
+        "en": "Cardigan Welsh Corgi",
+        "es": "Corgi gal\u00e9s de Cardigan"
+      },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"11\", \"upper\": \"17\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"12\", \"upper\": \"14\"}",
+      "origins": [],
+      "tags": [34, 35, 17, 19, 5]
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 68,
+    "fields": { "height": "{\"bounds\": \"[)\", \"lower\": \"27\", \"upper\": \"32\"}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 69,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": {
+        "en": "Catahoula Leopard Dog",
+        "es": "Perro leopardo de am\u00e9rica"
+      },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"23\", \"upper\": \"43\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"10\", \"upper\": \"12\"}",
+      "origins": [],
+      "tags": [32, 10, 33, 19, 28]
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 69,
+    "fields": { "height": "{\"bounds\": \"[)\", \"lower\": \"51\", \"upper\": \"66\"}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 70,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": {
+        "en": "Caucasian Shepherd (Ovcharka)",
+        "es": "Pastor cauc\u00e1sico"
+      },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"36\", \"upper\": \"45\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"10\", \"upper\": \"12\"}",
+      "origins": [],
+      "tags": [17, 37, 54]
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 70,
+    "fields": { "height": "{\"bounds\": \"[)\", \"lower\": \"61\", \"upper\": \"85\"}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 71,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": {
+        "en": "Cavalier King Charles Spaniel",
+        "es": "Cavalier King Charles Spaniel"
+      },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"6\", \"upper\": \"8\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"10\", \"upper\": \"14\"}",
+      "origins": [],
+      "tags": [47, 34, 59, 3, 70]
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 71,
+    "fields": { "height": "{\"bounds\": \"[)\", \"lower\": \"30\", \"upper\": \"33\"}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 72,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": { "en": "Cavapom", "es": "Cavapom" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"4\", \"upper\": \"9\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"10\", \"upper\": \"12\"}",
+      "origins": [],
+      "tags": []
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 72,
+    "fields": { "height": "{\"bounds\": \"()\", \"lower\": null, \"upper\": null}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 73,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": { "en": "Cavapoo", "es": "Cavapoo" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"5\", \"upper\": \"11\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"10\", \"upper\": \"15\"}",
+      "origins": [],
+      "tags": [16, 34, 21, 3]
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 73,
+    "fields": { "height": "{\"bounds\": \"()\", \"lower\": null, \"upper\": null}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 74,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": { "en": "Cesky Terrier", "es": "Terrier checo" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"6\", \"upper\": \"11\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"10\", \"upper\": \"15\"}",
+      "origins": [],
+      "tags": [39, 63, 30, 54]
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 74,
+    "fields": { "height": "{\"bounds\": \"[)\", \"lower\": \"25\", \"upper\": \"33\"}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 75,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": { "en": "Chart Polski", "es": "Lebrel polaco" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"29\", \"upper\": \"43\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"10\", \"upper\": \"13\"}",
+      "origins": [],
+      "tags": [39, 18, 49, 22]
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 75,
+    "fields": { "height": "{\"bounds\": \"[)\", \"lower\": \"67\", \"upper\": \"80\"}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 76,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": {
+        "en": "Chesapeake Bay Retriever",
+        "es": "Retriever de Chesapeake"
+      },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"25\", \"upper\": \"36\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"10\", \"upper\": \"13\"}",
+      "origins": [],
+      "tags": [34, 19, 63, 37, 11, 29]
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 76,
+    "fields": { "height": "{\"bounds\": \"[)\", \"lower\": \"53\", \"upper\": \"66\"}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 77,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": { "en": "Chihuahua", "es": "Chihuahua" },
+      "weight": "{\"bounds\": \"()\", \"lower\": null, \"upper\": \"3\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"12\", \"upper\": \"20\"}",
+      "origins": [],
+      "tags": [35, 48, 17, 20]
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 77,
+    "fields": { "height": "{\"bounds\": \"()\", \"lower\": null, \"upper\": \"13\"}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 78,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": { "en": "Chinese Crested", "es": "Crestado chino" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"5\", \"upper\": \"6\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"10\", \"upper\": \"14\"}",
+      "origins": [],
+      "tags": [34, 40, 48, 17, 3, 11]
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 78,
+    "fields": { "height": "{\"bounds\": \"[)\", \"lower\": \"28\", \"upper\": \"33\"}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 79,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": { "en": "Chinese Shar-Pei", "es": "Shar-Pei" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"20\", \"upper\": \"27\"}",
+      "life_span": "{\"bounds\": \"()\", \"lower\": null, \"upper\": \"10\"}",
+      "origins": [],
+      "tags": [34, 35, 39, 10, 28]
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 79,
+    "fields": { "height": "{\"bounds\": \"[)\", \"lower\": \"46\", \"upper\": \"51\"}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 80,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": { "en": "Chinook", "es": "Chinook" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"23\", \"upper\": \"41\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"12\", \"upper\": \"15\"}",
+      "origins": [],
+      "tags": [16, 17, 9, 19, 54]
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 80,
+    "fields": { "height": "{\"bounds\": \"[)\", \"lower\": \"56\", \"upper\": \"66\"}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 81,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": { "en": "Chow Chow", "es": "Chow Chow" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"18\", \"upper\": \"32\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"12\", \"upper\": \"15\"}",
+      "origins": [],
+      "tags": [7, 21, 10, 63]
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 81,
+    "fields": { "height": "{\"bounds\": \"[)\", \"lower\": \"43\", \"upper\": \"51\"}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 82,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": { "en": "Chug", "es": "Chug" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"5\", \"upper\": \"9\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"10\", \"upper\": \"13\"}",
+      "origins": [],
+      "tags": []
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 82,
+    "fields": { "height": "{\"bounds\": \"()\", \"lower\": null, \"upper\": null}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 83,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": { "en": "Cirneco dell\"Etna", "es": "Cinerco del etna" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"8\", \"upper\": \"12\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"12\", \"upper\": \"14\"}",
+      "origins": [],
+      "tags": [34, 33]
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 83,
+    "fields": { "height": "{\"bounds\": \"[)\", \"lower\": \"42\", \"upper\": \"50\"}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 84,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": { "en": "Clumber Spaniel", "es": "Clumber Spaniel" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"25\", \"upper\": \"39\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"10\", \"upper\": \"12\"}",
+      "origins": [],
+      "tags": [34, 21, 9, 33, 54]
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 84,
+    "fields": { "height": "{\"bounds\": \"[)\", \"lower\": \"43\", \"upper\": \"51\"}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 85,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": { "en": "Cockapoo", "es": "Cockapoo" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"5\", \"upper\": \"14\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"14\", \"upper\": \"18\"}",
+      "origins": [],
+      "tags": [15, 16, 19, 28, 5]
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 85,
+    "fields": { "height": "{\"bounds\": \"()\", \"lower\": null, \"upper\": null}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 86,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": { "en": "Cocker Spaniel", "es": "Cocker Spaniel ingl\u00e8s" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"9\", \"upper\": \"14\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"12\", \"upper\": \"15\"}",
+      "origins": [],
+      "tags": [30, 16, 34, 3, 63, 27]
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 86,
+    "fields": { "height": "{\"bounds\": \"[)\", \"lower\": \"36\", \"upper\": \"38\"}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 87,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": {
+        "en": "Cocker Spaniel (American)",
+        "es": "Cocker Spaniel americano"
+      },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"9\", \"upper\": \"14\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"12\", \"upper\": \"15\"}",
+      "origins": [],
+      "tags": [15]
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 87,
+    "fields": { "height": "{\"bounds\": \"[)\", \"lower\": \"36\", \"upper\": \"38\"}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 88,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": { "en": "Collie", "es": "Collie" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"23\", \"upper\": \"32\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"10\", \"upper\": \"14\"}",
+      "origins": [],
+      "tags": [16, 21, 33, 19, 5, 29]
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 88,
+    "fields": { "height": "{\"bounds\": \"[)\", \"lower\": \"56\", \"upper\": \"66\"}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 89,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": { "en": "Coton de Tulear", "es": "Cot\u00f3n de Tulear" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"4\", \"upper\": \"7\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"13\", \"upper\": \"16\"}",
+      "origins": [],
+      "tags": [34, 48, 3, 19, 30]
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 89,
+    "fields": { "height": "{\"bounds\": \"[)\", \"lower\": \"23\", \"upper\": \"28\"}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 90,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": {
+        "en": "Curly-Coated Retriever",
+        "es": "Retriever de pelo rizado"
+      },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"27\", \"upper\": \"32\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"10\", \"upper\": \"15\"}",
+      "origins": [],
+      "tags": [65, 48, 10, 52, 19, 30]
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 90,
+    "fields": { "height": "{\"bounds\": \"[)\", \"lower\": \"58\", \"upper\": \"69\"}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 91,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": { "en": "Dachshund", "es": "Teckel" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"5\", \"upper\": \"15\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"12\", \"upper\": \"15\"}",
+      "origins": [],
+      "tags": [65, 1, 35, 48, 3, 20]
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 91,
+    "fields": { "height": "{\"bounds\": \"[)\", \"lower\": \"20\", \"upper\": \"23\"}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 92,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": { "en": "Dalmatian", "es": "D\u00e1lmata" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"23\", \"upper\": \"25\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"10\", \"upper\": \"13\"}",
+      "origins": [],
+      "tags": [15, 16, 32, 3, 52, 19, 5]
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 92,
+    "fields": { "height": "{\"bounds\": \"[)\", \"lower\": \"48\", \"upper\": \"58\"}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 93,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": {
+        "en": "Dandie Dinmont Terrier",
+        "es": "Dandie Dinmont Terrier"
+      },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"8\", \"upper\": \"11\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"12\", \"upper\": \"14\"}",
+      "origins": [],
+      "tags": [34, 48, 10, 6]
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 93,
+    "fields": { "height": "{\"bounds\": \"[)\", \"lower\": \"20\", \"upper\": \"28\"}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 94,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": { "en": "Doberman Pinscher", "es": "Doberman Pinscher" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"30\", \"upper\": \"40\"}",
+      "life_span": "{\"bounds\": \"()\", \"lower\": null, \"upper\": \"10\"}",
+      "origins": [],
+      "tags": [47, 32, 17, 21, 18, 19]
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 94,
+    "fields": { "height": "{\"bounds\": \"[)\", \"lower\": \"61\", \"upper\": \"71\"}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 95,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": { "en": "Dogo Argentino", "es": "Dogo Argentino" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"36\", \"upper\": \"45\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"10\", \"upper\": \"12\"}",
+      "origins": [],
+      "tags": [16, 34, 21, 29]
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 95,
+    "fields": { "height": "{\"bounds\": \"[)\", \"lower\": \"60\", \"upper\": \"69\"}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 96,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": { "en": "Dogue de Bordeaux", "es": "Dogo de Burdeos" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"41\", \"upper\": \"73\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"5\", \"upper\": \"10\"}",
+      "origins": [],
+      "tags": [35, 21, 20]
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 96,
+    "fields": { "height": "{\"bounds\": \"[)\", \"lower\": \"58\", \"upper\": \"69\"}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 97,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": { "en": "Doxiepoo", "es": "Doxiepoo" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"5\", \"upper\": \"14\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"10\", \"upper\": \"15\"}",
+      "origins": [],
+      "tags": []
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 97,
+    "fields": { "height": "{\"bounds\": \"()\", \"lower\": null, \"upper\": null}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 98,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": { "en": "Dutch Shepherd", "es": "Pastor holand\u00e9s" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"23\", \"upper\": \"32\"}",
+      "life_span": "{\"bounds\": \"()\", \"lower\": null, \"upper\": \"15\"}",
+      "origins": [],
+      "tags": [46, 34, 17, 21, 30]
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 98,
+    "fields": { "height": "{\"bounds\": \"[)\", \"lower\": \"56\", \"upper\": \"62\"}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 99,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": {
+        "en": "English Cocker Spaniel",
+        "es": "Cocker Spaniel Ingl\u00e9s"
+      },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"12\", \"upper\": \"15\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"12\", \"upper\": \"14\"}",
+      "origins": [],
+      "tags": [30, 16, 34, 3, 63, 27]
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 99,
+    "fields": { "height": "{\"bounds\": \"[)\", \"lower\": \"38\", \"upper\": \"43\"}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 100,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": { "en": "English Foxhound", "es": "Perro de presa ingl\u00e9s" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"27\", \"upper\": \"32\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"10\", \"upper\": \"13\"}",
+      "origins": [],
+      "tags": [16, 33, 5]
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 100,
+    "fields": { "height": "{\"bounds\": \"()\", \"lower\": null, \"upper\": \"61\"}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 101,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": { "en": "English Setter", "es": "Setter ingl\u00e9s" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"20\", \"upper\": \"36\"}",
+      "life_span": "{\"bounds\": \"()\", \"lower\": null, \"upper\": \"12\"}",
+      "origins": [],
+      "tags": [38, 61, 34, 32, 3, 33, 19]
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 101,
+    "fields": { "height": "{\"bounds\": \"[)\", \"lower\": \"61\", \"upper\": \"64\"}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 102,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": { "en": "English Shepherd", "es": "Pastor ingl\u00e9s" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"20\", \"upper\": \"30\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"10\", \"upper\": \"13\"}",
+      "origins": [],
+      "tags": [32, 10, 70, 19]
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 102,
+    "fields": { "height": "{\"bounds\": \"[)\", \"lower\": \"46\", \"upper\": \"58\"}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 103,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": {
+        "en": "English Springer Spaniel",
+        "es": "Spaniel saltador ingl\u00e9s"
+      },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"16\", \"upper\": \"23\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"12\", \"upper\": \"14\"}",
+      "origins": [],
+      "tags": [34, 17, 19, 42, 5]
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 103,
+    "fields": { "height": "{\"bounds\": \"[)\", \"lower\": \"48\", \"upper\": \"51\"}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 104,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": { "en": "English Toy Spaniel", "es": "Spaniel ingl\u00e9s toy" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"4\", \"upper\": \"6\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"10\", \"upper\": \"12\"}",
+      "origins": [],
+      "tags": [34, 39, 3, 33, 11, 28]
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 104,
+    "fields": { "height": "{\"bounds\": \"()\", \"lower\": null, \"upper\": \"25\"}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 105,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": { "en": "English Toy Terrier", "es": "Terrier ingl\u00e9s toy" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"3\", \"upper\": \"4\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"12\", \"upper\": \"13\"}",
+      "origins": [],
+      "tags": [1, 17, 19, 30]
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 105,
+    "fields": { "height": "{\"bounds\": \"[)\", \"lower\": \"25\", \"upper\": \"30\"}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 106,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": { "en": "Entlebucher Mountain Dog", "es": "Boyero de Entlebuch" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"20\", \"upper\": \"29\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"10\", \"upper\": \"13\"}",
+      "origins": [],
+      "tags": [35, 55, 21, 10, 19]
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 106,
+    "fields": { "height": "{\"bounds\": \"[)\", \"lower\": \"41\", \"upper\": \"51\"}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 107,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": { "en": "Eurasier", "es": "Eurasier" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"18\", \"upper\": \"32\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"12\", \"upper\": \"14\"}",
+      "origins": [],
+      "tags": [17, 39, 19, 54]
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 107,
+    "fields": { "height": "{\"bounds\": \"[)\", \"lower\": \"52\", \"upper\": \"60\"}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 108,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": { "en": "Field Spaniel", "es": "Spaniel de campo" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"16\", \"upper\": \"23\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"11\", \"upper\": \"15\"}",
+      "origins": [],
+      "tags": [23, 52, 70]
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 108,
+    "fields": { "height": "{\"bounds\": \"[)\", \"lower\": \"43\", \"upper\": \"46\"}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 109,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": {
+        "en": "Fila Brasileiro",
+        "es": "Perro de presa brasile\u00f1o"
+      },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"41\", \"upper\": \"45\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"10\", \"upper\": \"12\"}",
+      "origins": [],
+      "tags": [23, 21, 22, 20]
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 109,
+    "fields": { "height": "{\"bounds\": \"[)\", \"lower\": \"60\", \"upper\": \"75\"}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 110,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": { "en": "Finnish Lapphund", "es": "Lapphund finland\u00e9s" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"15\", \"upper\": \"24\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"12\", \"upper\": \"15\"}",
+      "origins": [],
+      "tags": [16, 27, 54, 20]
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 110,
+    "fields": { "height": "{\"bounds\": \"[)\", \"lower\": \"41\", \"upper\": \"53\"}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 111,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": { "en": "Finnish Spitz", "es": "Spitz finland\u00e9s" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"10\", \"upper\": \"13\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"12\", \"upper\": \"15\"}",
+      "origins": [],
+      "tags": [3, 21, 10, 19, 11]
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 111,
+    "fields": { "height": "{\"bounds\": \"[)\", \"lower\": \"39\", \"upper\": \"51\"}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 112,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": {
+        "en": "Flat-Coated Retriever",
+        "es": "Perro perdiguero de pelo liso"
+      },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"27\", \"upper\": \"32\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"10\", \"upper\": \"13\"}",
+      "origins": [],
+      "tags": [15, 16, 35, 18]
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 112,
+    "fields": { "height": "{\"bounds\": \"[)\", \"lower\": \"56\", \"upper\": \"62\"}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 113,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": { "en": "French Bulldog", "es": "Bulldog franc\u00e9s" },
+      "weight": "{\"bounds\": \"()\", \"lower\": null, \"upper\": \"13\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"9\", \"upper\": \"11\"}",
+      "origins": [],
+      "tags": [3, 34, 48, 17, 59]
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 113,
+    "fields": { "height": "{\"bounds\": \"[)\", \"lower\": \"28\", \"upper\": \"30\"}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 114,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": { "en": "German Pinscher", "es": "Pinscher alem\u00e1n" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"11\", \"upper\": \"20\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"12\", \"upper\": \"14\"}",
+      "origins": [],
+      "tags": [48, 19, 28]
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 114,
+    "fields": { "height": "{\"bounds\": \"[)\", \"lower\": \"43\", \"upper\": \"51\"}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 115,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": { "en": "German Shepherd Dog", "es": "Pastor alem\u00e1n" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"23\", \"upper\": \"41\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"10\", \"upper\": \"13\"}",
+      "origins": [],
+      "tags": [17, 21, 2, 18, 19, 20]
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 115,
+    "fields": { "height": "{\"bounds\": \"[)\", \"lower\": \"56\", \"upper\": \"66\"}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 116,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": {
+        "en": "German Shorthaired Pointer",
+        "es": "Braco alem\u00e1n de pelo corto"
+      },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"20\", \"upper\": \"32\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"12\", \"upper\": \"14\"}",
+      "origins": [],
+      "tags": [44, 34, 19, 30]
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 116,
+    "fields": { "height": "{\"bounds\": \"[)\", \"lower\": \"53\", \"upper\": \"64\"}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 117,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": { "en": "German Spitz", "es": "Spitz alem\u00e1n" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"4\", \"upper\": \"12\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"14\", \"upper\": \"16\"}",
+      "origins": [],
+      "tags": [35, 48, 42, 30]
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 117,
+    "fields": { "height": "{\"bounds\": \"[)\", \"lower\": \"18\", \"upper\": \"56\"}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 118,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": {
+        "en": "German Wirehaired Pointer",
+        "es": "Braco alem\u00e1n de pelo duro"
+      },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"20\", \"upper\": \"34\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"14\", \"upper\": \"16\"}",
+      "origins": [],
+      "tags": [16, 34, 21, 19, 5]
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 118,
+    "fields": { "height": "{\"bounds\": \"[)\", \"lower\": \"56\", \"upper\": \"66\"}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 119,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": { "en": "Giant Schnauzer", "es": "Schnauzer gigante" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"29\", \"upper\": \"41\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"10\", \"upper\": \"12\"}",
+      "origins": [],
+      "tags": [38, 21, 19, 37]
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 119,
+    "fields": { "height": "{\"bounds\": \"[)\", \"lower\": \"60\", \"upper\": \"70\"}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 120,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": { "en": "Glen of Imaal Terrier", "es": "Glen" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"15\", \"upper\": \"18\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"12\", \"upper\": \"15\"}",
+      "origins": [],
+      "tags": [55, 21, 33, 5, 20]
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 120,
+    "fields": { "height": "{\"bounds\": \"[)\", \"lower\": \"32\", \"upper\": \"36\"}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 121,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": { "en": "Golden Retriever", "es": "Golden Retriever" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"25\", \"upper\": \"34\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"10\", \"upper\": \"12\"}",
+      "origins": [],
+      "tags": [19, 46, 16, 18]
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 121,
+    "fields": { "height": "{\"bounds\": \"[)\", \"lower\": \"55\", \"upper\": \"61\"}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 122,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": { "en": "Goldendoodle", "es": "Goldendoodle" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"7\", \"upper\": \"14\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"10\", \"upper\": \"15\"}",
+      "origins": [],
+      "tags": [16, 32, 19, 30]
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 122,
+    "fields": { "height": "{\"bounds\": \"[)\", \"lower\": \"33\", \"upper\": \"61\"}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 123,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": { "en": "Gordon Setter", "es": "Gordon Setter" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"20\", \"upper\": \"36\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"10\", \"upper\": \"12\"}",
+      "origins": [],
+      "tags": [47, 17, 21, 18]
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 123,
+    "fields": { "height": "{\"bounds\": \"[)\", \"lower\": \"58\", \"upper\": \"69\"}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 124,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": { "en": "Great Dane", "es": "Gran Dan\u00e9s" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"50\", \"upper\": \"86\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"7\", \"upper\": \"10\"}",
+      "origins": [],
+      "tags": [16, 35, 39, 33, 18, 28]
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 124,
+    "fields": { "height": "{\"bounds\": \"[)\", \"lower\": \"71\", \"upper\": \"81\"}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 125,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": {
+        "en": "Great Pyrenees",
+        "es": "Perro de monta\u00f1a de los Pirineos"
+      },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"39\", \"upper\": \"52\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"10\", \"upper\": \"12\"}",
+      "origins": [],
+      "tags": [38, 47, 34, 59, 33, 18]
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 125,
+    "fields": { "height": "{\"bounds\": \"[)\", \"lower\": \"64\", \"upper\": \"81\"}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 126,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": { "en": "Greater Swiss Mountain Dog", "es": "Gran boyero suizo" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"39\", \"upper\": \"64\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"7\", \"upper\": \"9\"}",
+      "origins": [],
+      "tags": [47, 35, 17, 29]
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 126,
+    "fields": { "height": "{\"bounds\": \"[)\", \"lower\": \"60\", \"upper\": \"72\"}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 127,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": { "en": "Greyhound", "es": "Galgo" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"23\", \"upper\": \"32\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"10\", \"upper\": \"13\"}",
+      "origins": [],
+      "tags": [34, 33, 19, 63]
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 127,
+    "fields": { "height": "{\"bounds\": \"[)\", \"lower\": \"69\", \"upper\": \"76\"}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 128,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": { "en": "Griffon Bruxellois", "es": "Grif\u00f3n de Bruxellois" },
+      "weight": "{\"bounds\": \"()\", \"lower\": null, \"upper\": \"5\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"10\", \"upper\": \"15\"}",
+      "origins": [],
+      "tags": [17, 52]
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 128,
+    "fields": { "height": "{\"bounds\": \"[)\", \"lower\": \"23\", \"upper\": \"28\"}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 129,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": { "en": "Harrier", "es": "Harrier" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"18\", \"upper\": \"27\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"12\", \"upper\": \"15\"}",
+      "origins": [],
+      "tags": [15, 16, 40, 5]
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 129,
+    "fields": { "height": "{\"bounds\": \"[)\", \"lower\": \"46\", \"upper\": \"56\"}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 130,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": { "en": "Havanese", "es": "Bich\u00f3n habanero" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"3\", \"upper\": \"6\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"14\", \"upper\": \"15\"}",
+      "origins": [],
+      "tags": [34, 24, 3, 33, 19]
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 130,
+    "fields": { "height": "{\"bounds\": \"[)\", \"lower\": \"22\", \"upper\": \"29\"}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 131,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": { "en": "Ibizan Hound", "es": "Podenco ibicenco" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"20\", \"upper\": \"23\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"11\", \"upper\": \"14\"}",
+      "origins": [],
+      "tags": [1, 8, 10, 19, 5]
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 131,
+    "fields": { "height": "{\"bounds\": \"[)\", \"lower\": \"57\", \"upper\": \"70\"}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 132,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": {
+        "en": "Icelandic Sheepdog",
+        "es": "Perro pastor island\u00e9s"
+      },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"9\", \"upper\": \"20\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"12\", \"upper\": \"15\"}",
+      "origins": [],
+      "tags": [32, 55, 17]
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 132,
+    "fields": { "height": "{\"bounds\": \"[)\", \"lower\": \"42\", \"upper\": \"46\"}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 133,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": {
+        "en": "Irish Red and White Setter",
+        "es": "Setter irland\u00e9s rojo y blanco"
+      },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"23\", \"upper\": \"34\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"11\", \"upper\": \"15\"}",
+      "origins": [],
+      "tags": [46, 34, 35, 32, 21, 3]
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 133,
+    "fields": { "height": "{\"bounds\": \"[)\", \"lower\": \"57\", \"upper\": \"66\"}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 134,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": { "en": "Irish Setter", "es": "Setter irland\u00e9s " },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"16\", \"upper\": \"32\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"10\", \"upper\": \"11\"}",
+      "origins": [],
+      "tags": [34, 32, 48, 10, 3]
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 134,
+    "fields": { "height": "{\"bounds\": \"[)\", \"lower\": \"61\", \"upper\": \"69\"}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 135,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": { "en": "Irish Terrier", "es": "Terrier irland\u00e9s" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"11\", \"upper\": \"12\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"12\", \"upper\": \"16\"}",
+      "origins": [],
+      "tags": [48, 19, 37, 29, 30]
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 135,
+    "fields": { "height": "{\"bounds\": \"()\", \"lower\": null, \"upper\": \"46\"}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 136,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": {
+        "en": "Irish Water Spaniel",
+        "es": "Perro de agua irland\u00e9s"
+      },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"20\", \"upper\": \"31\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"12\", \"upper\": \"15\"}",
+      "origins": [],
+      "tags": [8, 17, 19, 5]
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 136,
+    "fields": { "height": "{\"bounds\": \"[)\", \"lower\": \"53\", \"upper\": \"61\"}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 137,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": { "en": "Irish Wolfhound", "es": "Perro lobo irland\u00e9s" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"48\", \"upper\": \"82\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"6\", \"upper\": \"8\"}",
+      "origins": [],
+      "tags": [40, 21, 9, 59]
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 137,
+    "fields": { "height": "{\"bounds\": \"[)\", \"lower\": \"76\", \"upper\": \"89\"}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 138,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": { "en": "Italian Greyhound", "es": "Galgo italiano" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"3\", \"upper\": \"7\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"12\", \"upper\": \"15\"}",
+      "origins": [],
+      "tags": [61, 34, 55, 19]
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 138,
+    "fields": { "height": "{\"bounds\": \"[)\", \"lower\": \"33\", \"upper\": \"38\"}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 139,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": { "en": "Jack Russell Terrier", "es": "Jack Russell Terrier" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"6\", \"upper\": \"8\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"12\", \"upper\": \"14\"}",
+      "origins": [],
+      "tags": []
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 139,
+    "fields": { "height": "{\"bounds\": \"[)\", \"lower\": \"33\", \"upper\": \"36\"}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 140,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": { "en": "Japanese Chin", "es": "Chin japon\u00e9s" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"2\", \"upper\": \"4\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"12\", \"upper\": \"14\"}",
+      "origins": [],
+      "tags": [17, 21, 10, 19, 28]
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 140,
+    "fields": { "height": "{\"bounds\": \"[)\", \"lower\": \"20\", \"upper\": \"28\"}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 141,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": { "en": "Japanese Spitz", "es": "Spitz japon\u00e9s" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"7\", \"upper\": \"9\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"10\", \"upper\": \"16\"}",
+      "origins": [],
+      "tags": [34, 3, 19, 45]
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 141,
+    "fields": { "height": "{\"bounds\": \"[)\", \"lower\": \"30\", \"upper\": \"38\"}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 142,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": { "en": "Keeshond", "es": "Keeshond" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"16\", \"upper\": \"20\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"12\", \"upper\": \"15\"}",
+      "origins": [],
+      "tags": [55, 3]
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 142,
+    "fields": { "height": "{\"bounds\": \"[)\", \"lower\": \"43\", \"upper\": \"46\"}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 143,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": { "en": "Kerry Blue Terrier", "es": "Kerry blue terrier" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"15\", \"upper\": \"18\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"12\", \"upper\": \"15\"}",
+      "origins": [],
+      "tags": [38, 34, 17, 21, 33]
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 143,
+    "fields": { "height": "{\"bounds\": \"[)\", \"lower\": \"44\", \"upper\": \"50\"}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 144,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": { "en": "Komondor", "es": "Komondor" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"36\", \"upper\": \"45\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"10\", \"upper\": \"12\"}",
+      "origins": [],
+      "tags": [43, 47, 34, 10, 33, 54]
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 144,
+    "fields": { "height": "{\"bounds\": \"[)\", \"lower\": \"65\", \"upper\": \"70\"}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 145,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": {
+        "en": "Kooikerhondje",
+        "es": "Perro peque\u00f1o holand\u00e9s"
+      },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"9\", \"upper\": \"14\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"12\", \"upper\": \"15\"}",
+      "origins": [],
+      "tags": [55, 17, 19, 5]
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 145,
+    "fields": { "height": "{\"bounds\": \"[)\", \"lower\": \"36\", \"upper\": \"41\"}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 146,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": { "en": "Kromfohrlander", "es": "Kromfohrl\u00e4nder" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"11\", \"upper\": \"14\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"12\", \"upper\": \"14\"}",
+      "origins": [],
+      "tags": [23, 70, 30]
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 146,
+    "fields": { "height": "{\"bounds\": \"[)\", \"lower\": \"38\", \"upper\": \"46\"}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 147,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": { "en": "Kuvasz", "es": "Boyero h\u00fangaro" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"32\", \"upper\": \"52\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"8\", \"upper\": \"10\"}",
+      "origins": [],
+      "tags": [8, 21, 59, 10, 19, 29]
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 147,
+    "fields": { "height": "{\"bounds\": \"[)\", \"lower\": \"66\", \"upper\": \"76\"}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 148,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": { "en": "Labradoodle", "es": "Labradoodle" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"20\", \"upper\": \"45\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"10\", \"upper\": \"15\"}",
+      "origins": [],
+      "tags": []
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 148,
+    "fields": { "height": "{\"bounds\": \"[)\", \"lower\": \"36\", \"upper\": \"61\"}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 149,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": { "en": "Labrador Retriever", "es": "Labrador retriever" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"25\", \"upper\": \"36\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"10\", \"upper\": \"13\"}",
+      "origins": [],
+      "tags": [15, 55, 33, 19]
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 149,
+    "fields": { "height": "{\"bounds\": \"[)\", \"lower\": \"55\", \"upper\": \"62\"}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 150,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": { "en": "Lacy Dog", "es": "Blue lacy" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"14\", \"upper\": \"23\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"12\", \"upper\": \"16\"}",
+      "origins": [],
+      "tags": [44, 35, 17, 19, 5]
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 150,
+    "fields": { "height": "{\"bounds\": \"[)\", \"lower\": \"43\", \"upper\": \"56\"}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 151,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": { "en": "Lagotto Romagnolo", "es": "Lagotto Romagnolo" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"11\", \"upper\": \"16\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"14\", \"upper\": \"16\"}",
+      "origins": [],
+      "tags": [21, 28, 5, 30]
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 151,
+    "fields": { "height": "{\"bounds\": \"[)\", \"lower\": \"41\", \"upper\": \"48\"}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 152,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": { "en": "Lakeland Terrier", "es": "Lakeland Terrier" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"7\", \"upper\": \"8\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"12\", \"upper\": \"15\"}",
+      "origins": [],
+      "tags": [16, 44, 10, 18, 19, 30]
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 152,
+    "fields": { "height": "{\"bounds\": \"()\", \"lower\": null, \"upper\": \"37\"}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 153,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": { "en": "Lancashire Heeler", "es": "Lancashire Heeler" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"3\", \"upper\": \"6\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"12\", \"upper\": \"15\"}",
+      "origins": [],
+      "tags": [65, 16, 17, 19]
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 153,
+    "fields": { "height": "{\"bounds\": \"[)\", \"lower\": \"25\", \"upper\": \"30\"}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 154,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": {
+        "en": "Large Munsterlander",
+        "es": "M\u00fcnsterl\u00e4nder grande"
+      },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"23\", \"upper\": \"34\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"11\", \"upper\": \"13\"}",
+      "origins": [],
+      "tags": [34, 48, 21, 30]
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 154,
+    "fields": { "height": "{\"bounds\": \"[)\", \"lower\": \"58\", \"upper\": \"64\"}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 155,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": { "en": "Leonberger", "es": "Leonberger" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"54\", \"upper\": \"77\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"6\", \"upper\": \"8\"}",
+      "origins": [],
+      "tags": [47, 21, 70, 28]
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 155,
+    "fields": { "height": "{\"bounds\": \"[)\", \"lower\": \"65\", \"upper\": \"80\"}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 156,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": { "en": "Lhasa Apso", "es": "Lhasa Apso" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"5\", \"upper\": \"8\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"12\", \"upper\": \"15\"}",
+      "origins": [],
+      "tags": [43, 47, 16, 35, 36, 32, 48, 17, 3, 19]
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 156,
+    "fields": { "height": "{\"bounds\": \"[)\", \"lower\": \"25\", \"upper\": \"28\"}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 157,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": { "en": "Lhasapoo", "es": "Lhasapoo" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"5\", \"upper\": \"9\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"12\", \"upper\": \"15\"}",
+      "origins": [],
+      "tags": [43, 47, 16, 35, 36, 32, 48, 17, 3, 19]
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 157,
+    "fields": { "height": "{\"bounds\": \"()\", \"lower\": null, \"upper\": null}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 158,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": { "en": "Longdog", "es": "Lebrel irland\u00e9s" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"16\", \"upper\": \"45\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"10\", \"upper\": \"13\"}",
+      "origins": [],
+      "tags": []
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 158,
+    "fields": { "height": "{\"bounds\": \"[)\", \"lower\": \"61\", \"upper\": \"76\"}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 159,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": { "en": "Lowchen", "es": "Peque\u00f1o perro le\u00f3n" },
+      "weight": "{\"bounds\": \"()\", \"lower\": null, \"upper\": \"7\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"12\", \"upper\": \"15\"}",
+      "origins": [],
+      "tags": [16, 3, 19, 11, 5]
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 159,
+    "fields": { "height": "{\"bounds\": \"[)\", \"lower\": \"30\", \"upper\": \"33\"}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 160,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": { "en": "Lurcher", "es": "Lurcher" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"16\", \"upper\": \"45\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"10\", \"upper\": \"15\"}",
+      "origins": [],
+      "tags": []
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 160,
+    "fields": { "height": "{\"bounds\": \"[)\", \"lower\": \"69\", \"upper\": \"76\"}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 161,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": { "en": "Maltese", "es": "Malt\u00e9s" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"2\", \"upper\": \"3\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"15\", \"upper\": \"18\"}",
+      "origins": [],
+      "tags": [3, 23, 47, 34, 40, 48, 24, 33, 19, 5]
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 161,
+    "fields": { "height": "{\"bounds\": \"[)\", \"lower\": \"20\", \"upper\": \"25\"}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 162,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": { "en": "Maltipoo", "es": "Maltipoo" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"2\", \"upper\": \"7\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"10\", \"upper\": \"15\"}",
+      "origins": [],
+      "tags": []
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 162,
+    "fields": { "height": "{\"bounds\": \"()\", \"lower\": null, \"upper\": \"36\"}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 163,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": { "en": "Manchester Terrier", "es": "Terrier de Manchester" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"5\", \"upper\": \"10\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"14\", \"upper\": \"16\"}",
+      "origins": [],
+      "tags": [35, 17, 5]
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 163,
+    "fields": { "height": "{\"bounds\": \"[)\", \"lower\": \"38\", \"upper\": \"41\"}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 164,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": { "en": "Mastiff", "es": "Mast\u00edn ing\u00e9s" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"54\", \"upper\": \"104\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"8\", \"upper\": \"10\"}",
+      "origins": [],
+      "tags": [34, 9, 29, 54, 20]
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 164,
+    "fields": { "height": "{\"bounds\": \"[)\", \"lower\": \"70\", \"upper\": \"76\"}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 165,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": {
+        "en": "Miniature American Shepherd",
+        "es": "Pastor americano miniatura"
+      },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"9\", \"upper\": \"18\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"12\", \"upper\": \"15\"}",
+      "origins": [],
+      "tags": [32, 21, 19, 30]
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 165,
+    "fields": { "height": "{\"bounds\": \"[)\", \"lower\": \"33\", \"upper\": \"46\"}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 166,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": {
+        "en": "Miniature Bull Terrier",
+        "es": "Bull Terrier miniatura"
+      },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"9\", \"upper\": \"16\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"11\", \"upper\": \"12\"}",
+      "origins": [],
+      "tags": [30, 29, 40, 5]
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 166,
+    "fields": { "height": "{\"bounds\": \"[)\", \"lower\": \"25\", \"upper\": \"36\"}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 167,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": { "en": "Miniature Pinscher", "es": "Pinscher miniatura" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"4\", \"upper\": \"5\"}",
+      "life_span": "{\"bounds\": \"()\", \"lower\": null, \"upper\": \"15\"}",
+      "origins": [],
+      "tags": [65, 15, 16, 32, 24, 3]
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 167,
+    "fields": { "height": "{\"bounds\": \"[)\", \"lower\": \"25\", \"upper\": \"32\"}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 168,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": { "en": "Miniature Schnauzer", "es": "Schnauzer miniatura" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"5\", \"upper\": \"9\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"12\", \"upper\": \"14\"}",
+      "origins": [],
+      "tags": [47, 16, 17, 19]
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 168,
+    "fields": { "height": "{\"bounds\": \"[)\", \"lower\": \"30\", \"upper\": \"36\"}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 169,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": { "en": "Mudi", "es": "Mudi" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"8\", \"upper\": \"13\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"12\", \"upper\": \"14\"}",
+      "origins": [],
+      "tags": [32, 48, 17, 19, 20]
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 169,
+    "fields": { "height": "{\"bounds\": \"[)\", \"lower\": \"38\", \"upper\": \"47\"}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 170,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": { "en": "Neapolitan Mastiff", "es": "Mast\u00edn Napolitano" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"50\", \"upper\": \"91\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"8\", \"upper\": \"10\"}",
+      "origins": [],
+      "tags": [1, 47, 37, 29, 30]
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 170,
+    "fields": { "height": "{\"bounds\": \"[)\", \"lower\": \"61\", \"upper\": \"79\"}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 171,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": { "en": "Newfoundland", "es": "Terranova" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"45\", \"upper\": \"68\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"8\", \"upper\": \"10\"}",
+      "origins": [],
+      "tags": [40, 33, 30]
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 171,
+    "fields": { "height": "{\"bounds\": \"[)\", \"lower\": \"66\", \"upper\": \"71\"}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 172,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": { "en": "Norfolk Terrier", "es": "Terrier de Norfolk" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"5\", \"upper\": \"5\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"12\", \"upper\": \"15\"}",
+      "origins": [],
+      "tags": [47, 11]
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 172,
+    "fields": { "height": "{\"bounds\": \"[)\", \"lower\": \"23\", \"upper\": \"25\"}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 173,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": { "en": "Norwegian Buhund", "es": "Buhund noruego" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"12\", \"upper\": \"18\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"12\", \"upper\": \"15\"}",
+      "origins": [],
+      "tags": [16, 32, 55, 20, 6]
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 173,
+    "fields": { "height": "{\"bounds\": \"[)\", \"lower\": \"41\", \"upper\": \"47\"}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 174,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": { "en": "Norwegian Elkhound", "es": "Cazador de alces noruego" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"22\", \"upper\": \"25\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"10\", \"upper\": \"12\"}",
+      "origins": [],
+      "tags": [38, 44, 17, 21, 3]
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 174,
+    "fields": { "height": "{\"bounds\": \"[)\", \"lower\": \"50\", \"upper\": \"52\"}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 175,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": { "en": "Norwegian Lundehund", "es": "Lundehund" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"6\", \"upper\": \"7\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"6\", \"upper\": \"8\"}",
+      "origins": [],
+      "tags": [32, 17, 21, 29]
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 175,
+    "fields": { "height": "{\"bounds\": \"[)\", \"lower\": \"30\", \"upper\": \"38\"}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 176,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": { "en": "Norwich Terrier", "es": "Terrier de Norwich" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"5\", \"upper\": \"5\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"12\", \"upper\": \"15\"}",
+      "origins": [],
+      "tags": [34, 32, 52, 19]
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 176,
+    "fields": { "height": "{\"bounds\": \"()\", \"lower\": null, \"upper\": \"25\"}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 177,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": {
+        "en": "Nova Scotia Duck Tolling Retriever",
+        "es": "Retriever de Nueva Escoci"
+      },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"16\", \"upper\": \"23\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"12\", \"upper\": \"14\"}",
+      "origins": [],
+      "tags": [15, 17, 59, 19, 28]
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 177,
+    "fields": { "height": "{\"bounds\": \"[)\", \"lower\": \"43\", \"upper\": \"53\"}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 178,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": { "en": "Old English Sheepdog", "es": "Pastor ing\u00e9s viejo" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"27\", \"upper\": \"45\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"10\", \"upper\": \"12\"}",
+      "origins": [],
+      "tags": [3, 70, 19, 28]
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 178,
+    "fields": { "height": "{\"bounds\": \"()\", \"lower\": null, \"upper\": \"53\"}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 179,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": {
+        "en": "Olde English Bulldogge",
+        "es": "Bulldogge ing\u00e9s viejo"
+      },
+      "weight": "{\"bounds\": \"()\", \"lower\": null, \"upper\": null}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"9\", \"upper\": \"14\"}",
+      "origins": [],
+      "tags": [16, 17, 18, 28, 20]
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 179,
+    "fields": { "height": "{\"bounds\": \"[)\", \"lower\": \"38\", \"upper\": \"48\"}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 180,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": { "en": "Otterhound", "es": "Otterhound" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"29\", \"upper\": \"57\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"10\", \"upper\": \"15\"}",
+      "origins": [],
+      "tags": []
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 180,
+    "fields": { "height": "{\"bounds\": \"[)\", \"lower\": \"61\", \"upper\": \"71\"}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 181,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": { "en": "Papillon", "es": "Papill\u00f3n" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"1\", \"upper\": \"5\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"13\", \"upper\": \"17\"}",
+      "origins": [],
+      "tags": [16, 32, 17, 19, 11]
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 181,
+    "fields": { "height": "{\"bounds\": \"[)\", \"lower\": \"20\", \"upper\": \"28\"}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 182,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": { "en": "Pekeapoo", "es": "Pekeapoo" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"4\", \"upper\": \"9\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"12\", \"upper\": \"14\"}",
+      "origins": [],
+      "tags": []
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 182,
+    "fields": { "height": "{\"bounds\": \"[)\", \"lower\": \"20\", \"upper\": \"38\"}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 183,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": { "en": "Pekingese", "es": "Pekin\u00e9s" },
+      "weight": "{\"bounds\": \"()\", \"lower\": null, \"upper\": \"6\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"14\", \"upper\": \"18\"}",
+      "origins": [],
+      "tags": [1, 34, 19]
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 183,
+    "fields": { "height": "{\"bounds\": \"[)\", \"lower\": \"15\", \"upper\": \"23\"}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 184,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": {
+        "en": "Pembroke Welsh Corgi",
+        "es": "Corgi gal\u00e9s de Pembroke"
+      },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"11\", \"upper\": \"14\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"12\", \"upper\": \"14\"}",
+      "origins": [],
+      "tags": [42, 15, 16, 44, 3, 29]
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 184,
+    "fields": { "height": "{\"bounds\": \"[)\", \"lower\": \"25\", \"upper\": \"30\"}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 185,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": {
+        "en": "Perro de Presa Canario",
+        "es": "Perro de Presa Canario"
+      },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"40\", \"upper\": \"50\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"10\", \"upper\": \"12\"}",
+      "origins": [],
+      "tags": [38, 33, 37, 54]
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 185,
+    "fields": { "height": "{\"bounds\": \"[)\", \"lower\": \"56\", \"upper\": \"65\"}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 186,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": {
+        "en": "Peruvian Inca Orchid",
+        "es": "Perro sin pelo del Per\u00fa"
+      },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"4\", \"upper\": \"25\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"11\", \"upper\": \"12\"}",
+      "origins": [],
+      "tags": [34, 48, 17, 19, 29]
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 186,
+    "fields": { "height": "{\"bounds\": \"[)\", \"lower\": \"43\", \"upper\": \"56\"}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 187,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": {
+        "en": "Petit Basset Griffon Vendeen",
+        "es": "Grif\u00f3n vandeano basset peque\u00f1o"
+      },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"11\", \"upper\": \"19\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"10\", \"upper\": \"14\"}",
+      "origins": [],
+      "tags": [16, 48, 10, 11, 5]
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 187,
+    "fields": { "height": "{\"bounds\": \"[)\", \"lower\": \"33\", \"upper\": \"38\"}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 188,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": { "en": "Pharaoh Hound", "es": "Podenco de Malta" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"18\", \"upper\": \"27\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"12\", \"upper\": \"14\"}",
+      "origins": [],
+      "tags": [34, 3, 19, 5, 30]
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 188,
+    "fields": { "height": "{\"bounds\": \"[)\", \"lower\": \"53\", \"upper\": \"64\"}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 189,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": { "en": "Plott", "es": "Plott" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"18\", \"upper\": \"27\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"12\", \"upper\": \"14\"}",
+      "origins": [],
+      "tags": [44, 17, 21, 19]
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 189,
+    "fields": { "height": "{\"bounds\": \"[)\", \"lower\": \"51\", \"upper\": \"64\"}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 190,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": { "en": "Pointer", "es": "Pointer" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"20\", \"upper\": \"34\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"12\", \"upper\": \"15\"}",
+      "origins": [],
+      "tags": [34, 21, 5]
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 190,
+    "fields": { "height": "{\"bounds\": \"[)\", \"lower\": \"58\", \"upper\": \"71\"}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 191,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": { "en": "Polish Lowland Sheepdog", "es": "Pastor de Val\u00e9e" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"16\", \"upper\": \"25\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"10\", \"upper\": \"12\"}",
+      "origins": [],
+      "tags": [48, 55, 19]
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 191,
+    "fields": { "height": "{\"bounds\": \"[)\", \"lower\": \"43\", \"upper\": \"51\"}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 192,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": { "en": "Pomapoo", "es": "Pomapoo" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"2\", \"upper\": \"7\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"12\", \"upper\": \"14\"}",
+      "origins": [],
+      "tags": []
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 192,
+    "fields": { "height": "{\"bounds\": \"[)\", \"lower\": \"20\", \"upper\": \"25\"}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 193,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": { "en": "Pomeranian", "es": "Pomeranian" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"1\", \"upper\": \"3\"}",
+      "life_span": "{\"bounds\": \"()\", \"lower\": null, \"upper\": \"15\"}",
+      "origins": [],
+      "tags": [16, 3, 19, 5]
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 193,
+    "fields": { "height": "{\"bounds\": \"[)\", \"lower\": \"20\", \"upper\": \"30\"}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 194,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": { "en": "Pomsky", "es": "Pomsky" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"3\", \"upper\": \"17\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"12\", \"upper\": \"15\"}",
+      "origins": [],
+      "tags": []
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 194,
+    "fields": { "height": "{\"bounds\": \"[)\", \"lower\": \"25\", \"upper\": \"38\"}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 195,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": { "en": "Poodle", "es": "Caniche" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"18\", \"upper\": \"25\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"14\", \"upper\": \"18\"}",
+      "origins": [],
+      "tags": [17, 19, 27, 5, 30]
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 195,
+    "fields": { "height": "{\"bounds\": \"[)\", \"lower\": \"41\", \"upper\": \"61\"}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 196,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": { "en": "Poodle (Miniature)", "es": "Caniche (miniatura)" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"7\", \"upper\": \"8\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"12\", \"upper\": \"15\"}",
+      "origins": [],
+      "tags": []
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 196,
+    "fields": { "height": "{\"bounds\": \"[)\", \"lower\": \"28\", \"upper\": \"38\"}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 197,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": { "en": "Poodle (Toy)", "es": "Caniche (toy)" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"3\", \"upper\": \"4\"}",
+      "life_span": "{\"bounds\": \"()\", \"lower\": null, \"upper\": \"18\"}",
+      "origins": [],
+      "tags": []
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 197,
+    "fields": { "height": "{\"bounds\": \"[)\", \"lower\": \"23\", \"upper\": \"28\"}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 198,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": { "en": "Portuguese Podengo", "es": "Podenco portugu\u00e9s" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"4\", \"upper\": \"30\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"10\", \"upper\": \"14\"}",
+      "origins": [],
+      "tags": [16, 48, 19, 5]
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 198,
+    "fields": { "height": "{\"bounds\": \"[)\", \"lower\": \"20\", \"upper\": \"71\"}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 199,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": {
+        "en": "Portuguese Water Dog",
+        "es": "Perro de agua portugu\u00e9s"
+      },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"16\", \"upper\": \"27\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"10\", \"upper\": \"14\"}",
+      "origins": [],
+      "tags": [23, 19, 22]
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 199,
+    "fields": { "height": "{\"bounds\": \"[)\", \"lower\": \"43\", \"upper\": \"58\"}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 200,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": { "en": "Presa Canario", "es": "Presa Canario" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"45\", \"upper\": \"73\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"9\", \"upper\": \"11\"}",
+      "origins": [],
+      "tags": [38, 33, 37, 54]
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 200,
+    "fields": { "height": "{\"bounds\": \"[)\", \"lower\": \"56\", \"upper\": \"65\"}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 201,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": { "en": "Pug", "es": "Pug" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"6\", \"upper\": \"8\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"12\", \"upper\": \"14\"}",
+      "origins": [],
+      "tags": [23, 65, 1, 3, 63, 42]
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 201,
+    "fields": { "height": "{\"bounds\": \"[)\", \"lower\": \"25\", \"upper\": \"30\"}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 202,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": { "en": "Pugapoo", "es": "Pugapoo" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"5\", \"upper\": \"14\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"12\", \"upper\": \"14\"}",
+      "origins": [],
+      "tags": []
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 202,
+    "fields": { "height": "{\"bounds\": \"[)\", \"lower\": \"20\", \"upper\": \"38\"}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 203,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": { "en": "Puggle", "es": "Puggle" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"7\", \"upper\": \"14\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"12\", \"upper\": \"14\"}",
+      "origins": [],
+      "tags": [34, 40, 48, 21, 3, 33, 19, 11, 28, 22]
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 203,
+    "fields": { "height": "{\"bounds\": \"[)\", \"lower\": \"20\", \"upper\": \"38\"}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 204,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": { "en": "Puli", "es": "Puli" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"11\", \"upper\": \"16\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"12\", \"upper\": \"16\"}",
+      "origins": [],
+      "tags": [32, 55, 21, 19, 27]
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 204,
+    "fields": { "height": "{\"bounds\": \"[)\", \"lower\": \"41\", \"upper\": \"43\"}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 205,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": { "en": "Pumi", "es": "Pumi" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"8\", \"upper\": \"15\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"13\", \"upper\": \"15\"}",
+      "origins": [],
+      "tags": [48, 39, 19, 5, 29]
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 205,
+    "fields": { "height": "{\"bounds\": \"[)\", \"lower\": \"38\", \"upper\": \"47\"}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 206,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": { "en": "Pyrenean Shepherd", "es": "Pastor de los Pirineos" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"7\", \"upper\": \"15\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"12\", \"upper\": \"16\"}",
+      "origins": [],
+      "tags": [65, 32, 30]
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 206,
+    "fields": { "height": "{\"bounds\": \"[)\", \"lower\": \"38\", \"upper\": \"52\"}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 207,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": { "en": "Rat Terrier", "es": "Rat Terrier" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"4\", \"upper\": \"11\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"12\", \"upper\": \"18\"}",
+      "origins": [],
+      "tags": [34, 48, 17, 19, 28]
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 207,
+    "fields": { "height": "{\"bounds\": \"[)\", \"lower\": \"25\", \"upper\": \"33\"}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 208,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": { "en": "Redbone Coonhound", "es": "Redbone Coonhound" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"20\", \"upper\": \"36\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"10\", \"upper\": \"12\"}",
+      "origins": [],
+      "tags": [34, 32, 10]
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 208,
+    "fields": { "height": "{\"bounds\": \"[)\", \"lower\": \"53\", \"upper\": \"69\"}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 209,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": { "en": "Rhodesian Ridgeback", "es": "Perro crestado rodesiano" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"34\", \"upper\": \"36\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"10\", \"upper\": \"12\"}",
+      "origins": [],
+      "tags": [38, 61, 21, 9, 52, 19]
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 209,
+    "fields": { "height": "{\"bounds\": \"[)\", \"lower\": \"61\", \"upper\": \"69\"}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 210,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": { "en": "Rottweiler", "es": "Rottweiler" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"34\", \"upper\": \"50\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"8\", \"upper\": \"10\"}",
+      "origins": [],
+      "tags": [43, 47, 35, 17, 18, 49, 54, 20]
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 210,
+    "fields": { "height": "{\"bounds\": \"[)\", \"lower\": \"56\", \"upper\": \"69\"}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 211,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": { "en": "Russian Toy", "es": "Russkiy" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"1\", \"upper\": \"3\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"10\", \"upper\": \"12\"}",
+      "origins": [],
+      "tags": []
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 211,
+    "fields": { "height": "{\"bounds\": \"[)\", \"lower\": \"19\", \"upper\": \"27\"}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 212,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": { "en": "Saint Bernard", "es": "San bernardo" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"59\", \"upper\": \"82\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"7\", \"upper\": \"10\"}",
+      "origins": [],
+      "tags": [16, 48, 33, 54]
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 212,
+    "fields": { "height": "{\"bounds\": \"[)\", \"lower\": \"65\", \"upper\": \"70\"}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 213,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": { "en": "Saluki", "es": "Saluki" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"16\", \"upper\": \"29\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"12\", \"upper\": \"14\"}",
+      "origins": [],
+      "tags": [7, 39, 19, 63]
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 213,
+    "fields": { "height": "{\"bounds\": \"[)\", \"lower\": \"58\", \"upper\": \"71\"}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 214,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": { "en": "Samoyed", "es": "Samoyedo" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"23\", \"upper\": \"27\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"12\", \"upper\": \"14\"}",
+      "origins": [],
+      "tags": [1, 16, 48, 17, 3]
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 214,
+    "fields": { "height": "{\"bounds\": \"[)\", \"lower\": \"48\", \"upper\": \"60\"}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 215,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": { "en": "Schapendoes", "es": "Schapendoes" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"14\", \"upper\": \"18\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"12\", \"upper\": \"15\"}",
+      "origins": [],
+      "tags": [16, 48, 19, 42, 20]
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 215,
+    "fields": { "height": "{\"bounds\": \"[)\", \"lower\": \"41\", \"upper\": \"51\"}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 216,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": { "en": "Schipperke", "es": "Schipperke" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"5\", \"upper\": \"7\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"13\", \"upper\": \"15\"}",
+      "origins": [],
+      "tags": [47, 55, 2, 10, 18, 27]
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 216,
+    "fields": { "height": "{\"bounds\": \"[)\", \"lower\": \"25\", \"upper\": \"33\"}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 217,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": { "en": "Schnoodle", "es": "Schnoodle" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"5\", \"upper\": \"9\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"13\", \"upper\": \"17\"}",
+      "origins": [],
+      "tags": [38, 65, 35, 19, 28, 5, 29]
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 217,
+    "fields": { "height": "{\"bounds\": \"[)\", \"lower\": \"25\", \"upper\": \"30\"}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 218,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": { "en": "Scottish Deerhound", "es": "Lebrel escoc\u00e9s" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"32\", \"upper\": \"59\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"8\", \"upper\": \"10\"}",
+      "origins": [],
+      "tags": [23, 16, 9, 33]
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 218,
+    "fields": { "height": "{\"bounds\": \"[)\", \"lower\": \"71\", \"upper\": \"81\"}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 219,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": { "en": "Scottish Terrier", "es": "Terrier escoc\u00e9s" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"8\", \"upper\": \"10\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"11\", \"upper\": \"13\"}",
+      "origins": [],
+      "tags": [17, 10, 3, 49]
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 219,
+    "fields": { "height": "{\"bounds\": \"()\", \"lower\": null, \"upper\": \"25\"}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 220,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": { "en": "Sealyham Terrier", "es": "Sealyham Terrier" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"9\", \"upper\": \"11\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"14\", \"upper\": \"17\"}",
+      "origins": [],
+      "tags": [47, 16, 17, 54]
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 220,
+    "fields": { "height": "{\"bounds\": \"()\", \"lower\": null, \"upper\": \"27\"}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 221,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": {
+        "en": "Shetland Sheepdog",
+        "es": "Pastor de las islas Shetland"
+      },
+      "weight": "{\"bounds\": \"()\", \"lower\": null, \"upper\": \"14\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"12\", \"upper\": \"14\"}",
+      "origins": [],
+      "tags": [34, 48, 24, 17, 21, 39, 3, 33, 19, 5, 30]
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 221,
+    "fields": { "height": "{\"bounds\": \"[)\", \"lower\": \"33\", \"upper\": \"41\"}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 222,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": { "en": "Shiba Inu", "es": "Shiba Inu" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"8\", \"upper\": \"10\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"12\", \"upper\": \"16\"}",
+      "origins": [],
+      "tags": [47, 17, 18, 27]
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 222,
+    "fields": { "height": "{\"bounds\": \"[)\", \"lower\": \"34\", \"upper\": \"42\"}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 223,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": { "en": "Shih Tzu", "es": "Shih Tzu" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"4\", \"upper\": \"7\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"10\", \"upper\": \"18\"}",
+      "origins": [],
+      "tags": [65, 15, 16, 34, 48, 17, 21, 10, 3, 33, 19, 11, 5, 20]
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 223,
+    "fields": { "height": "{\"bounds\": \"[)\", \"lower\": \"20\", \"upper\": \"28\"}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 224,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": { "en": "Shihpoo", "es": "Shihpoo" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"3\", \"upper\": \"9\"}",
+      "life_span": "{\"bounds\": \"()\", \"lower\": null, \"upper\": \"15\"}",
+      "origins": [],
+      "tags": []
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 224,
+    "fields": { "height": "{\"bounds\": \"[)\", \"lower\": \"20\", \"upper\": \"38\"}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 225,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": { "en": "Shiloh Shepherd", "es": "Pastor Shiloh" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"54\", \"upper\": \"64\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"9\", \"upper\": \"14\"}",
+      "origins": [],
+      "tags": [15, 21, 33, 28, 30]
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 225,
+    "fields": { "height": "{\"bounds\": \"[)\", \"lower\": \"66\", \"upper\": \"76\"}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 226,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": { "en": "Siberian Husky", "es": "Husky siberiano" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"16\", \"upper\": \"27\"}",
+      "life_span": "{\"bounds\": \"()\", \"lower\": null, \"upper\": \"12\"}",
+      "origins": [],
+      "tags": [15, 16, 17, 33, 19]
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 226,
+    "fields": { "height": "{\"bounds\": \"[)\", \"lower\": \"51\", \"upper\": \"60\"}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 227,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": { "en": "Silken Windhound", "es": "Silken Windhound" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"9\", \"upper\": \"20\"}",
+      "life_span": "{\"bounds\": \"()\", \"lower\": null, \"upper\": \"14\"}",
+      "origins": [],
+      "tags": [16, 34, 3]
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 227,
+    "fields": { "height": "{\"bounds\": \"[)\", \"lower\": \"47\", \"upper\": \"60\"}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 228,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": { "en": "Silky Terrier", "es": "Silky terrier australiano" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"4\", \"upper\": \"5\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"12\", \"upper\": \"15\"}",
+      "origins": [],
+      "tags": [16, 24, 17]
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 228,
+    "fields": { "height": "{\"bounds\": \"[)\", \"lower\": \"23\", \"upper\": \"25\"}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 229,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": { "en": "Skye Terrier", "es": "Skye terrier" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"16\", \"upper\": \"20\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"12\", \"upper\": \"14\"}",
+      "origins": [],
+      "tags": [47, 16, 21, 19]
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 229,
+    "fields": { "height": "{\"bounds\": \"[)\", \"lower\": \"23\", \"upper\": \"25\"}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 230,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": { "en": "Sloughi", "es": "Lebrel bereber" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"16\", \"upper\": \"29\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"12\", \"upper\": \"15\"}",
+      "origins": [],
+      "tags": [17, 52, 19, 27]
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 230,
+    "fields": { "height": "{\"bounds\": \"[)\", \"lower\": \"61\", \"upper\": \"74\"}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 231,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": {
+        "en": "Small Munsterlander Pointer",
+        "es": "M\u00fcnsterl\u00e4nder peque\u00f1o"
+      },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"16\", \"upper\": \"27\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"12\", \"upper\": \"14\"}",
+      "origins": [],
+      "tags": [38, 34, 19, 42, 11, 30]
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 231,
+    "fields": { "height": "{\"bounds\": \"[)\", \"lower\": \"48\", \"upper\": \"56\"}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 232,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": { "en": "Smooth Fox Terrier", "es": "Fox terrier de pelo liso" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": null, \"upper\": \"8\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"12\", \"upper\": \"14\"}",
+      "origins": [],
+      "tags": [47, 34, 17, 3, 19, 5]
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 232,
+    "fields": { "height": "{\"bounds\": \"()\", \"lower\": null, \"upper\": \"39\"}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 233,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": {
+        "en": "Soft Coated Wheaten Terrier",
+        "es": "Irish soft coated wheaten terrier"
+      },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"14\", \"upper\": \"18\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"12\", \"upper\": \"15\"}",
+      "origins": [],
+      "tags": [34, 32, 3, 19, 27]
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 233,
+    "fields": { "height": "{\"bounds\": \"[)\", \"lower\": \"41\", \"upper\": \"46\"}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 234,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": { "en": "Spanish Greyhound", "es": "Galgo espa\u00f1ol" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"23\", \"upper\": \"29\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"10\", \"upper\": \"13\"}",
+      "origins": [],
+      "tags": []
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 234,
+    "fields": { "height": "{\"bounds\": \"[)\", \"lower\": \"61\", \"upper\": \"70\"}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 235,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": { "en": "Spanish Water Dog", "es": "Perro de agua espa\u00f1ol" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"14\", \"upper\": \"23\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"12\", \"upper\": \"15\"}",
+      "origins": [],
+      "tags": [30, 34, 21, 19]
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 235,
+    "fields": { "height": "{\"bounds\": \"[)\", \"lower\": \"41\", \"upper\": \"51\"}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 236,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": { "en": "Spinull Italiano", "es": "Spinull" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"28\", \"upper\": \"39\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"10\", \"upper\": \"12\"}",
+      "origins": [],
+      "tags": [23, 16, 34, 21, 59, 33]
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 236,
+    "fields": { "height": "{\"bounds\": \"[)\", \"lower\": \"57\", \"upper\": \"70\"}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 237,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": { "en": "Sprollie", "es": "Sprollie" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"18\", \"upper\": \"25\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"12\", \"upper\": \"16\"}",
+      "origins": [],
+      "tags": []
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 237,
+    "fields": { "height": "{\"bounds\": \"[)\", \"lower\": \"46\", \"upper\": \"53\"}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 238,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": {
+        "en": "Staffordshire Bull Terrier",
+        "es": "Staffordshire bull terrier"
+      },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"11\", \"upper\": \"17\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"12\", \"upper\": \"14\"}",
+      "origins": [],
+      "tags": [46, 47, 44, 34, 21, 19, 20]
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 238,
+    "fields": { "height": "{\"bounds\": \"[)\", \"lower\": \"36\", \"upper\": \"41\"}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 239,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": { "en": "Standard Schnauzer", "es": "Schnauzer est\u00e1ndar" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"14\", \"upper\": \"23\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"13\", \"upper\": \"15\"}",
+      "origins": [],
+      "tags": [30, 35, 48, 3, 19]
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 239,
+    "fields": { "height": "{\"bounds\": \"[)\", \"lower\": \"44\", \"upper\": \"50\"}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 240,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": { "en": "Sussex Spaniel", "es": "Sussex spaniel" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"16\", \"upper\": \"20\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"10\", \"upper\": \"15\"}",
+      "origins": [],
+      "tags": [16, 35, 54]
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 240,
+    "fields": { "height": "{\"bounds\": \"[)\", \"lower\": \"33\", \"upper\": \"38\"}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 241,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": { "en": "Swedish Lapphund", "es": "Pastor lap\u00f3n de Suecia" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"15\", \"upper\": \"24\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"10\", \"upper\": \"13\"}",
+      "origins": [],
+      "tags": [34, 48, 17, 30]
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 241,
+    "fields": { "height": "{\"bounds\": \"[)\", \"lower\": \"41\", \"upper\": \"51\"}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 242,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": { "en": "Swedish Vallhund", "es": "Vallhund sueco" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"9\", \"upper\": \"14\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"12\", \"upper\": \"14\"}",
+      "origins": [],
+      "tags": [47, 16, 32, 17, 19]
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 242,
+    "fields": { "height": "{\"bounds\": \"[)\", \"lower\": \"29\", \"upper\": \"34\"}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 243,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": { "en": "Thai Ridgeback", "es": "Ridgeback tailand\u00e9s" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"16\", \"upper\": \"25\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"10\", \"upper\": \"12\"}",
+      "origins": [],
+      "tags": [29, 21, 10, 19, 28]
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 243,
+    "fields": { "height": "{\"bounds\": \"[)\", \"lower\": \"51\", \"upper\": \"61\"}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 244,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": { "en": "Tibetan Mastiff", "es": "Mast\u00edn tibetano" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"39\", \"upper\": \"64\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"10\", \"upper\": \"14\"}",
+      "origins": [],
+      "tags": [38, 42, 7, 1, 19, 29]
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 244,
+    "fields": { "height": "{\"bounds\": \"[)\", \"lower\": \"61\", \"upper\": \"66\"}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 245,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": { "en": "Tibetan Spaniel", "es": "Spaniel tibetano" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"4\", \"upper\": \"7\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"12\", \"upper\": \"15\"}",
+      "origins": [],
+      "tags": [7, 36, 10, 3, 19, 11]
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 245,
+    "fields": { "height": "{\"bounds\": \"()\", \"lower\": null, \"upper\": \"25\"}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 246,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": { "en": "Tibetan Terrier", "es": "Terrier tibetano" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"9\", \"upper\": \"11\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"12\", \"upper\": \"15\"}",
+      "origins": [],
+      "tags": [34, 32, 39, 33, 52]
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 246,
+    "fields": { "height": "{\"bounds\": \"[)\", \"lower\": \"36\", \"upper\": \"43\"}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 247,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": { "en": "Tosa Ken", "es": "Tosa Inu" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"45\", \"upper\": \"91\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"10\", \"upper\": \"12\"}",
+      "origins": [],
+      "tags": [47, 52, 19, 22]
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 247,
+    "fields": { "height": "{\"bounds\": \"[)\", \"lower\": \"56\", \"upper\": \"61\"}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 248,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": { "en": "Toy Fox Terrier", "es": "Toy terrier americano" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"2\", \"upper\": \"4\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"12\", \"upper\": \"15\"}",
+      "origins": [],
+      "tags": [16, 17, 21, 3, 19]
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 248,
+    "fields": { "height": "{\"bounds\": \"[)\", \"lower\": \"20\", \"upper\": \"28\"}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 249,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": { "en": "Toy Poodle", "es": "Toy poodle" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"2\", \"upper\": \"5\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"14\", \"upper\": \"18\"}",
+      "origins": [],
+      "tags": []
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 249,
+    "fields": { "height": "{\"bounds\": \"()\", \"lower\": null, \"upper\": \"25\"}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 250,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": {
+        "en": "Treeing Walker Coonhound",
+        "es": "Treeing Walker Coonhound"
+      },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"20\", \"upper\": \"36\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"10\", \"upper\": \"13\"}",
+      "origins": [],
+      "tags": [65, 34, 18, 19, 28, 30]
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 250,
+    "fields": { "height": "{\"bounds\": \"[)\", \"lower\": \"51\", \"upper\": \"69\"}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 251,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": { "en": "Vizsla", "es": "Vizsla" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"23\", \"upper\": \"29\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"10\", \"upper\": \"14\"}",
+      "origins": [],
+      "tags": [34, 32, 21, 33, 63]
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 251,
+    "fields": { "height": "{\"bounds\": \"[)\", \"lower\": \"53\", \"upper\": \"61\"}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 252,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": { "en": "Volpino Italiano", "es": "Volpino italiano" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"4\", \"upper\": \"6\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"14\", \"upper\": \"16\"}",
+      "origins": [],
+      "tags": [34, 48, 3, 5]
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 252,
+    "fields": { "height": "{\"bounds\": \"[)\", \"lower\": \"24\", \"upper\": \"30\"}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 253,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": { "en": "Weimaraner", "es": "Braco de Weimar" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"25\", \"upper\": \"41\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"12\", \"upper\": \"15\"}",
+      "origins": [],
+      "tags": [43, 7, 1, 32, 17, 19]
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 253,
+    "fields": { "height": "{\"bounds\": \"[)\", \"lower\": \"58\", \"upper\": \"69\"}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 254,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": {
+        "en": "Welsh Springer Spaniel",
+        "es": "Springer spaniel gal\u00e9s"
+      },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"16\", \"upper\": \"25\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"12\", \"upper\": \"15\"}",
+      "origins": [],
+      "tags": [1, 16, 34, 21, 3, 5]
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 254,
+    "fields": { "height": "{\"bounds\": \"[)\", \"lower\": \"43\", \"upper\": \"48\"}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 255,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": { "en": "Welsh Terrier", "es": "Terrier gal\u00e9s" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"9\", \"upper\": \"10\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"10\", \"upper\": \"14\"}",
+      "origins": [],
+      "tags": [16, 17, 19]
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 255,
+    "fields": { "height": "{\"bounds\": \"[)\", \"lower\": \"38\", \"upper\": \"39\"}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 256,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": {
+        "en": "West Highland White Terrier",
+        "es": "West Highland White Terrier"
+      },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"7\", \"upper\": \"10\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"15\", \"upper\": \"20\"}",
+      "origins": [],
+      "tags": [16, 17, 10, 5, 20]
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 256,
+    "fields": { "height": "{\"bounds\": \"[)\", \"lower\": \"25\", \"upper\": \"28\"}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 257,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": { "en": "Whippet", "es": "Whippet" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"11\", \"upper\": \"16\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"12\", \"upper\": \"15\"}",
+      "origins": [],
+      "tags": [16, 34, 48, 33, 19, 63]
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 257,
+    "fields": { "height": "{\"bounds\": \"[)\", \"lower\": \"46\", \"upper\": \"56\"}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 258,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": { "en": "White Shepherd", "es": "Pastor blanco suizo" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"27\", \"upper\": \"39\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"12\", \"upper\": \"14\"}",
+      "origins": [],
+      "tags": [7, 47, 17]
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 258,
+    "fields": { "height": "{\"bounds\": \"[)\", \"lower\": \"56\", \"upper\": \"64\"}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 259,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": { "en": "Wire Fox Terrier", "es": "Fox terrier de pelo duro" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"7\", \"upper\": \"9\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"13\", \"upper\": \"14\"}",
+      "origins": [],
+      "tags": [47, 16, 44, 17]
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 259,
+    "fields": { "height": "{\"bounds\": \"[)\", \"lower\": \"33\", \"upper\": \"41\"}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 260,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": {
+        "en": "Wirehaired Pointing Griffon",
+        "es": "Wirehaired Pointing Griffon"
+      },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"20\", \"upper\": \"32\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"12\", \"upper\": \"14\"}",
+      "origins": [],
+      "tags": [21, 33, 30, 45]
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 260,
+    "fields": { "height": "{\"bounds\": \"[)\", \"lower\": \"51\", \"upper\": \"61\"}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 261,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": { "en": "Wirehaired Vizsla", "es": "Vizsla de pelo duro" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"20\", \"upper\": \"29\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"12\", \"upper\": \"14\"}",
+      "origins": [],
+      "tags": []
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 261,
+    "fields": { "height": "{\"bounds\": \"[)\", \"lower\": \"55\", \"upper\": \"64\"}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 262,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": { "en": "Xoloitzcuintli", "es": "Perro mejicano sin pelo" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"4\", \"upper\": \"14\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"12\", \"upper\": \"14\"}",
+      "origins": [],
+      "tags": [17, 19, 29, 54]
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 262,
+    "fields": { "height": "{\"bounds\": \"[)\", \"lower\": \"25\", \"upper\": \"58\"}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 263,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": { "en": "Yorkipoo", "es": "Yorkipoo" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"4\", \"upper\": \"7\"}",
+      "life_span": "{\"bounds\": \"()\", \"lower\": null, \"upper\": \"15\"}",
+      "origins": [],
+      "tags": []
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 263,
+    "fields": { "height": "{\"bounds\": \"()\", \"lower\": null, \"upper\": null}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 264,
+    "fields": {
+      "polymorphic_ctype": 24,
+      "name": { "en": "Yorkshire Terrier", "es": "Yorkshire Terrier" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"2\", \"upper\": \"3\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"12\", \"upper\": \"16\"}",
+      "origins": [],
+      "tags": [44, 10, 18, 19, 20]
+    }
+  },
+  {
+    "model": "animals.DogBreed",
+    "pk": 264,
+    "fields": { "height": "{\"bounds\": \"[)\", \"lower\": \"20\", \"upper\": \"23\"}" }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 265,
+    "fields": {
+      "polymorphic_ctype": 23,
+      "name": { "en": "Abyssinian", "es": "Abisinio" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"3\", \"upper\": \"5\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"14\", \"upper\": \"15\"}",
+      "origins": [80],
+      "tags": [5, 32, 10, 19, 33]
+    }
+  },
+  {
+    "model": "animals.CatBreed",
+    "pk": 265,
+    "fields": { "dog_friendly": 4, "child_friendly": 3 }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 266,
+    "fields": {
+      "polymorphic_ctype": 23,
+      "name": { "en": "Aegean", "es": "Gato del egeo" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"3\", \"upper\": \"5\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"9\", \"upper\": \"12\"}",
+      "origins": [37],
+      "tags": [34, 50, 19, 3, 5]
+    }
+  },
+  {
+    "model": "animals.CatBreed",
+    "pk": 266,
+    "fields": { "dog_friendly": 4, "child_friendly": 4 }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 267,
+    "fields": {
+      "polymorphic_ctype": 23,
+      "name": { "en": "American Bobtail", "es": "Bobtail americano" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"3\", \"upper\": \"7\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"11\", \"upper\": \"15\"}",
+      "origins": [190],
+      "tags": [19, 51, 48, 3, 52]
+    }
+  },
+  {
+    "model": "animals.CatBreed",
+    "pk": 267,
+    "fields": { "dog_friendly": 5, "child_friendly": 4 }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 268,
+    "fields": {
+      "polymorphic_ctype": 23,
+      "name": { "en": "American Curl", "es": "Curl Americano" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"2\", \"upper\": \"5\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"12\", \"upper\": \"16\"}",
+      "origins": [190],
+      "tags": [34, 2, 19, 51, 48, 3, 50]
+    }
+  },
+  {
+    "model": "animals.CatBreed",
+    "pk": 268,
+    "fields": { "dog_friendly": 5, "child_friendly": 4 }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 269,
+    "fields": {
+      "polymorphic_ctype": 23,
+      "name": {
+        "en": "American Shorthair",
+        "es": "Gato americano de pelo corto"
+      },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"4\", \"upper\": \"7\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"15\", \"upper\": \"17\"}",
+      "origins": [190],
+      "tags": [5, 2, 53, 3, 54]
+    }
+  },
+  {
+    "model": "animals.CatBreed",
+    "pk": 269,
+    "fields": { "dog_friendly": 5, "child_friendly": 4 }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 270,
+    "fields": {
+      "polymorphic_ctype": 23,
+      "name": {
+        "en": "American Wirehair",
+        "es": "Gato americano de pelo largo"
+      },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"4\", \"upper\": \"7\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"14\", \"upper\": \"18\"}",
+      "origins": [190],
+      "tags": [34, 2, 33, 19, 51, 48, 21, 3, 50]
+    }
+  },
+  {
+    "model": "animals.CatBreed",
+    "pk": 270,
+    "fields": { "dog_friendly": 5, "child_friendly": 4 }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 271,
+    "fields": {
+      "polymorphic_ctype": 23,
+      "name": { "en": "Arabian Mau", "es": "Mau \u00c1rabe" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"4\", \"upper\": \"7\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"12\", \"upper\": \"14\"}",
+      "origins": [215],
+      "tags": [34, 55, 2, 10, 3, 21]
+    }
+  },
+  {
+    "model": "animals.CatBreed",
+    "pk": 271,
+    "fields": { "dog_friendly": 5, "child_friendly": 4 }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 272,
+    "fields": {
+      "polymorphic_ctype": 23,
+      "name": { "en": "Australian Mist", "es": "Gato de niebla" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"3\", \"upper\": \"7\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"12\", \"upper\": \"16\"}",
+      "origins": [228],
+      "tags": [48, 50, 6, 56, 34]
+    }
+  },
+  {
+    "model": "animals.CatBreed",
+    "pk": 272,
+    "fields": { "dog_friendly": 5, "child_friendly": 4 }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 273,
+    "fields": {
+      "polymorphic_ctype": 23,
+      "name": { "en": "Balinese", "es": "Balines" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"2\", \"upper\": \"5\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"10\", \"upper\": \"15\"}",
+      "origins": [190],
+      "tags": [34, 19, 3]
+    }
+  },
+  {
+    "model": "animals.CatBreed",
+    "pk": 273,
+    "fields": { "dog_friendly": 5, "child_friendly": 4 }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 274,
+    "fields": {
+      "polymorphic_ctype": 23,
+      "name": { "en": "Bambino", "es": "Bambino" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"2\", \"upper\": \"4\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"12\", \"upper\": \"14\"}",
+      "origins": [190],
+      "tags": [34, 48, 16, 19]
+    }
+  },
+  {
+    "model": "animals.CatBreed",
+    "pk": 274,
+    "fields": { "dog_friendly": 5, "child_friendly": 4 }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 275,
+    "fields": {
+      "polymorphic_ctype": 23,
+      "name": { "en": "Bengal", "es": "Gato de bengala" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"3\", \"upper\": \"7\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"12\", \"upper\": \"15\"}",
+      "origins": [190],
+      "tags": [17, 55, 32, 57, 19]
+    }
+  },
+  {
+    "model": "animals.CatBreed",
+    "pk": 275,
+    "fields": { "dog_friendly": 5, "child_friendly": 4 }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 276,
+    "fields": {
+      "polymorphic_ctype": 23,
+      "name": { "en": "Birman", "es": "Sagrado de Birmania" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"3\", \"upper\": \"7\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"14\", \"upper\": \"15\"}",
+      "origins": [118],
+      "tags": [34, 5, 33, 50]
+    }
+  },
+  {
+    "model": "animals.CatBreed",
+    "pk": 276,
+    "fields": { "dog_friendly": 5, "child_friendly": 4 }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 277,
+    "fields": {
+      "polymorphic_ctype": 23,
+      "name": { "en": "Bombay", "es": "Gato de bombay" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"3\", \"upper\": \"5\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"12\", \"upper\": \"16\"}",
+      "origins": [190],
+      "tags": [34, 58, 33, 19, 3]
+    }
+  },
+  {
+    "model": "animals.CatBreed",
+    "pk": 277,
+    "fields": { "dog_friendly": 5, "child_friendly": 4 }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 278,
+    "fields": {
+      "polymorphic_ctype": 23,
+      "name": {
+        "en": "British Longhair",
+        "es": "Gato ingl\u00e9s de pelo largo"
+      },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"4\", \"upper\": \"8\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"12\", \"upper\": \"14\"}",
+      "origins": [46],
+      "tags": [34, 53, 10, 19, 21, 50]
+    }
+  },
+  {
+    "model": "animals.CatBreed",
+    "pk": 278,
+    "fields": { "dog_friendly": 5, "child_friendly": 4 }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 279,
+    "fields": {
+      "polymorphic_ctype": 23,
+      "name": {
+        "en": "British Shorthair",
+        "es": "Gato ingl\u00e9s de pelo corto"
+      },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"5\", \"upper\": \"9\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"12\", \"upper\": \"17\"}",
+      "origins": [46],
+      "tags": [34, 53, 33, 21, 59]
+    }
+  },
+  {
+    "model": "animals.CatBreed",
+    "pk": 279,
+    "fields": { "dog_friendly": 5, "child_friendly": 4 }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 280,
+    "fields": {
+      "polymorphic_ctype": 23,
+      "name": { "en": "Burmese", "es": "Burm\u00e9s" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"3\", \"upper\": \"5\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"15\", \"upper\": \"16\"}",
+      "origins": [99],
+      "tags": [2, 19, 33, 50, 51, 3, 48]
+    }
+  },
+  {
+    "model": "animals.CatBreed",
+    "pk": 280,
+    "fields": { "dog_friendly": 5, "child_friendly": 4 }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 281,
+    "fields": {
+      "polymorphic_ctype": 23,
+      "name": { "en": "Burmilla", "es": "Burmilla" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"3\", \"upper\": \"6\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"10\", \"upper\": \"15\"}",
+      "origins": [46],
+      "tags": [53, 16, 19, 48, 3, 50]
+    }
+  },
+  {
+    "model": "animals.CatBreed",
+    "pk": 281,
+    "fields": { "dog_friendly": 4, "child_friendly": 4 }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 282,
+    "fields": {
+      "polymorphic_ctype": 23,
+      "name": { "en": "California Spangled", "es": "California Spangled" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"5\", \"upper\": \"7\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"10\", \"upper\": \"14\"}",
+      "origins": [190],
+      "tags": [34, 2, 19, 21, 50]
+    }
+  },
+  {
+    "model": "animals.CatBreed",
+    "pk": 282,
+    "fields": { "dog_friendly": 5, "child_friendly": 4 }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 283,
+    "fields": {
+      "polymorphic_ctype": 23,
+      "name": { "en": "Chantilly-Tiffany", "es": "Chantilly" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"3\", \"upper\": \"5\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"14\", \"upper\": \"16\"}",
+      "origins": [190],
+      "tags": [34, 57, 51, 21]
+    }
+  },
+  {
+    "model": "animals.CatBreed",
+    "pk": 283,
+    "fields": { "dog_friendly": 5, "child_friendly": 4 }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 284,
+    "fields": {
+      "polymorphic_ctype": 23,
+      "name": { "en": "Chartreux", "es": "Chartreux" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"3\", \"upper\": \"7\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"12\", \"upper\": \"15\"}",
+      "origins": [118],
+      "tags": [34, 21, 19, 50, 48, 3]
+    }
+  },
+  {
+    "model": "animals.CatBreed",
+    "pk": 284,
+    "fields": { "dog_friendly": 5, "child_friendly": 4 }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 285,
+    "fields": {
+      "polymorphic_ctype": 23,
+      "name": { "en": "Chausie", "es": "Chausie" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"3\", \"upper\": \"7\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"12\", \"upper\": \"14\"}",
+      "origins": [80],
+      "tags": [34, 19, 3, 50]
+    }
+  },
+  {
+    "model": "animals.CatBreed",
+    "pk": 285,
+    "fields": { "dog_friendly": 5, "child_friendly": 4 }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 286,
+    "fields": {
+      "polymorphic_ctype": 23,
+      "name": { "en": "Cheetoh", "es": "Cheetoh" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"4\", \"upper\": \"7\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"12\", \"upper\": \"14\"}",
+      "origins": [190],
+      "tags": [34, 33, 19, 50]
+    }
+  },
+  {
+    "model": "animals.CatBreed",
+    "pk": 286,
+    "fields": { "dog_friendly": 5, "child_friendly": 4 }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 287,
+    "fields": {
+      "polymorphic_ctype": 23,
+      "name": { "en": "Colorpoint Shorthair", "es": "Gato color point" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"2\", \"upper\": \"5\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"12\", \"upper\": \"16\"}",
+      "origins": [190],
+      "tags": [34, 19, 3, 50]
+    }
+  },
+  {
+    "model": "animals.CatBreed",
+    "pk": 287,
+    "fields": { "dog_friendly": 4, "child_friendly": 4 }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 288,
+    "fields": {
+      "polymorphic_ctype": 23,
+      "name": { "en": "Cornish Rex", "es": "Cornish Rex" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"2\", \"upper\": \"4\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"11\", \"upper\": \"14\"}",
+      "origins": [46],
+      "tags": [34, 19, 5, 2, 3]
+    }
+  },
+  {
+    "model": "animals.CatBreed",
+    "pk": 288,
+    "fields": { "dog_friendly": 5, "child_friendly": 4 }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 289,
+    "fields": {
+      "polymorphic_ctype": 23,
+      "name": { "en": "Cymric", "es": "Cymric" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"4\", \"upper\": \"6\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"8\", \"upper\": \"14\"}",
+      "origins": [146],
+      "tags": [33, 21, 19, 3]
+    }
+  },
+  {
+    "model": "animals.CatBreed",
+    "pk": 289,
+    "fields": { "dog_friendly": 5, "child_friendly": 4 }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 290,
+    "fields": {
+      "polymorphic_ctype": 23,
+      "name": { "en": "Cyprus", "es": "Chipriota" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"4\", \"upper\": \"7\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"12\", \"upper\": \"15\"}",
+      "origins": [151],
+      "tags": [34, 50]
+    }
+  },
+  {
+    "model": "animals.CatBreed",
+    "pk": 290,
+    "fields": { "dog_friendly": 5, "child_friendly": 4 }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 291,
+    "fields": {
+      "polymorphic_ctype": 23,
+      "name": { "en": "Devon Rex", "es": "Devon Rex" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"2\", \"upper\": \"5\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"10\", \"upper\": \"15\"}",
+      "origins": [46],
+      "tags": [60, 61, 21, 50, 3]
+    }
+  },
+  {
+    "model": "animals.CatBreed",
+    "pk": 291,
+    "fields": { "dog_friendly": 5, "child_friendly": 4 }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 292,
+    "fields": {
+      "polymorphic_ctype": 23,
+      "name": { "en": "Donskoy", "es": "Donskoy" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"5\", \"upper\": \"6\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"12\", \"upper\": \"15\"}",
+      "origins": [25],
+      "tags": [3]
+    }
+  },
+  {
+    "model": "animals.CatBreed",
+    "pk": 292,
+    "fields": { "dog_friendly": 3, "child_friendly": 3 }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 293,
+    "fields": {
+      "polymorphic_ctype": 23,
+      "name": { "en": "Dragon Li", "es": "Dragon Li" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"4\", \"upper\": \"6\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"12\", \"upper\": \"15\"}",
+      "origins": [143],
+      "tags": [19, 16, 33, 28, 21]
+    }
+  },
+  {
+    "model": "animals.CatBreed",
+    "pk": 293,
+    "fields": { "dog_friendly": 3, "child_friendly": 3 }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 294,
+    "fields": {
+      "polymorphic_ctype": 23,
+      "name": { "en": "Egyptian Mau", "es": "Mau egipcio" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"3\", \"upper\": \"6\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"18\", \"upper\": \"20\"}",
+      "origins": [80],
+      "tags": [55, 58, 33, 19, 48, 21, 3]
+    }
+  },
+  {
+    "model": "animals.CatBreed",
+    "pk": 294,
+    "fields": { "dog_friendly": 3, "child_friendly": 3 }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 295,
+    "fields": {
+      "polymorphic_ctype": 23,
+      "name": { "en": "European Burmese", "es": "Burm\u00e9s europeo" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"3\", \"upper\": \"6\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"10\", \"upper\": \"15\"}",
+      "origins": [99],
+      "tags": [62, 34, 21]
+    }
+  },
+  {
+    "model": "animals.CatBreed",
+    "pk": 295,
+    "fields": { "dog_friendly": 4, "child_friendly": 4 }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 296,
+    "fields": {
+      "polymorphic_ctype": 23,
+      "name": { "en": "Exotic Shorthair", "es": "Ex\u00f3tico" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"3\", \"upper\": \"6\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"12\", \"upper\": \"15\"}",
+      "origins": [190],
+      "tags": [34, 62, 21, 63, 64]
+    }
+  },
+  {
+    "model": "animals.CatBreed",
+    "pk": 296,
+    "fields": { "dog_friendly": 3, "child_friendly": 3 }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 297,
+    "fields": {
+      "polymorphic_ctype": 23,
+      "name": { "en": "Havana Brown", "es": "Habana brown" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"3\", \"upper\": \"5\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"10\", \"upper\": \"15\"}",
+      "origins": [46],
+      "tags": [34, 2, 57, 16, 19, 3]
+    }
+  },
+  {
+    "model": "animals.CatBreed",
+    "pk": 297,
+    "fields": { "dog_friendly": 5, "child_friendly": 4 }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 298,
+    "fields": {
+      "polymorphic_ctype": 23,
+      "name": { "en": "Himalayan", "es": "Gato del himalaya" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"3\", \"upper\": \"6\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"9\", \"upper\": \"15\"}",
+      "origins": [190],
+      "tags": [58, 33, 19, 63, 50]
+    }
+  },
+  {
+    "model": "animals.CatBreed",
+    "pk": 298,
+    "fields": { "dog_friendly": 2, "child_friendly": 2 }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 299,
+    "fields": {
+      "polymorphic_ctype": 23,
+      "name": { "en": "Japanese Bobtail", "es": "Bobtail japon\u00e9s" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"2\", \"upper\": \"5\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"14\", \"upper\": \"16\"}",
+      "origins": [40],
+      "tags": [5, 55, 65, 53, 19, 48, 21, 3, 50]
+    }
+  },
+  {
+    "model": "animals.CatBreed",
+    "pk": 299,
+    "fields": { "dog_friendly": 5, "child_friendly": 4 }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 300,
+    "fields": {
+      "polymorphic_ctype": 23,
+      "name": { "en": "Javanese", "es": "Javan\u00e9s" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"2\", \"upper\": \"5\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"10\", \"upper\": \"12\"}",
+      "origins": [190],
+      "tags": [5, 35, 19, 3]
+    }
+  },
+  {
+    "model": "animals.CatBreed",
+    "pk": 300,
+    "fields": { "dog_friendly": 4, "child_friendly": 4 }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 301,
+    "fields": {
+      "polymorphic_ctype": 23,
+      "name": { "en": "Khao Manee", "es": "Khao Manee" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"4\", \"upper\": \"6\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"10\", \"upper\": \"12\"}",
+      "origins": [208],
+      "tags": [54, 56, 66, 3, 67]
+    }
+  },
+  {
+    "model": "animals.CatBreed",
+    "pk": 301,
+    "fields": { "dog_friendly": 3, "child_friendly": 3 }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 302,
+    "fields": {
+      "polymorphic_ctype": 23,
+      "name": { "en": "Korat", "es": "Korat" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"3\", \"upper\": \"5\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"10\", \"upper\": \"15\"}",
+      "origins": [208],
+      "tags": [5, 21, 68, 69, 30]
+    }
+  },
+  {
+    "model": "animals.CatBreed",
+    "pk": 302,
+    "fields": { "dog_friendly": 5, "child_friendly": 4 }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 303,
+    "fields": {
+      "polymorphic_ctype": 23,
+      "name": { "en": "Kurilian", "es": "Kurilian" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"4\", \"upper\": \"7\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"15\", \"upper\": \"20\"}",
+      "origins": [25],
+      "tags": [10, 68]
+    }
+  },
+  {
+    "model": "animals.CatBreed",
+    "pk": 303,
+    "fields": { "dog_friendly": 5, "child_friendly": 5 }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 304,
+    "fields": {
+      "polymorphic_ctype": 23,
+      "name": { "en": "LaPerm", "es": "LaPerm" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"3\", \"upper\": \"5\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"10\", \"upper\": \"15\"}",
+      "origins": [208],
+      "tags": [34, 16, 33, 19, 3, 63]
+    }
+  },
+  {
+    "model": "animals.CatBreed",
+    "pk": 304,
+    "fields": { "dog_friendly": 5, "child_friendly": 4 }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 305,
+    "fields": {
+      "polymorphic_ctype": 23,
+      "name": { "en": "Maine Coon", "es": "Maine Coon" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"5\", \"upper\": \"8\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"12\", \"upper\": \"15\"}",
+      "origins": [190],
+      "tags": [70, 19, 28, 33, 10]
+    }
+  },
+  {
+    "model": "animals.CatBreed",
+    "pk": 305,
+    "fields": { "dog_friendly": 5, "child_friendly": 4 }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 306,
+    "fields": {
+      "polymorphic_ctype": 23,
+      "name": { "en": "Malayan", "es": "Gato malayo" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"3\", \"upper\": \"6\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"12\", \"upper\": \"18\"}",
+      "origins": [46],
+      "tags": [34, 51, 3, 50]
+    }
+  },
+  {
+    "model": "animals.CatBreed",
+    "pk": 306,
+    "fields": { "dog_friendly": 5, "child_friendly": 4 }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 307,
+    "fields": {
+      "polymorphic_ctype": 23,
+      "name": { "en": "Manx", "es": "Manx" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"3\", \"upper\": \"6\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"12\", \"upper\": \"14\"}",
+      "origins": [113],
+      "tags": [53, 19, 21, 3, 50]
+    }
+  },
+  {
+    "model": "animals.CatBreed",
+    "pk": 307,
+    "fields": { "dog_friendly": 5, "child_friendly": 4 }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 308,
+    "fields": {
+      "polymorphic_ctype": 23,
+      "name": { "en": "Munchkin", "es": "Munchkin" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"2\", \"upper\": \"4\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"10\", \"upper\": \"15\"}",
+      "origins": [190],
+      "tags": [55, 53, 19, 3]
+    }
+  },
+  {
+    "model": "animals.CatBreed",
+    "pk": 308,
+    "fields": { "dog_friendly": 5, "child_friendly": 4 }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 309,
+    "fields": {
+      "polymorphic_ctype": 23,
+      "name": { "en": "Nebelung", "es": "Nebelung" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"3\", \"upper\": \"5\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"11\", \"upper\": \"16\"}",
+      "origins": [190],
+      "tags": [33, 63, 71, 3]
+    }
+  },
+  {
+    "model": "animals.CatBreed",
+    "pk": 309,
+    "fields": { "dog_friendly": 4, "child_friendly": 4 }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 310,
+    "fields": {
+      "polymorphic_ctype": 23,
+      "name": { "en": "Norwegian Forest Cat", "es": "Gato de bosque noruego" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"4\", \"upper\": \"7\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"12\", \"upper\": \"16\"}",
+      "origins": [128],
+      "tags": [62, 5, 19, 50, 3, 48, 2]
+    }
+  },
+  {
+    "model": "animals.CatBreed",
+    "pk": 310,
+    "fields": { "dog_friendly": 5, "child_friendly": 4 }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 311,
+    "fields": {
+      "polymorphic_ctype": 23,
+      "name": { "en": "Ocicat", "es": "Ocicat" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"3\", \"upper\": \"7\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"12\", \"upper\": \"14\"}",
+      "origins": [190],
+      "tags": [5, 55, 2, 57, 16, 33, 48, 3, 50]
+    }
+  },
+  {
+    "model": "animals.CatBreed",
+    "pk": 311,
+    "fields": { "dog_friendly": 5, "child_friendly": 4 }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 312,
+    "fields": {
+      "polymorphic_ctype": 23,
+      "name": { "en": "Oriental", "es": "Gato oriental" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"2\", \"upper\": \"5\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"12\", \"upper\": \"14\"}",
+      "origins": [190],
+      "tags": [32, 34, 19, 50, 3, 2]
+    }
+  },
+  {
+    "model": "animals.CatBreed",
+    "pk": 312,
+    "fields": { "dog_friendly": 5, "child_friendly": 4 }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 313,
+    "fields": {
+      "polymorphic_ctype": 23,
+      "name": { "en": "Persian", "es": "Persa" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"4\", \"upper\": \"6\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"14\", \"upper\": \"15\"}",
+      "origins": [222],
+      "tags": [34, 63]
+    }
+  },
+  {
+    "model": "animals.CatBreed",
+    "pk": 313,
+    "fields": { "dog_friendly": 2, "child_friendly": 2 }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 314,
+    "fields": {
+      "polymorphic_ctype": 23,
+      "name": { "en": "Pixie-bob", "es": "Pixie Bob" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"4\", \"upper\": \"8\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"13\", \"upper\": \"16\"}",
+      "origins": [190],
+      "tags": [34, 50, 19, 21]
+    }
+  },
+  {
+    "model": "animals.CatBreed",
+    "pk": 314,
+    "fields": { "dog_friendly": 5, "child_friendly": 4 }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 315,
+    "fields": {
+      "polymorphic_ctype": 23,
+      "name": { "en": "Ragamuffin", "es": "Ragamuffin" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"4\", \"upper\": \"9\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"12\", \"upper\": \"16\"}",
+      "origins": [190],
+      "tags": [34, 16, 33, 54]
+    }
+  },
+  {
+    "model": "animals.CatBreed",
+    "pk": 315,
+    "fields": { "dog_friendly": 5, "child_friendly": 4 }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 316,
+    "fields": {
+      "polymorphic_ctype": 23,
+      "name": { "en": "Ragdoll", "es": "Ragdoll" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"5\", \"upper\": \"9\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"12\", \"upper\": \"17\"}",
+      "origins": [190],
+      "tags": [34, 16, 33, 63]
+    }
+  },
+  {
+    "model": "animals.CatBreed",
+    "pk": 316,
+    "fields": { "dog_friendly": 5, "child_friendly": 4 }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 317,
+    "fields": {
+      "polymorphic_ctype": 23,
+      "name": { "en": "Russian Blue", "es": "Russian Blue" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"2\", \"upper\": \"5\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"10\", \"upper\": \"16\"}",
+      "origins": [25],
+      "tags": [5, 58, 53, 33, 19, 21, 3, 63]
+    }
+  },
+  {
+    "model": "animals.CatBreed",
+    "pk": 317,
+    "fields": { "dog_friendly": 3, "child_friendly": 3 }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 318,
+    "fields": {
+      "polymorphic_ctype": 23,
+      "name": { "en": "Savannah", "es": "Savannah" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"4\", \"upper\": \"11\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"17\", \"upper\": \"20\"}",
+      "origins": [190],
+      "tags": [2, 50, 19, 21, 15, 4, 34]
+    }
+  },
+  {
+    "model": "animals.CatBreed",
+    "pk": 318,
+    "fields": { "dog_friendly": 5, "child_friendly": 4 }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 319,
+    "fields": {
+      "polymorphic_ctype": 23,
+      "name": { "en": "Scottish Fold", "es": "Fold escoc\u00e9s" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"2\", \"upper\": \"5\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"11\", \"upper\": \"14\"}",
+      "origins": [46],
+      "tags": [34, 19, 21, 3, 50, 62, 28]
+    }
+  },
+  {
+    "model": "animals.CatBreed",
+    "pk": 319,
+    "fields": { "dog_friendly": 5, "child_friendly": 4 }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 320,
+    "fields": {
+      "polymorphic_ctype": 23,
+      "name": { "en": "Selkirk Rex", "es": "Selkirk Rex" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"3\", \"upper\": \"7\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"14\", \"upper\": \"15\"}",
+      "origins": [190],
+      "tags": [5, 34, 58, 33, 59, 3, 63, 50]
+    }
+  },
+  {
+    "model": "animals.CatBreed",
+    "pk": 320,
+    "fields": { "dog_friendly": 5, "child_friendly": 4 }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 321,
+    "fields": {
+      "polymorphic_ctype": 23,
+      "name": { "en": "Siamese", "es": "Siam\u00e9s" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"4\", \"upper\": \"7\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"12\", \"upper\": \"15\"}",
+      "origins": [208],
+      "tags": [5, 55, 65, 28, 32]
+    }
+  },
+  {
+    "model": "animals.CatBreed",
+    "pk": 321,
+    "fields": { "dog_friendly": 5, "child_friendly": 4 }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 322,
+    "fields": {
+      "polymorphic_ctype": 23,
+      "name": { "en": "Siberian", "es": "Siberiano" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"4\", \"upper\": \"7\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"12\", \"upper\": \"15\"}",
+      "origins": [25],
+      "tags": [2, 19, 21, 62, 55, 3, 34]
+    }
+  },
+  {
+    "model": "animals.CatBreed",
+    "pk": 322,
+    "fields": { "dog_friendly": 5, "child_friendly": 4 }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 323,
+    "fields": {
+      "polymorphic_ctype": 23,
+      "name": { "en": "Singapura", "es": "Gato de singapur" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"2\", \"upper\": \"4\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"12\", \"upper\": \"15\"}",
+      "origins": [180],
+      "tags": [34, 2, 53, 19, 51, 48, 21]
+    }
+  },
+  {
+    "model": "animals.CatBreed",
+    "pk": 323,
+    "fields": { "dog_friendly": 5, "child_friendly": 4 }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 324,
+    "fields": {
+      "polymorphic_ctype": 23,
+      "name": { "en": "Snowshoe", "es": "Snowshoe" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"3\", \"upper\": \"5\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"14\", \"upper\": \"19\"}",
+      "origins": [190],
+      "tags": [34, 50, 19]
+    }
+  },
+  {
+    "model": "animals.CatBreed",
+    "pk": 324,
+    "fields": { "dog_friendly": 5, "child_friendly": 4 }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 325,
+    "fields": {
+      "polymorphic_ctype": 23,
+      "name": { "en": "Somali", "es": "Somal\u00ed" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"3\", \"upper\": \"5\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"12\", \"upper\": \"16\"}",
+      "origins": [87],
+      "tags": [61, 42, 19, 34, 33, 51, 21]
+    }
+  },
+  {
+    "model": "animals.CatBreed",
+    "pk": 325,
+    "fields": { "dog_friendly": 4, "child_friendly": 3 }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 326,
+    "fields": {
+      "polymorphic_ctype": 23,
+      "name": { "en": "Sphynx", "es": "Sphynx" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"3\", \"upper\": \"5\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"12\", \"upper\": \"14\"}",
+      "origins": [146],
+      "tags": [21, 16, 63, 33]
+    }
+  },
+  {
+    "model": "animals.CatBreed",
+    "pk": 326,
+    "fields": { "dog_friendly": 5, "child_friendly": 4 }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 327,
+    "fields": {
+      "polymorphic_ctype": 23,
+      "name": { "en": "Tonkinese", "es": "Gato tonkin\u00e9s " },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"3\", \"upper\": \"5\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"14\", \"upper\": \"16\"}",
+      "origins": [146],
+      "tags": [2, 19, 50, 48, 15, 3, 34]
+    }
+  },
+  {
+    "model": "animals.CatBreed",
+    "pk": 327,
+    "fields": { "dog_friendly": 5, "child_friendly": 4 }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 328,
+    "fields": {
+      "polymorphic_ctype": 23,
+      "name": { "en": "Toyger", "es": "Toyger" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"3\", \"upper\": \"7\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"12\", \"upper\": \"15\"}",
+      "origins": [190],
+      "tags": [3, 50, 19]
+    }
+  },
+  {
+    "model": "animals.CatBreed",
+    "pk": 328,
+    "fields": { "dog_friendly": 5, "child_friendly": 4 }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 329,
+    "fields": {
+      "polymorphic_ctype": 23,
+      "name": { "en": "Turkish Angora", "es": "Angora turco" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"2\", \"upper\": \"5\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"15\", \"upper\": \"18\"}",
+      "origins": [199],
+      "tags": [34, 55, 65, 33, 19, 3, 50]
+    }
+  },
+  {
+    "model": "animals.CatBreed",
+    "pk": 329,
+    "fields": { "dog_friendly": 5, "child_friendly": 4 }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 330,
+    "fields": {
+      "polymorphic_ctype": 23,
+      "name": { "en": "Turkish Van", "es": "Van turco" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"3\", \"upper\": \"9\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"12\", \"upper\": \"17\"}",
+      "origins": [199],
+      "tags": [55, 19, 21, 3, 32]
+    }
+  },
+  {
+    "model": "animals.CatBreed",
+    "pk": 330,
+    "fields": { "dog_friendly": 5, "child_friendly": 4 }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 331,
+    "fields": {
+      "polymorphic_ctype": 23,
+      "name": { "en": "York Chocolate", "es": "York chocolate" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"5\", \"upper\": \"8\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"13\", \"upper\": \"15\"}",
+      "origins": [190],
+      "tags": [3, 50, 19, 2, 16]
+    }
+  },
+  {
+    "model": "animals.CatBreed",
+    "pk": 331,
+    "fields": { "dog_friendly": 5, "child_friendly": 4 }
+  },
+  {
+    "model": "animals.Breed",
+    "pk": 332,
+    "fields": {
+      "polymorphic_ctype": 23,
+      "name": { "en": "Common European", "es": "Europeo com\u00fan" },
+      "weight": "{\"bounds\": \"[)\", \"lower\": \"5\", \"upper\": \"8\"}",
+      "life_span": "{\"bounds\": \"[)\", \"lower\": \"13\", \"upper\": \"15\"}",
+      "origins": [],
+      "tags": [3, 50, 19, 2, 16]
+    }
+  },
+  {
+    "model": "animals.CatBreed",
+    "pk": 332,
+    "fields": { "dog_friendly": 5, "child_friendly": 4 }
+  }
+]

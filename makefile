@@ -39,9 +39,8 @@ tests.ci: start.local
 	@docker-compose exec doogle pytest --cov=.
 	@cd ./src && mv .coverage .coverage-docker && coverage combine -a .coverage-docker && coverage report && coveralls
 
-
 tests.local:
-	@docker-compose run doogle pytest --cov
+	@docker exec doogle pytest --cov
 
 # Push
 push.prod: docker.ci.login

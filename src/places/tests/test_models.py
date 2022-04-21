@@ -22,7 +22,7 @@ class CountryTest(TestCase):
 
     def test_country_str(self):
         country = models.Country.objects.last()
-        self.assertEqual(str(country), country.name)
+        self.assertEqual(str(country), str(country.name))
 
 
 class RegionTest(TestCase):
@@ -35,7 +35,7 @@ class RegionTest(TestCase):
 
     def test_region_str(self):
         region = models.Region.objects.last()
-        self.assertEqual(str(region), region.name)
+        self.assertEqual(str(region), str(region.name))
 
 
 class ProvinceTest(TestCase):
@@ -49,7 +49,7 @@ class ProvinceTest(TestCase):
 
     def test_currency_str(self):
         province = models.Province.objects.last()
-        self.assertEqual(str(province), province.name)
+        self.assertEqual(str(province), str(province.name))
 
 
 class CityTest(TestCase):
@@ -64,4 +64,4 @@ class CityTest(TestCase):
 
     def test_currency_str(self):
         city = models.City.objects.last()
-        self.assertEqual(str(city), city.name)
+        self.assertEqual(str(city), str(city.name))

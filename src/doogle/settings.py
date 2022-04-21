@@ -39,6 +39,7 @@ ALLOWED_HOSTS = []
 INSTALLED_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
+    'polymorphic',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
@@ -46,8 +47,14 @@ INSTALLED_APPS = [
     'django_extensions',
     'django_celery_beat',
     'localflavor',
+    'phonenumber_field',
+    "django.contrib.postgres",
+    "psqlextra",
+    "localized_fields",
 
-    'places'
+    'places',
+    'shelters',
+    'animals'
 ]
 
 MIDDLEWARE = [
@@ -86,7 +93,7 @@ WSGI_APPLICATION = 'doogle.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.contrib.gis.db.backends.postgis',
+        'ENGINE': 'psqlextra.backend',
         'NAME': env('POSTGRES_DB'),
         'USER': env('POSTGRES_USER'),
         'PASSWORD': env('POSTGRES_PASSWORD'),
@@ -132,7 +139,11 @@ AUTH_PASSWORD_VALIDATORS = [
 # Internationalization
 # https://docs.djangoproject.com/en/4.0/topics/i18n/
 
-LANGUAGE_CODE = 'en-us'
+LANGUAGE_CODE = 'en'
+LANGUAGES = (
+    ("en", "English"), # default language
+    ("es", "Spanish"),
+)
 
 TIME_ZONE = 'UTC'
 
